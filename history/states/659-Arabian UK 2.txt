@@ -1,0 +1,16 @@
+state={
+	id=659
+	name="STATE_659"
+	provinces={
+		13079 
+	}
+	
+	history={
+		owner = OMA
+	}
+	
+	manpower=871202
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

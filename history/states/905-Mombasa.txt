@@ -1,0 +1,16 @@
+state={
+	id=905
+	name="STATE_905"
+	provinces={
+		5210 
+	}
+	
+	history={
+		owner = MBS
+	}
+	
+	manpower=1017600
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

@@ -1,0 +1,16 @@
+state={
+	id=887
+	name="STATE_887"
+	provinces={
+		1960 5060 
+	}
+	
+	history={
+		owner = GDC
+	}
+	
+	manpower=302020
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	local_supplies=0.000
+}

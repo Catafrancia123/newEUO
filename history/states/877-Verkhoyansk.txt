@@ -1,0 +1,16 @@
+state={
+	id=877
+	name="STATE_877"
+	provinces={
+		1714 1745 2877 4878 6211 11607 12549 12634 
+	}
+	
+	history={
+		owner = SZO
+	}
+	
+	manpower=13055
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	local_supplies=0.000
+}

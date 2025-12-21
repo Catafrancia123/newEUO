@@ -1,0 +1,16 @@
+state={
+	id=487
+	name="STATE_487"
+	provinces={
+		2160 10924 10938 12902 12916 
+	}
+	
+	history={
+		owner = SNC
+	}
+	
+	manpower=334500
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

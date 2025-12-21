@@ -1,0 +1,16 @@
+state={
+	id=287
+	name="STATE_287"
+	provinces={
+		8042 8086 10885 12864 
+	}
+	
+	history={
+		owner = UYG
+	}
+	
+	manpower=408000
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	local_supplies=4.000
+}

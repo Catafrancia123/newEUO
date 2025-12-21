@@ -1,0 +1,16 @@
+state={
+	id=831
+	name="STATE_831"
+	provinces={
+		1517 3593 4523 4620 7641 11701 12383 
+	}
+	
+	history={
+		owner = AKT
+	}
+	
+	manpower=258430
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

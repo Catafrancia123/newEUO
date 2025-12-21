@@ -1,0 +1,16 @@
+state={
+	id=471
+	name="STATE_471"
+	provinces={
+		1799 1872 5403 10548 12508 12571 
+	}
+	
+	history={
+		owner = PAC
+	}
+	
+	manpower=27681
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	local_supplies=3.000
+}

@@ -1,0 +1,16 @@
+characters = {
+	PRU_isaac_humala = {
+		name = "Isaac Humala" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_Isaac_Humala
+			}
+		}
+		country_leader = {
+			ideology = syncretism_subtype
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}
+	

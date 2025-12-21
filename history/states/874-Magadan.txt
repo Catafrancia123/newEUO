@@ -1,0 +1,16 @@
+state={
+	id=874
+	name="STATE_874"
+	provinces={
+		1865 4455 10540 12592 12683 
+	}
+	
+	history={
+		owner = FER
+	}
+	
+	manpower=63481
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

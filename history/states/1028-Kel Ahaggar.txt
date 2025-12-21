@@ -1,0 +1,15 @@
+state={
+	id=1028
+	name="STATE_1028"
+	provinces={
+		5095 
+	}
+	
+	history={
+		owner = TUA
+	}
+	
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

@@ -1,0 +1,16 @@
+state={
+	id=879
+	name="STATE_879"
+	provinces={
+		26 72 89 140 3031 3080 3086 3092 3130 3168 6034 6051 6075 6102 6166 9130 9187 9248 11038 11071 11137 11178 
+	}
+	
+	history={
+		owner = MCW
+	}
+	
+	manpower=210177
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

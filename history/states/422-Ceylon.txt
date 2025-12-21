@@ -1,0 +1,19 @@
+state={
+	id=422
+	name="STATE_422"
+	resources={
+		rubber=60.000
+	}
+	provinces={
+		1213 4219 7260 10201 10287 
+	}
+	
+	history={
+		owner = SRL
+	}
+	
+	manpower=5500000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

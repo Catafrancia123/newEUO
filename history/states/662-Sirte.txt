@@ -1,0 +1,16 @@
+state={
+	id=662
+	name="STATE_662"
+	provinces={
+		7136 13073 
+	}
+	
+	history={
+		owner = ITA
+	}
+	
+	manpower=13213
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	local_supplies=0.000
+}

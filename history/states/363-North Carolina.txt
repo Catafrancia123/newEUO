@@ -1,0 +1,16 @@
+state={
+	id=363
+	name="STATE_363"
+	provinces={
+		1019 1077 1132 1163 4168 4491 6943 7012 7045 7083 7134 7138 9876 10047 10051 10081 10096 11783 11927 12054 12445 
+	}
+	
+	history={
+		owner = DIX
+	}
+	
+	manpower=3170274
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

@@ -1,0 +1,94 @@
+﻿add_namespace = GER
+
+country_event = { #Intro 
+	id = GER.1
+	title = GER.1.t
+	desc = GER.1.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { #Puppetry
+		name = GER.1.a
+	}
+}
+
+country_event = { #Intro 
+	id = GER.300
+	title = GER.300.t
+	desc = GER.300.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { #Puppetry
+		name = GER.300.a
+		hidden_effect = {
+		GER = {
+			dismantle_faction = yes
+			set_politics = { 
+				ruling_party = conservatism
+				}
+			}
+		}
+	}
+}
+
+country_event = { #Intro 
+	id = GER.301
+	title = GER.301.t
+	desc = GER.301.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { #Puppetry
+		name = GER.301.a
+		hidden_effect = {
+		GER = {
+			end_puppet = DIX
+			end_puppet = NEE
+			end_puppet = NGE
+			end_puppet = KAN
+			end_puppet = QUE
+			end_puppet = BRI
+			end_puppet = NOR
+			end_puppet = MCW
+			end_puppet = GGN
+			end_puppet = SLO
+			end_puppet = UKR
+			end_puppet = BNT
+			end_puppet = MCW
+			end_puppet = OST
+			end_puppet = MAD
+			end_puppet = KAU
+			end_puppet = ZAR
+			end_puppet = CAF
+			}
+		}
+	}
+}
+
+country_event = { #Intro 
+	id = GER.305
+	title = GER.305.t
+	desc = GER.305.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { #Puppetry
+		name = GER.305.a
+		hidden_effect = {
+		DEN = {
+			transfer_state = 37
+			transfer_state = 99
+			transfer_state = 910
+			transfer_state = 911
+			transfer_state = 912
+			}
+		}
+	}
+}
+
+

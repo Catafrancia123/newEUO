@@ -1,0 +1,16 @@
+state={
+	id=886
+	name="STATE_886"
+	provinces={
+		1914 4918 7925 10743 10784 10795 10851 12744 12806 12826 12862 12881 12887 
+	}
+	
+	history={
+		owner = GES
+	}
+	
+	manpower=661102
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

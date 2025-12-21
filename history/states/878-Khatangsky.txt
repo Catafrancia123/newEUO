@@ -1,0 +1,16 @@
+state={
+	id=878
+	name="STATE_878"
+	provinces={
+		2900 4812 9224 11122 12687 13065 
+	}
+	
+	history={
+		owner = SZO
+	}
+	
+	manpower=15974
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

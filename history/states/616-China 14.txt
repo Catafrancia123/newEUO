@@ -1,0 +1,16 @@
+state={
+	id=616
+	name="STATE_616"
+	provinces={
+		517 556 1630 1647 1933 2028 2099 3745 4939 5057 5100 6638 7511 12327 12776 
+	}
+	
+	history={
+		owner = XSM
+	}
+	
+	manpower=2077600
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

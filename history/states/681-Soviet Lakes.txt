@@ -1,0 +1,16 @@
+state={
+	id=681
+	name="STATE_681"
+	provinces={
+		1833 4528 4584 4696 5231 10442 
+	}
+	
+	history={
+		owner = SAF
+	}
+	
+	manpower=1637178
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

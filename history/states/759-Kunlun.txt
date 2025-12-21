@@ -1,0 +1,16 @@
+state={
+	id=759
+	name="STATE_759"
+	provinces={
+		1943 1970 2074 4973 8112 10315 10911 
+	}
+	
+	history={
+		owner = ETS
+	}
+	
+	manpower=70000
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	local_supplies=0.000
+}

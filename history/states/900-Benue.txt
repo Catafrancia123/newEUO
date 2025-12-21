@@ -1,0 +1,16 @@
+state={
+	id=900
+	name="STATE_900"
+	provinces={
+		1992 4889 7978 8021 10820 10831 
+	}
+	
+	history={
+		owner = NGA
+	}
+	
+	manpower=1163674
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

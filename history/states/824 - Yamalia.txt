@@ -1,0 +1,16 @@
+state={
+	id=824
+	name="STATE_824"
+	provinces={
+		96 1729 1757 3336 3415 4733 4761 7809 10536 10564 10635 12517 12545 
+	}
+	
+	history={
+		owner = WSI
+	}
+	
+	manpower=21974
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}
