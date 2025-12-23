@@ -6,7 +6,7 @@ state={
 	}
 	
 	history={
-		owner = EVN
+		owner = SZO
 	}
 	
 	manpower=117195

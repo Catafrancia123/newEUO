@@ -103,6 +103,12 @@ set_autonomy = {
 }
 
 set_autonomy = {
+	target = DEN
+	autonomous_state = autonomy_reichsprotectorate
+	freedom_level = 0.2
+}
+
+set_autonomy = {
 	target = DIX
 	autonomous_state = autonomy_reichskommissariat
 	freedom_level = 0.2

@@ -6,7 +6,7 @@ state={
 	}
 	
 	history={
-		owner = FRG
+		owner = TKS
 	}
 	
 	manpower=0

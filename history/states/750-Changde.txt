@@ -2,13 +2,8 @@ state={
 	id=750
 	name="STATE_750"
 	provinces={
-		4896 7101 7279 7434 10006 
+		4896 7101 7201 7279 7434 10006 12086 
 	}
-	
-	history={
-		owner = YUN
-	}
-	
 	manpower=8000000
 	buildings_max_level_factor=1.000
 	state_category=town

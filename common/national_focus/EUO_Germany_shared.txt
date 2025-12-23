@@ -4,7 +4,7 @@ shared_focus = {
 	icon = GFX_GER_the_new_year
 	cost = 1.00
 	
-	x = 15
+	x = 10
 	y = 0
 	
 	completion_reward = {
@@ -17,17 +17,16 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = GER_german_art_is_free_art
-	icon = GFX_GER_german_art_is_free_art
+	id = GER_a_new_germany
+	icon = GFX_GER_a_new_germany
 	cost = 1.00
 	
-	x = -1
+	x = 9
 	y = 1
 	
-	relative_position_id = GER_einheit_freiheit_vaterland
-	prerequisite = { focus = GER_einheit_freiheit_vaterland }
+	prerequisite = { focus = GER_the_new_year }
 	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: focus GER_free_art_is_german_art"
+		log = "[GetDateText]: [Root.GetName]: focus GER_a_new_germany"
 		country_event = {
 			id = GER.3
 			days = 0
@@ -36,17 +35,16 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = GER_learn_from_the_depression
-	icon = GFX_GER_learn_from_the_depression
+	id = GER_a_new_europe
+	icon = GFX_GER_a_new_europe
 	cost = 1.00
 	
-	x = 1
+	x = 11
 	y = 1
 	
-	relative_position_id = GER_einheit_freiheit_vaterland
-	prerequisite = { focus = GER_einheit_freiheit_vaterland }
+	prerequisite = { focus = GER_the_new_year }
 	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: focus GER_learn_from_the_depression"
+		log = "[GetDateText]: [Root.GetName]: focus GER_a_new_europe"
 		country_event = {
 			id = GER.4
 			days = 0
@@ -55,17 +53,17 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = GER_gegen_rosenberg_und_bronnen
-	icon = GFX_GER_gegen_rosenberg_und_bronnen
+	id = GER_the_state_of_the_country
+	icon = GFX_GER_the_state_of_the_country
 	cost = 1.00
 	
-	x = 1
-	y = 1
+	x = 10
+	y = 2
 	
-	relative_position_id = GER_against_nazi_radicalism
-	prerequisite = { focus = GER_against_nazi_radicalism } prerequisite = { focus = GER_suppress_the_reds }
+	prerequisite = { focus = GER_a_new_germany }
+	prerequisite = { focus = GER_a_new_europe }
 	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: focus GER_gegen_rosenberg_und_bronnen"
+		log = "[GetDateText]: [Root.GetName]: focus GER_the_state_of_the_country"
 		country_event = {
 			id = GER.4
 			days = 0
@@ -74,17 +72,16 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = GER_prepare_for_elections
-	icon = GFX_GER_prepare_for_elections
+	id = GER_national_socialism_triumphant
+	icon = GFX_GER_national_socialism_triumphant
 	cost = 1.00
 	
-	x = -5
-	y = 1
+	x = 10
+	y = 3
 	
-	relative_position_id = GER_gegen_rosenberg_und_bronnen
-	prerequisite = { focus = GER_gegen_rosenberg_und_bronnen }
+	prerequisite = { focus = GER_the_state_of_the_country }
 	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: focus GER_prepare_for_elections"
+		log = "[GetDateText]: [Root.GetName]: focus GER_national_socialism_triumphant"
 		country_event = {
 			id = GER.4
 			days = 0
@@ -93,17 +90,52 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = GER_coalition_politics
-	icon = GFX_GER_coalition_politics
+	id = GER_checking_in_on_the_ss
+	icon = GFX_GER_checking_in_on_the_ss
 	cost = 1.00
 	
-	x = 0
-	y = 1
+	x = 8
+	y = 4
 	
-	relative_position_id = GER_gegen_rosenberg_und_bronnen
-	prerequisite = { focus = GER_gegen_rosenberg_und_bronnen }
+	prerequisite = { focus = GER_national_socialism_triumphant }
 	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: focus GER_coalition_politics"
+		log = "[GetDateText]: [Root.GetName]: focus GER_checking_in_on_the_ss"
+		country_event = {
+			id = GER.4
+			days = 0
+		}
+	}
+}
+
+shared_focus = {
+	id = GER_a_summit_in_bratislava
+	icon = GFX_GER_a_summit_in_bratislava
+	cost = 1.00
+	
+	x = 10
+	y = 4
+	
+	prerequisite = { focus = GER_national_socialism_triumphant }
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus GER_a_summit_in_bratislava"
+		country_event = {
+			id = GER.4
+			days = 0
+		}
+	}
+}
+
+shared_focus = {
+	id = GER_ease_travel_restrictions
+	icon = GFX_GER_ease_travel_restrictions
+	cost = 1.00
+	
+	x = 12
+	y = 4
+	
+	prerequisite = { focus = GER_national_socialism_triumphant }
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus GER_ease_travel_restrictions"
 		country_event = {
 			id = GER.4
 			days = 0

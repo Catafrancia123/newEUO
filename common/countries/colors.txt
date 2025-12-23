@@ -800,8 +800,8 @@ CAF = {
 }
 
 TKS = {
-	color = rgb { 104 62 78 }
-	color_ui = rgb { 104 62 78 }
+	color = rgb { 80 96 114 }
+	color_ui = rgb { 80 96 114 }
 }
 
 CHT = {
@@ -1296,8 +1296,8 @@ YAK = {
 	color_ui = rgb { 106 97 206 }
 }
 SZO = {
-	color = rgb { 109 72 108 }
-	color_ui = rgb { 109 72 108 }
+	color = rgb { 49 86 104 }
+	color_ui = rgb { 49 86 104 }
 }
 BAR = {
 	color = rgb { 76 114 86 }

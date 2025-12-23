@@ -9,7 +9,7 @@ state={
 	}
 	
 	history={
-		owner = KRS
+		owner = SZO
 	}
 	
 	manpower=410183
