@@ -13,4 +13,4 @@ set_popularities = {
 	autocratic = 100
 }
 
-recruit_character = GGN_guy
+recruit_character = TEX_charles_campbell

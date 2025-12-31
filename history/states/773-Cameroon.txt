@@ -2,7 +2,7 @@ state={
 	id=773
 	name="STATE_773"
 	provinces={
-		1993 6039 7963 9137 11194 
+		6039 9137 11194 
 	}
 	
 	history={

@@ -377,4 +377,6 @@ ODU = "countries/Oduduwa.txt"
 VAT = "countries/Vatican City.txt"
 NJN = "countries/Nanjing.txt"
 HUI = "countries/Hui State.txt"
+SMO = "countries/SAF Mozambique.txt"
+AKA = "countries/Afrika.txt"
 

@@ -230,8 +230,8 @@ PRU = {
 	color_ui = rgb { 198 82 53 }
 }
 SAF = {
-	color = rgb { 204 153 71 }
-	color_ui = rgb { 204 153 71 }
+	color = rgb { 130 72 44 }
+	color_ui = rgb { 130 72 44 }
 }
 CAP = {
 	color = rgb { 255 102 0 }
@@ -266,8 +266,8 @@ SIA = {
 	color_ui = rgb { 222 247 198 }
 }
 SIK = {
-	color = rgb { 74 137 87 }
-	color_ui = rgb { 74 137 87 }
+	color = rgb { 81 117 181 }
+	color_ui = rgb { 81 117 181 }
 }
 TIB = {
 	color = rgb { 115 179 183 }
@@ -282,8 +282,8 @@ VEN = {
 	color_ui = rgb { 222 247 198 }
 }
 YUN = {
-	color = rgb { 117 59 90 }
-	color_ui = rgb { 117 59 90 }
+	color = rgb { 122 78 63 }
+	color_ui = rgb { 122 78 63 }
 }
 USA = {
 	color = rgb { 20 133 237 }
@@ -567,8 +567,8 @@ ICE = {
 }
 
 UKR = {
-	color = rgb { 140 127 128 }
-	color_ui = rgb { 140 127 128 }	
+	color = rgb { 63 63 61 }
+	color_ui = rgb { 63 63 61 }	
 }
 
 AZR = {
@@ -710,8 +710,8 @@ NMB = {
 }
 
 OST = {
-	color = rgb { 119 94 118 }
-	color_ui = rgb { 119 94 118 }
+	color = rgb { 60 61 63 }
+	color_ui = rgb { 60 61 63 }
 }
 
 GGN = {
@@ -720,13 +720,13 @@ GGN = {
 }
 
 MCW = {
-	color = rgb { 99 99 99 }
-	color_ui = rgb { 99 99 99 }
+	color = rgb { 63 59 57 }
+	color_ui = rgb { 63 59 57 }
 }
 
 KAU = {
-	color = rgb { 81 68 72 }
-	color_ui = rgb { 81 68 72 }
+	color = rgb { 63 63 57 }
+	color_ui = rgb { 63 63 57 }
 }
 
 BNT = {
@@ -1362,6 +1362,14 @@ BUK = {
 KHI = {
 	color = rgb { 219 205 113 }
 	color_ui = rgb { 219 205 113 }
+}
+AKA = {
+	color = rgb { 86 86 80 }
+	color_ui = rgb { 86 86 80 }
+}
+SMO = {
+	color = rgb { 130 76 32 }
+	color_ui = rgb { 130 76 32 }
 }
 UZB = {
 	color = rgb { 58 139 169 }

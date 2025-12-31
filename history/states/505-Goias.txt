@@ -13,8 +13,8 @@ state = {
 
 	history = {
 
-		owner = GOI
-		add_core_of = GOI
+		owner = BRA
+		add_core_of = BRA
 
 		buildings = {
 			infrastructure = 1

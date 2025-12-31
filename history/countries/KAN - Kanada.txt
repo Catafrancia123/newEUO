@@ -1,6 +1,6 @@
 capital = 276
 
-oob = "NEE_2010"
+oob = "KAN_2010"
 
 set_politics = {
 	ruling_party = national_socialism
@@ -13,4 +13,4 @@ set_popularities = {
 	national_socialism = 100
 }
 
-recruit_character = GGN_guy
+recruit_character = KAN_don_andrews

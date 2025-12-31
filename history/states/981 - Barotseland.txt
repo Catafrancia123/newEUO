@@ -6,7 +6,7 @@ state={
 		tungsten=4.000
 	}
 	provinces={
-		697 10538 
+		697 5199 7872 10538 12504 12677 
 	}
 	
 	history={

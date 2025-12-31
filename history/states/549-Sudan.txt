@@ -6,7 +6,7 @@ state={
 	}
 	
 	history={
-		owner = GDC
+		owner = EGY
 	}
 	
 	manpower=1802132

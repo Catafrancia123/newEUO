@@ -77,6 +77,11 @@ set_autonomy = {
 	freedom_level = 0.2
 }
 
+set_autonomy = {
+	target = AKA
+	autonomous_state = autonomy_reichskommissariat
+	freedom_level = 0.2
+}
 
 set_autonomy = {
 	target = BRI

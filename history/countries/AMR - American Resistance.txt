@@ -10,3 +10,5 @@ set_politics = {
 set_popularities = {
 	autocratic = 100
 }
+
+recruit_character = AMR_john_smith

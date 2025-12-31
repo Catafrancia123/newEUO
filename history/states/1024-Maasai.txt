@@ -2,11 +2,11 @@ state={
 	id=1024
 	name="STATE_1024"
 	provinces={
-		2206 5196 5224 10860 11017 
+		5196 10860 
 	}
 	
 	history={
-		owner = MAA
+		owner = KEN
 	}
 	
 	manpower=0

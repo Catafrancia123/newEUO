@@ -130,4 +130,90 @@ spriteTypes = {
 		texturefile = "gfx/leaders/CRO/Portrait_CRO_Anto_Đapić.png"
 	}
 	
+	spriteType = {
+		name = "GFX_portrait_Marian_Kotleba"
+		texturefile = "gfx/leaders/SLO/Portrait_SLO_Marian_Kotleba.png"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_John_Paul_Cupp"
+		texturefile = "gfx/leaders/LOU/Portrait_LOU_John_Paul_Cupp.png"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_joshua_caleb_sutter"
+		texturefile = "gfx/leaders/NGE/Portrait_NGE_Joshua_Caleb_Sutter.png"
+	}
+	
+	
+	spriteType = {
+		name = "GFX_portrait_Erich_Gliebe"
+		texturefile = "gfx/leaders/DIX/Portrait_DIX_Erich_Gliebe.png"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_Robert_Bales"
+		texturefile = "gfx/leaders/ARK/Portrait_ARK_Robert_Bales.png"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_Robert_Matthews"
+		texturefile = "gfx/leaders/IDA/Portrait_IDA_Robert_Jay_Matthews.png"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_Ralph_Goodale"
+		texturefile = "gfx/leaders/CAN/Portrait_CAN_Ralph_Goodale.png"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_Dean_Barkley"
+		texturefile = "gfx/leaders/STL/Portrait_STL_Dean_Barkley.png"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_Kunio_Suzuki"
+		texturefile = "gfx/leaders/PAC/Portrait_PAC_Kunio_Suzuki.png"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_Don_Andrews"
+		texturefile = "gfx/leaders/KAN/Portrait_KAN_Don_Andrews.png"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_Ralph_Nader"
+		texturefile = "gfx/leaders/DNV/Portrait_DNV_Ralph_Nader.png"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_Charles_Campbell"
+		texturefile = "gfx/leaders/TEX/Portrait_TEX_Charles_Campbell.png"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_Ernst_Zundel"
+		texturefile = "gfx/leaders/QUE/Portrait_QUE_Ernst_Zundel.png"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_Michael_Hill"
+		texturefile = "gfx/leaders/CSA/Portrait_CSA_Michael_Hill.png"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_Collective_Leadership"
+		texturefile = "gfx/leaders/RNR/Portrait_RNR_Collective_Leadership.png"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_John_Smith"
+		texturefile = "gfx/leaders/AMR/Portrait_AMR_John_Smith.png"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_Flavius_Galerius_Aurelianus"
+		texturefile = "gfx/leaders/PRA/Portrait_PRA_Flavius_Galerius_Aurelianus.png"
+	}
+	
 }

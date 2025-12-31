@@ -10,3 +10,5 @@ set_politics = {
 set_popularities = {
 	anarchism = 100
 }
+
+recruit_character = RNR_collective_leadership

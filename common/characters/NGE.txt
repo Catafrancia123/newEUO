@@ -1,9 +1,9 @@
 characters = {
-	NGE_rocky_shuayda = {
-		name = "Rocky Shuayda" 
+	NGE_joshua_caleb_sutter = {
+		name = "Joshua Caleb Sutter" 
 		portraits = {
 			civilian = {
-				large = GFX_portrait_rocky_shuayda
+				large = GFX_portrait_joshua_caleb_sutter
 			}
 		}
 		country_leader = {

@@ -6,7 +6,7 @@ state={
 	}
 	
 	history={
-		owner = CAF
+		owner = DIX
 	}
 	
 	manpower=0

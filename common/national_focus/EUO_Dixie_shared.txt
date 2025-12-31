@@ -1,0 +1,17 @@
+﻿#intro tree
+shared_focus = {
+	id = DIX_the_new_year
+	icon = GFX_DIX_the_new_year
+	cost = 1.00
+	
+	x = 10
+	y = 0
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus GER_the_new_year"
+		country_event = {
+			id = GER.2
+			days = 0
+		}
+	}
+}

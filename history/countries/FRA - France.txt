@@ -67,4 +67,4 @@ set_autonomy = {
 	freedom_level = 0.2
 }
 
-recruit_character = FRA_jean_castrillo
+recruit_character = FRA_pierre_sidos

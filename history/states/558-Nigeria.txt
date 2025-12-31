@@ -5,11 +5,11 @@ state={
 		rubber=2.000
 	}
 	provinces={
-		2050 12731 12817 12900 
+		2050 12731 12900 
 	}
 	
 	history={
-		owner = ODU
+		owner = BEN
 	}
 	
 	manpower=19757000

@@ -1,13 +1,13 @@
 characters = {
-	PAC_jason_adams_tonis = {
-		name = "Jason Adams-Tonis" 
+	PAC_kunio_suzuki = {
+		name = "Kunio Suzuki" 
 		portraits = {
 			civilian = {
-				large = GFX_portrait_Jason_Adams_Tonis
+				large = GFX_portrait_Kunio_Suzuki
 			}
 		}
 		country_leader = {
-			ideology = syncretism_subtype
+			ideology = reactionary_subtype
 			expire = "1950.1.1.1"
 			id = -1
 		}

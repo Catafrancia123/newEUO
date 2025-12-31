@@ -11,7 +11,7 @@ state={
 	}
 	
 	history={
-		owner = YUN
+		owner = GXC
 	}
 	
 	manpower=8685200

@@ -6,7 +6,7 @@ state={
 	}
 	
 	history={
-		owner = MBS
+		owner = KEN
 	}
 	
 	manpower=1017600

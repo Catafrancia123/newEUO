@@ -10,7 +10,7 @@ state={
 	}
 	
 	history={
-		owner = BEI
+		owner = SHX
 	}
 	
 	manpower=7006200

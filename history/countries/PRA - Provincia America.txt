@@ -10,3 +10,5 @@ set_politics = {
 set_popularities = {
 	reactionary = 100
 }
+
+recruit_character = PRA_flavius_aurelianus

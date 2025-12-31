@@ -1,0 +1,15 @@
+﻿focus_tree = {
+	id = GER_Intro
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = DIX
+		}
+	}
+	default = no
+	shared_focus = DIX_the_new_year
+	initial_show_position = {
+		focus = DIX_the_new_year
+	}
+}

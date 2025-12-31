@@ -9,7 +9,7 @@ state={
 	}
 	
 	history={
-		owner = NJN
+		owner = BEI
 	}
 	
 	manpower=18265400

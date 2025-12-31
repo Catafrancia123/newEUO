@@ -13,4 +13,4 @@ set_popularities = {
 	fascism = 100
 }
 
-recruit_character = SLO_jan_kopunek
+recruit_character = SLO_marian_kotleba
