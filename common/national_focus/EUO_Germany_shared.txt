@@ -144,17 +144,145 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = GER_a_german_economy
-	icon = GFX_GER_a_german_economy
+	id = GER_the_aryan_century
+	icon = GFX_GER_the_aryan_century
+	cost = 1.00
+	
+	x = 10
+	y = 5
+	
+	prerequisite = { focus = GER_checking_in_on_the_ss }
+	prerequisite = { focus = GER_a_summit_in_bratislava }
+	prerequisite = { focus = GER_ease_travel_restrictions }
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus GER_the_aryan_century"
+		country_event = {
+			id = GER.4
+			days = 0
+		}
+	}
+}
+
+shared_focus = {
+	id = GER_tighten_our_grip
+	icon = GFX_GER_tighten_our_grip
+	cost = 1.00
+	
+	x = 10
+	y = 6
+	
+	prerequisite = { focus = GER_the_aryan_century }
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus GER_tighten_our_grip"
+		country_event = {
+			id = GER.4
+			days = 0
+		}
+	}
+}
+
+shared_focus = {
+	id = GER_order_in_the_collaborator_states
+	icon = GFX_GER_order_in_the_collaborator_states
+	cost = 1.00
+	
+	x = 9
+	y = 7
+	
+	prerequisite = { focus = GER_tighten_our_grip }
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus GER_order_in_the_collaborator_states"
+		country_event = {
+			id = GER.4
+			days = 0
+		}
+	}
+}
+
+shared_focus = {
+	id = GER_only_german_economics
+	icon = GFX_GER_only_german_economics
+	cost = 1.00
+	
+	x = 11
+	y = 7
+	
+	prerequisite = { focus = GER_tighten_our_grip }
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus GER_only_german_economics"
+		country_event = {
+			id = GER.4
+			days = 0
+		}
+	}
+}
+
+shared_focus = {
+	id = GER_send_soldiers_from_the_east
+	icon = GFX_GER_send_soldiers_from_the_east
+	cost = 1.00
+	
+	x = 9
+	y = 8
+	
+	prerequisite = { focus = GER_order_in_the_collaborator_states }
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus GER_send_soldiers_from_the_east"
+		country_event = {
+			id = GER.4
+			days = 0
+		}
+	}
+}
+
+shared_focus = {
+	id = GER_investment_in_dixie
+	icon = GFX_GER_investment_in_dixie
+	cost = 1.00
+	
+	x = 11
+	y = 8
+	
+	prerequisite = { focus = GER_only_german_economics }
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus GER_investment_in_dixie"
+		country_event = {
+			id = GER.4
+			days = 0
+		}
+	}
+}
+
+shared_focus = {
+	id = GER_all_is_fine
+	icon = GFX_GER_all_is_fine
+	cost = 1.00
+	
+	x = 10
+	y = 9
+	
+	prerequisite = { focus = GER_send_soldiers_from_the_east }
+	prerequisite = { focus = GER_investment_in_dixie }
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus GER_all_is_fine"
+		country_event = {
+			id = GER.4
+			days = 0
+		}
+	}
+}
+
+shared_focus = {
+	id = GER_weltraumsurfen
+	icon = GFX_GER_weltraumsurfen
 	cost = 1.00
 	
 	x = 5
-	y = 1
+	y = 6
 	
-	relative_position_id = GER_gegen_rosenberg_und_bronnen
-	prerequisite = { focus = GER_gegen_rosenberg_und_bronnen }
+	prerequisite = { focus = GER_the_aryan_century }
 	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: focus GER_a_german_economy"
+		log = "[GetDateText]: [Root.GetName]: focus GER_moon_research"
 		country_event = {
 			id = GER.4
 			days = 0
@@ -163,143 +291,16 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = GER_ban_the_nazis
-	icon = GFX_GER_ban_the_nazis
+	id = GER_mondstation_2
+	icon = GFX_GER_mondstation_2
 	cost = 1.00
 	
-	x = 0
-	y = 1
+	x = 3
+	y = 7
 	
-	relative_position_id = GER_prepare_for_elections
-	prerequisite = { focus = GER_prepare_for_elections }
+	prerequisite = { focus = GER_weltraumsurfen }
 	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: focus GER_ban_the_nazis"
-		country_event = {
-			id = GER.4
-			days = 0
-		}
-	}
-}
-
-shared_focus = {
-	id = GER_appeal_to_the_left
-	icon = GFX_GER_appeal_to_the_left
-	cost = 1.00
-	
-	x = -2
-	y = 1
-	
-	relative_position_id = GER_coalition_politics
-	prerequisite = { focus = GER_coalition_politics }
-	mutually_exclusive = {
-		focus = GER_on_our_own
-	}
-	mutually_exclusive = {
-		focus = GER_approach_the_center
-	}
-	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: focus GER_appeal_to_the_left"
-		country_event = {
-			id = GER.4
-			days = 0
-		}
-	}
-}
-
-shared_focus = {
-	id = GER_on_our_own
-	icon = GFX_GER_on_our_own
-	cost = 1.00
-	
-	x = 0
-	y = 1
-	
-	relative_position_id = GER_coalition_politics
-	prerequisite = { focus = GER_coalition_politics }
-	mutually_exclusive = {
-		focus = GER_appeal_to_the_left
-	}
-	mutually_exclusive = {
-		focus = GER_approach_the_center
-	}
-	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: focus GER_on_our_own"
-		country_event = {
-			id = GER.4
-			days = 0
-		}
-	}
-}
-
-shared_focus = {
-	id = GER_approach_the_center
-	icon = GFX_GER_GER_approach_the_center
-	cost = 1.00
-	
-	x = 2
-	y = 1
-	
-	relative_position_id = GER_coalition_politics
-	prerequisite = { focus = GER_coalition_politics }
-	mutually_exclusive = {
-		focus = GER_appeal_to_the_left
-	}
-	mutually_exclusive = {
-		focus = GER_on_our_own
-	}
-	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: focus GER_approach_the_center"
-		country_event = {
-			id = GER.4
-			days = 0
-		}
-	}
-}
-
-shared_focus = {
-	id = GER_a_conservative_revolution
-	icon = GFX_GER_a_conservative_revolution
-	cost = 1.00
-	
-	x = 12
-	y = 0
-	
-	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: focus GER_approach_the_center"
-		country_event = {
-			id = GER.4
-			days = 0
-		}
-	}
-}
-
-shared_focus = {
-	id = GER_heil_rosenberg
-	icon = GFX_GER_heil_rosenberg
-	cost = 1.00
-	
-	x = 12
-	y = 0
-	
-	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: focus GER_approach_the_center"
-		country_event = {
-			id = GER.4
-			days = 0
-		}
-	}
-}
-
-shared_focus = {
-	id = GER_sturm_sturm_sturm
-	icon = GFX_GER_sturm_sturm_sturm
-	cost = 1.00
-	
-	x = 12
-	y = 0
-	
-	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: focus GER_approach_the_center"
+		log = "[GetDateText]: [Root.GetName]: focus GER_mondstation_2"
 		country_event = {
 			id = GER.4
 			days = 0

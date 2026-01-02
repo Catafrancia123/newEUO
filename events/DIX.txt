@@ -2,9 +2,9 @@
 
 country_event = { #Intro 
 	id = DIX.1
-	title = GER.1.t
+	title = DIX.1.t
 	desc = DIX.1.d
-	picture = GFX_report_event_chinese_soldiers_01
+	picture = GFX_report_event_dix_intro
 
 	is_triggered_only = yes
 	

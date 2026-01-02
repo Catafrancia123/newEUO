@@ -18,8 +18,13 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-	name = "GFX_GER_new_germany"
-	texturefile = "gfx/interface/goals/GER/New Germany, Upon Us All.png"			
+	name = "GFX_GER_the_state_of_the_country"
+	texturefile = "gfx/interface/goals/GER/State of the Country.png"			
+	}
+	
+	SpriteType = {
+	name = "GFX_GER_national_socialism_triumphant"
+	texturefile = "gfx/interface/goals/GER/National Socialism Triumphant.png"			
 	}
 
 	SpriteType = {

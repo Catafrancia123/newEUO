@@ -8,6 +8,9 @@
 		}
 	}
 	default = no
+	
+	continuous_focus_position = { x = 200 y = 2300 }
+
 	shared_focus = GER_the_new_year
 	initial_show_position = {
 		focus = GER_the_new_year
