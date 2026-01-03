@@ -4,7 +4,7 @@ country_event = { #Intro
 	id = GER.1
 	title = GER.1.t
 	desc = GER.1.d
-	picture = GFX_report_event_chinese_soldiers_01
+	picture = GFX_report_event_ger_new_year
 
 	is_triggered_only = yes
 	

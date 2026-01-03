@@ -11,8 +11,14 @@ set_politics = {
 
 set_popularities = {
 	fascism = 5
-	national_socialism = 95
+	national_socialism = 92
+	syncretism = 3
 }
+
+	add_ideas = economic_woes
+	add_ideas = global_hegemon
+	add_ideas = russian_sector
+	add_ideas = thousand_year_reich
 
 recruit_character = GER_martin_adolf_bormann
 

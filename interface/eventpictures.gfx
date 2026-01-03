@@ -6,8 +6,23 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_report_event_generic_funeral"
-		texturefile = "gfx/event_pictures/report_event_generic_funeral.dds"
+		name = "GFX_report_event_dix_meeting"
+		texturefile = "gfx/event_pictures/report_event_dix_meeting.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_dix_pierce_dies"
+		texturefile = "gfx/event_pictures/report_event_pierce_dies.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_ger_new_year"
+		texturefile = "gfx/event_pictures/report_event_ger_new_year.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_ger_2010s"
+		texturefile = "gfx/event_pictures/report_event_ger_2010s.dds"
 	}
 
 	spriteType = {
