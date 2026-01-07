@@ -10,6 +10,12 @@ state={
 	
 	history={
 		owner = DIX
+		victory_points = {
+			12501 3 
+		}
+		victory_points = {
+			7797 3 
+		}
 	}
 	
 	manpower=2616555

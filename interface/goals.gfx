@@ -28,8 +28,23 @@ spriteTypes = {
 	}
 
 	SpriteType = {
-	name = "GFX_GER_forward"
-	texturefile = "gfx/interface/goals/GER/From Where We Go Forward.png"			
+	name = "GFX_GER_checking_in_on_the_ss"
+	texturefile = "gfx/interface/goals/GER/Checkin in on the SS.png"			
+	}	
+	
+	SpriteType = {
+	name = "GFX_GER_a_summit_in_bratislava"
+	texturefile = "gfx/interface/goals/GER/A Summit in Bratislava.png"			
+	}	
+	
+	SpriteType = {
+	name = "GFX_GER_ease_travel_restrictions"
+	texturefile = "gfx/interface/goals/GER/Ease Travel Restrictions.png"			
+	}	
+	
+	SpriteType = {
+	name = "GFX_GER_the_aryan_century"
+	texturefile = "gfx/interface/goals/GER/The Aryan Century.png"			
 	}	
 	
 	SpriteType = {

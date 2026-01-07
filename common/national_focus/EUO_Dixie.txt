@@ -8,8 +8,8 @@
 		}
 	}
 	default = no
-	shared_focus = DIX_the_new_year
+	shared_focus = DIX_party_in_dixieland
 	initial_show_position = {
-		focus = DIX_the_new_year
+		focus = DIX_party_in_dixieland
 	}
 }

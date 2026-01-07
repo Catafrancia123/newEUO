@@ -216,4 +216,29 @@ spriteTypes = {
 		texturefile = "gfx/leaders/PRA/Portrait_PRA_Flavius_Galerius_Aurelianus.png"
 	}
 	
+	spriteType = {
+		name = "GFX_portrait_Barack_Obama"
+		texturefile = "gfx/leaders/HAW/Portrait_HAW_Barack_Obama.png"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_Lon_Rith"
+		texturefile = "gfx/leaders/CAM/Portrait_CAM_Lon_Rith.png"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_Nikolay_Lysenko"
+		texturefile = "gfx/leaders/FER/FER_Nikolay_Lysenko.png"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_Martin_Webster"
+		texturefile = "gfx/leaders/ENG/Portrait_ENG_Martin_Webster.png"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_pierre_sidos"
+		texturefile = "gfx/leaders/FRA/Portrait_pierre_sidos.png"
+	}
+	
 }

@@ -14,3 +14,39 @@ set_popularities = {
 }
 
 recruit_character = ADE_guy
+
+set_autonomy = {
+	target = NMB
+	autonomous_state = autonomy_reichskommissariat
+	freedom_level = 0.2
+}
+
+set_autonomy = {
+	target = BOT
+	autonomous_state = autonomy_reichskommissariat
+	freedom_level = 0.2
+}
+
+set_autonomy = {
+	target = LES
+	autonomous_state = autonomy_reichskommissariat
+	freedom_level = 0.2
+}
+
+set_autonomy = {
+	target = ESW
+	autonomous_state = autonomy_reichskommissariat
+	freedom_level = 0.2
+}
+
+set_autonomy = {
+	target = ZIM
+	autonomous_state = autonomy_reichskommissariat
+	freedom_level = 0.2
+}
+
+set_autonomy = {
+	target = SMO
+	autonomous_state = autonomy_reichskommissariat
+	freedom_level = 0.2
+}

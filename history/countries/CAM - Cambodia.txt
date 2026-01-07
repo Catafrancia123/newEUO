@@ -12,3 +12,5 @@ set_politics = {
 set_popularities = {
 	conservatism = 100
 }
+
+recruit_character = CAM_Lon_Rith

@@ -1,14 +1,1 @@
 ﻿capital = 556
-
-set_autonomy = {
-	target = AZW
-	autonomous_state = autonomy_puppet
-	freedom_level = 0.2
-}
-
-2010.1.1 = {
-
-	declare_war_on = {
-		target = MRT
-		type = annex_everything
-	}

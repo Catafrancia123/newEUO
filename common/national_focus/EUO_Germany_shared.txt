@@ -277,7 +277,7 @@ shared_focus = {
 	icon = GFX_GER_weltraumsurfen
 	cost = 1.00
 	
-	x = 5
+	x = 7
 	y = 6
 	
 	prerequisite = { focus = GER_the_aryan_century }
@@ -295,12 +295,199 @@ shared_focus = {
 	icon = GFX_GER_mondstation_2
 	cost = 1.00
 	
-	x = 3
+	x = 5
 	y = 7
 	
 	prerequisite = { focus = GER_weltraumsurfen }
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: focus GER_mondstation_2"
+		country_event = {
+			id = GER.4
+			days = 0
+		}
+	}
+}
+
+shared_focus = {
+	id = GER_space_cooperation
+	icon = GFX_GER_space_cooperation
+	cost = 1.00
+	
+	x = 7
+	y = 7
+	
+	prerequisite = { focus = GER_weltraumsurfen }
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus GER_space_cooperation"
+		country_event = {
+			id = GER.4
+			days = 0
+		}
+	}
+}
+
+shared_focus = {
+	id = GER_send_an_expedition
+	icon = GFX_GER_send_an_expedition
+	cost = 1.00
+	
+	x = 5
+	y = 8
+	
+	prerequisite = { focus = GER_mondstation_2 }
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus GER_send_an_expedition"
+		country_event = {
+			id = GER.4
+			days = 0
+		}
+	}
+}
+
+shared_focus = {
+	id = GER_technological_investment
+	icon = GFX_GER_technological_investment
+	cost = 1.00
+	
+	x = 7
+	y = 8
+	
+	prerequisite = { focus = GER_space_cooperation }
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus GER_technological_investment"
+		country_event = {
+			id = GER.4
+			days = 0
+		}
+	}
+}
+
+shared_focus = {
+	id = GER_mond_mond_ja_ja
+	icon = GFX_GER_mond_mond_ja_ja
+	cost = 1.00
+	
+	x = 6
+	y = 9
+	
+	prerequisite = { focus = GER_send_an_expedition }
+	prerequisite = { focus = GER_technological_investment }
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus GER_mond_mond_ja_ja"
+		country_event = {
+			id = GER.4
+			days = 0
+		}
+	}
+}
+
+shared_focus = {
+	id = GER_2010_plan
+	icon = GFX_GER_2010_plan
+	cost = 1.00
+	
+	x = 13
+	y = 6
+	
+	prerequisite = { focus = GER_the_aryan_century }
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus GER_2010_plan"
+		country_event = {
+			id = GER.4
+			days = 0
+		}
+	}
+}
+
+shared_focus = {
+	id = GER_dixie_loans
+	icon = GFX_GER_dixie_loans
+	cost = 1.00
+	
+	mutually_exclusive = { focus = GER_eastern_finance }
+	
+	x = 13
+	y = 7
+	
+	prerequisite = { focus = GER_2010_plan }
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus GER_dixie_loans"
+		country_event = {
+			id = GER.4
+			days = 0
+		}
+	}
+}
+
+shared_focus = {
+	id = GER_eastern_finance
+	icon = GFX_GER_eastern_finance
+	cost = 1.00
+	
+	mutually_exclusive = { focus = GER_dixie_loans }
+	
+	x = 15
+	y = 7
+	
+	prerequisite = { focus = GER_2010_plan }
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus GER_eastern_finance"
+		country_event = {
+			id = GER.4
+			days = 0
+		}
+	}
+}
+
+shared_focus = {
+	id = GER_going_forward
+	icon = GFX_GER_going_forward
+	cost = 1.00
+	
+	x = 14
+	y = 8
+	
+	prerequisite = { focus = GER_dixie_loans focus = GER_eastern_finance }
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus GER_going_forward"
+		country_event = {
+			id = GER.4
+			days = 0
+		}
+	}
+}
+
+shared_focus = {
+	id = GER_easy_money
+	icon = GFX_GER_easy_money
+	cost = 1.00
+		
+	x = 14
+	y = 9
+	
+	prerequisite = { focus = GER_going_forward }
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus GER_easy_money"
+		country_event = {
+			id = GER.4
+			days = 0
+		}
+	}
+}
+
+shared_focus = {
+	id = GER_keep_moving
+	icon = GFX_GER_keep_moving
+	cost = 1.00
+		
+	x = 10
+	y = 10
+	
+	prerequisite = { focus = GER_mond_mond_ja_ja }
+	prerequisite = { focus = GER_all_is_fine }
+	prerequisite = { focus = GER_easy_money }
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus GER_keep_moving"
 		country_event = {
 			id = GER.4
 			days = 0

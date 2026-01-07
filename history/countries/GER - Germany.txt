@@ -34,12 +34,7 @@ add_to_faction = IRE
 add_to_faction = WSI
 add_to_faction = ICE
 add_to_faction = TKS
-
-set_autonomy = {
-	target = GGN
-	autonomous_state = autonomy_reichskommissariat
-	freedom_level = 0.2
-}
+add_to_faction = DIX
 
 set_autonomy = {
 	target = OST
@@ -102,12 +97,6 @@ set_autonomy = {
 }
 
 set_autonomy = {
-	target = ZAR
-	autonomous_state = autonomy_reichsprotectorate
-	freedom_level = 0.2
-}
-
-set_autonomy = {
 	target = MAD
 	autonomous_state = autonomy_reichsprotectorate
 	freedom_level = 0.2
@@ -116,36 +105,6 @@ set_autonomy = {
 set_autonomy = {
 	target = DEN
 	autonomous_state = autonomy_reichsprotectorate
-	freedom_level = 0.2
-}
-
-set_autonomy = {
-	target = DIX
-	autonomous_state = autonomy_reichskommissariat
-	freedom_level = 0.2
-}
-
-set_autonomy = {
-	target = NEE
-	autonomous_state = autonomy_reichskommissariat
-	freedom_level = 0.2
-}
-
-set_autonomy = {
-	target = NGE
-	autonomous_state = autonomy_reichskommissariat
-	freedom_level = 0.2
-}
-
-set_autonomy = {
-	target = KAN
-	autonomous_state = autonomy_reichskommissariat
-	freedom_level = 0.2
-}
-
-set_autonomy = {
-	target = QUE
-	autonomous_state = autonomy_reichskommissariat
 	freedom_level = 0.2
 }
 
