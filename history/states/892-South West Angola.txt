@@ -1,16 +1,25 @@
 state={
 	id=892
 	name="STATE_892"
-	provinces={
-		2126 8138 8202 10966 12391 12958 12985 
-	}
-	
+	manpower = 960000
+	state_category = pastoral
+
 	history={
-		owner = ANG
+		owner = POR
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = {
+			10966 1 
+		}
+		add_core_of = ANG
+
 	}
-	
-	manpower=960000
+
+	provinces={
+		8138 8202 10966 12391 12958 12985 
+	}
+
 	buildings_max_level_factor=1.000
-	state_category=pastoral
 	local_supplies=0.000
 }

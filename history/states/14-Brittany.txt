@@ -7,7 +7,7 @@ state={
 	state_category = city
 
 	history={
-		owner = BRI
+		owner = FRA
 		victory_points = {
 			3552 20
 		}
@@ -23,6 +23,13 @@ state={
 			air_base = 5
 			3552 = {
 				naval_base = 10
+				naval_headquarters = {
+					level = 1
+					allowed = {
+						has_dlc = "No Compromise, No Surrender"
+					}
+				}
+				naval_supply_hub = 1
 				coastal_bunker = 1
 			}
 			6536 = {
@@ -33,8 +40,8 @@ state={
 				naval_base = 1
 			}
 		}
-		add_core_of = BRI
 		add_core_of = FRA
+		add_core_of = BRI
 		1939.1.1 = {
 			buildings = {
 				dockyard = 5
@@ -43,7 +50,7 @@ state={
 	}
 
 	provinces={
-		542 3552 3758 6536 6548 6572 9495 9510 9525 11465 11508 
+		542 3552 3758 6536 6548 6572 9495 9510 9525 11508 
 	}
 
 	local_supplies=0.0 

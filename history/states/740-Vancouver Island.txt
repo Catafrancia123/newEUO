@@ -7,8 +7,8 @@ state = {
 
 	history = {
 
-		owner = PAC
-		add_core_of = PAC
+		owner = CAN
+		add_core_of = CAN
 
 		buildings = {
 			infrastructure = 1

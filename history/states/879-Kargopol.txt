@@ -1,16 +1,31 @@
-state={
-	id=879
-	name="STATE_879"
-	provinces={
-		26 72 89 140 3031 3080 3086 3092 3130 3168 6034 6051 6075 6102 6166 9130 9187 9248 11038 11071 11137 11178 
-	}
+
+state = {
+	id = 879
+	name = "STATE_879" # Kargopol
+	manpower = 210177
 	
-	history={
-		owner = MCW
+	state_category = rural
+
+	history = {
+		owner = SOV
+		victory_points = {
+			138 1 
+		}
+		buildings = {
+			infrastructure = 1
+			
+		}
+		add_core_of = SOV
+		1939.1.1 = {
+			buildings = {
+				industrial_complex = 2
+			}
+		}
 	}
-	
-	manpower=210177
-	buildings_max_level_factor=1.000
-	state_category=rural
-	local_supplies=0.000
+
+	provinces = {
+		3 18 26 72 89 127 138 3031 3086 6034 6051 6075 6109 9187 11071 11137 11178
+	}
+
+	local_supplies = 0.0 
 }

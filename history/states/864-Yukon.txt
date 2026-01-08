@@ -5,12 +5,12 @@ state = {
 	state_category = wasteland
 	
 	history = {
-		owner = PAC
-		add_core_of = PAC
+		owner = CAN
+		add_core_of = CAN
 	}
 	
 	provinces = {
-		917 1411 3606 4678 7869 7891 
+		3606 7869 7891 
 	}
 
 	buildings_max_level_factor = 1.000

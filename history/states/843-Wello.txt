@@ -27,9 +27,15 @@ state={
 		victory_points = {
 			5097 1 
 		}
-		owner = IEA
+		owner = ETH
 		add_core_of = ETH
 		add_core_of = AFA
+		1936.6.1 = {
+			owner = ITA
+			controller = ITA
+
+		}
+
 	}
 
 	provinces={

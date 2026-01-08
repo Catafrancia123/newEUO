@@ -12,7 +12,7 @@ state={
 	}
 
 	history={
-		owner = PAC
+		owner = USA
 		buildings = {
 			infrastructure = 3 #was: 6
 			arms_factory = 2
@@ -40,7 +40,7 @@ state={
 			1562 15 
 		}
 		victory_points = {
-			9671 31
+			9671 25
 		}
 		victory_points = {
 			9713 1 

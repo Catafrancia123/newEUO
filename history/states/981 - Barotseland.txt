@@ -1,20 +1,34 @@
-state={
-	id=981
-	name="STATE_981"
-	resources={
-		chromium=16.000
-		tungsten=4.000
+state = {
+	id = 981
+	name = "STATE_981" # Barotseland
+	
+	state_category = rural
+	manpower = 690043
+
+	resources = {
+		chromium = 16
+		tungsten = 4
 	}
-	provinces={
-		697 5199 7872 10538 12504 12677 
+
+	history = {
+
+		owner = ENG
+		add_core_of = ZAM
+		add_core_of = BAR
+
+		victory_points = {
+			697 1 # Mongu
+		}
+
+		buildings = {
+			infrastructure = 1
+		}
+	}
+
+	provinces = {
+		697 7872 10538 12677
 	}
 	
-	history={
-		owner = BAR
-	}
-	
-	manpower=690043
-	buildings_max_level_factor=1.000
-	state_category=rural
-	local_supplies=0.000
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.0 
 }

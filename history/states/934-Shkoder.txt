@@ -5,6 +5,7 @@ state = {
 	resources = {
 		aluminium = 1.000
         chromium = 1.000
+        coal = 1 # initial distribution = with infra 1.4 / 1 total
 	}
 
 	history = {
@@ -17,6 +18,13 @@ state = {
             industrial_complex = 1
 		}
 		add_core_of = ALB
+		add_claim_by = ITA
+		1939.4.12 = {
+		    owner = ITA
+		    controller = ITA
+		    remove_claim_by = ITA
+		}
+
 	}
 
 	provinces = {

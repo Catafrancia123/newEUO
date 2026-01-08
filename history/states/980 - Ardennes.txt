@@ -4,14 +4,15 @@ state = {
 	manpower = 338130
 	resources={
 		steel=9 # was: 0
+		coal = 7 # initial distribution / 84 total
 	}
 	
 	state_category = rural
 
 	history = {
 
-		owner = GER
-		add_core_of = GER
+		owner = BEL
+		add_core_of = BEL
 
 		victory_points = {
 			9418 1 # Arlons

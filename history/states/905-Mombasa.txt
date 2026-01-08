@@ -1,16 +1,30 @@
 state={
 	id=905
 	name="STATE_905"
-	provinces={
-		5210 
-	}
-	
+	manpower = 1017600
+	state_category = pastoral
+
 	history={
-		owner = KEN
+		owner = ENG
+		buildings = {
+			infrastructure = 2
+			5210 = {
+				naval_base = 2
+
+			}
+		}
+
+		victory_points = {
+			5210 1 
+		}
+		add_core_of = KEN
+
 	}
-	
-	manpower=1017600
+
+	provinces={
+		5196 5210 6020 
+	}
+
 	buildings_max_level_factor=1.000
-	state_category=pastoral
 	local_supplies=0.000
 }

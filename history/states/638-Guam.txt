@@ -4,8 +4,9 @@ state=
 	name="STATE_638"
 	state_category = small_island
 	manpower=75153
-	history={
-		owner = JAP
+	history=
+	{
+		owner = USA
 		add_core_of = GUM
 		buildings = {
 			infrastructure = 3 #was: 5
@@ -15,7 +16,14 @@ state=
 		}
 		victory_points = {
 			12140 1
-		 }
+		}
+
+		strategic_province_location = {
+			natural_harbor = 12140
+		}
+		strategic_state_location = {
+			favorable_approach = 12140
+		}
 
 	}
 	provinces={
