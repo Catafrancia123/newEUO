@@ -17,8 +17,8 @@ SWE = {
 	color_ui = rgb { 47 172 255 }
 }
 FRA = {
-	color = rgb { 57 113 228 }
-	color_ui = rgb { 74 147 255 }
+	color = rgb { 51 88 140 }
+	color_ui = rgb { 51 88 140 }
 }
 LUX = {
 	color = rgb { 65 175 179 }
@@ -1060,6 +1060,11 @@ BOT = {
 ZAM = {
 	color = rgb { 112 71 48 }
 	color_ui = rgb { 112 71 48 }
+}
+
+BRI = {
+	color = rgb { 150 150 150 }
+	color_ui = rgb { 150 150 150 }
 }
 
 PAK = {

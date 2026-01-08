@@ -91,4 +91,18 @@ country_event = { #Intro
 	}
 }
 
+country_event = { #Intro 
+	id = GER.310
+	title = GER.310.t
+	desc = GER.310.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { #Puppetry
+		name = GER.310.a
+		hidden_effect = {
+		set_cosmetic_tag = GER_free
+	}
+}
 

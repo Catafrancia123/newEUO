@@ -1,0 +1,30 @@
+on_actions = {
+	on_before_peace_conference_start = {
+		effect = { 
+			if = {
+				limit = {
+					ROOT = { tag = TEX }
+					FROM = { tag = DNV }
+				}
+				TEX = {
+					country_event = { id = TEX.100 days = 0 }
+				}
+			}
+		} 
+	}
+	
+	on_before_peace_conference_start = {
+		effect = { 
+			if = {
+				limit = {
+					ROOT = { tag = DNV }
+					FROM = { tag = TEX }
+				}
+				DNV = {
+					country_event = { id = DNV.100 days = 0 }
+				}
+			}
+		} 
+	}
+	
+}

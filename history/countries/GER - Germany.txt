@@ -35,6 +35,10 @@ add_to_faction = WSI
 add_to_faction = ICE
 add_to_faction = TKS
 add_to_faction = DIX
+add_to_faction = NGE
+add_to_faction = NEE
+add_to_faction = KAN
+add_to_faction = QUE
 
 set_autonomy = {
 	target = OST
