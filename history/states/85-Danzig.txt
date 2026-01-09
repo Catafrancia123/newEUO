@@ -7,8 +7,8 @@ state = {
 
 	history = {
 
-		owner = POL
-		add_core_of = POL
+		owner = GER
+		add_core_of = GER
 		add_core_of = DNZ
 		add_core_of = KSH
 		add_claim_by = PRE
@@ -16,9 +16,7 @@ state = {
 		victory_points = {
 			362 10 # Danzig
 		}
-		
-		set_demilitarized_zone = yes
-		
+				
 		buildings = {
 			infrastructure = 3
 			arms_factory = 2
