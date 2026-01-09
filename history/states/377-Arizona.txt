@@ -9,6 +9,11 @@ state={
 	provinces={
 		853 1793 3834 4796 7747 7920 8115 10783 11814 
 	}
+	
+	history={
+		owner = MEX
+	}
+	
 	manpower=435572
 	buildings_max_level_factor=1
 	state_category=rural

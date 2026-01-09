@@ -48,6 +48,46 @@ spriteTypes = {
 	}	
 	
 	SpriteType = {
+	name = "GFX_DIX_party_in_dixieland"
+	texturefile = "gfx/interface/goals/DIX/Party in Dixieland.png"			
+	}
+	
+	SpriteType = {
+	name = "GFX_DIX_money_to_germany"
+	texturefile = "gfx/interface/goals/DIX/Money to Germany.png"			
+	}
+	
+	SpriteType = {
+	name = "GFX_DIX_bail_out_businesses"
+	texturefile = "gfx/interface/goals/DIX/Bailout Businesses.png"			
+	}
+	
+	SpriteType = {
+	name = "GFX_DIX_race_politics"
+	texturefile = "gfx/interface/goals/DIX/Race Politics.png"			
+	}
+	
+	SpriteType = {
+	name = "GFX_DIX_aryan_infrastructure"
+	texturefile = "gfx/interface/goals/DIX/Aryan Infrastructure.png"			
+	}
+	
+	SpriteType = {
+	name = "GFX_DIX_value_southern_work_ethic"
+	texturefile = "gfx/interface/goals/DIX/Value Southern Work Ethic.png"			
+	}
+
+	SpriteType = {
+	name = "GFX_DIX_turner_diaries_in_every_school"
+	texturefile = "gfx/interface/goals/DIX/Turner Diaries.png"			
+	}
+
+	SpriteType = {
+	name = "GFX_DIX_aryan_video_games"
+	texturefile = "gfx/interface/goals/DIX/Aryan Video Games.png"			
+	}
+	
+	SpriteType = {
 	name = "GFX_GER_final_touches"
 	texturefile = "gfx/interface/goals/GER/Final Touches To Our Term.png"			
 	}	

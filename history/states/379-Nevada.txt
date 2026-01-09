@@ -9,6 +9,11 @@ state={
 	provinces={
 		4521 4607 4736 10422 12134 12399 
 	}
+	
+	history={
+		owner = PAC
+	}
+	
 	manpower=91057
 	buildings_max_level_factor=1
 	state_category=rural

@@ -141,3 +141,191 @@ shared_focus = {
 		}
 	}
 }
+
+shared_focus = {
+	id = DIX_neu_waschingten
+	icon = GFX_DIX_neu_waschingten
+	cost = 1.00
+	
+	x = 24
+	y = 2
+	
+	prerequisite = { focus = DIX_aryan_infrastructure }
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus DIX_neu_waschingten"
+		country_event = {
+			id = GER.2
+			days = 0
+		}
+	}
+}
+
+shared_focus = {
+	id = DIX_aryan_money_only
+	icon = GFX_DIX_aryan_money_only
+	cost = 1.00
+	
+	x = 13
+	y = 3
+	
+	prerequisite = { focus = DIX_bail_out_businesses }
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus DIX_aryan_money_only"
+		country_event = {
+			id = GER.2
+			days = 0
+		}
+	}
+}
+
+shared_focus = {
+	id = DIX_strength_in_numbers
+	icon = GFX_DIX_strength_in_numbers
+	cost = 1.00
+	
+	x = 15
+	y = 3
+	
+	prerequisite = { focus = DIX_value_southern_work_ethic }
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus DIX_strength_in_numbers"
+		country_event = {
+			id = GER.2
+			days = 0
+		}
+	}
+}
+
+shared_focus = {
+	id = DIX_cover_up_slave_labor
+	icon = GFX_DIX_cover_up_slave_labor
+	cost = 1.00
+	
+	x = 17
+	y = 3
+	
+	prerequisite = { focus = DIX_value_southern_work_ethic }
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus DIX_cover_up_slave_labor"
+		country_event = {
+			id = GER.2
+			days = 0
+		}
+	}
+}
+
+shared_focus = {
+	id = DIX_dixie_wins
+	icon = GFX_DIX_dixie_wins
+	cost = 1.00
+	
+	x = 15
+	y = 4
+	
+	prerequisite = { focus = DIX_aryan_money_only }
+	prerequisite = { focus = DIX_strength_in_numbers }
+	prerequisite = { focus = DIX_cover_up_slave_labor }
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus DIX_dixie_wins"
+		country_event = {
+			id = GER.2
+			days = 0
+		}
+	}
+}
+
+shared_focus = {
+	id = DIX_propaganda_of_the_deed
+	icon = GFX_DIX_propaganda_of_the_deed
+	cost = 1.00
+	
+	x = 20
+	y = 3
+	
+	prerequisite = { focus = DIX_turner_diaries_in_every_school }
+	prerequisite = { focus = DIX_aryan_video_games }
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus DIX_propaganda_of_the_deed"
+		country_event = {
+			id = GER.2
+			days = 0
+		}
+	}
+}
+
+shared_focus = {
+	id = DIX_berlin_architecture
+	icon = GFX_DIX_berlin_architecture
+	cost = 1.00
+	
+	x = 24
+	y = 3
+	
+	prerequisite = { focus = DIX_neu_waschingten }
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus DIX_berlin_architecture"
+		country_event = {
+			id = GER.2
+			days = 0
+		}
+	}
+}
+
+shared_focus = {
+	id = DIX_the_aryan_race_is_saved
+	icon = GFX_DIX_the_aryan_race_is_saved
+	cost = 1.00
+	
+	x = 20
+	y = 4
+	
+	prerequisite = { focus = DIX_propaganda_of_the_deed }
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus DIX_the_aryan_race_is_saved"
+		country_event = {
+			id = GER.2
+			days = 0
+		}
+	}
+}
+
+shared_focus = {
+	id = DIX_21st_century_cities
+	icon = GFX_DIX_21st_century_cities
+	cost = 1.00
+	
+	x = 24
+	y = 4
+	
+	prerequisite = { focus = DIX_berlin_architecture }
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus DIX_21st_century_cities"
+		country_event = {
+			id = GER.2
+			days = 0
+		}
+	}
+}
+
+shared_focus = {
+	id = DIX_our_fuhrers_health
+	icon = GFX_DIX_our_fuhrers_health
+	cost = 1.00
+	
+	x = 20
+	y = 5
+	
+	prerequisite = { focus = DIX_dixie_wins }
+	prerequisite = { focus = DIX_the_aryan_race_is_saved }
+	prerequisite = { focus = DIX_21st_century_cities }
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus DIX_our_fuhrers_health"
+		country_event = {
+			id = GER.2
+			days = 0
+		}
+	}
+}
+
+
+
