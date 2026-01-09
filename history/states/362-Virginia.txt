@@ -4,7 +4,7 @@ state={
 	name="STATE_362"
 
 	history={
-		owner = USA
+		owner = DIX
 		buildings = {
 			infrastructure = 3 #was: 6
 			industrial_complex = 2
@@ -23,7 +23,7 @@ state={
 			}
 
 		}
-		add_core_of = USA
+		add_core_of = DIX
 		victory_points = {
 			788 10 
 		}
