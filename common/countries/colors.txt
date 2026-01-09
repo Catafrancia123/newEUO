@@ -809,8 +809,8 @@ CAF = {
 }
 
 TKS = {
-	color = rgb { 80 96 114 }
-	color_ui = rgb { 80 96 114 }
+	color = rgb { 61 59 57 }
+	color_ui = rgb { 61 59 57 }
 }
 
 CHT = {
