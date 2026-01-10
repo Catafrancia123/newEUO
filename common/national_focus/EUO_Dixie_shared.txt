@@ -2,7 +2,7 @@
 shared_focus = {
 	id = DIX_party_in_dixieland
 	icon = GFX_DIX_party_in_dixieland
-	cost = 1.00
+	cost = 2.00
 	
 	x = 20
 	y = 0
@@ -19,7 +19,7 @@ shared_focus = {
 shared_focus = {
 	id = DIX_money_to_germany
 	icon = GFX_DIX_money_to_germany
-	cost = 1.00
+	cost = 2.00
 	
 	x = 17
 	y = 1
@@ -37,7 +37,7 @@ shared_focus = {
 shared_focus = {
 	id = DIX_race_politics
 	icon = GFX_DIX_race_politics
-	cost = 1.00
+	cost = 2.00
 	
 	x = 20
 	y = 1
@@ -55,7 +55,7 @@ shared_focus = {
 shared_focus = {
 	id = DIX_aryan_infrastructure
 	icon = GFX_DIX_aryan_infrastructure
-	cost = 1.00
+	cost = 2.00
 	
 	x = 23
 	y = 1
@@ -73,7 +73,7 @@ shared_focus = {
 shared_focus = {
 	id = DIX_bail_out_businesses
 	icon = GFX_DIX_bail_out_businesses
-	cost = 1.00
+	cost = 2.00
 	
 	x = 13
 	y = 2
@@ -91,7 +91,7 @@ shared_focus = {
 shared_focus = {
 	id = DIX_value_southern_work_ethic
 	icon = GFX_DIX_value_southern_work_ethic
-	cost = 1.00
+	cost = 2.00
 	
 	x = 15
 	y = 2
@@ -109,7 +109,7 @@ shared_focus = {
 shared_focus = {
 	id = DIX_turner_diaries_in_every_school
 	icon = GFX_DIX_turner_diaries_in_every_school
-	cost = 1.00
+	cost = 2.00
 	
 	x = 19
 	y = 2
@@ -127,7 +127,7 @@ shared_focus = {
 shared_focus = {
 	id = DIX_aryan_video_games
 	icon = GFX_DIX_aryan_video_games
-	cost = 1.00
+	cost = 2.00
 	
 	x = 21
 	y = 2
@@ -145,7 +145,7 @@ shared_focus = {
 shared_focus = {
 	id = DIX_neu_waschingten
 	icon = GFX_DIX_neu_waschingten
-	cost = 1.00
+	cost = 2.00
 	
 	x = 24
 	y = 2
@@ -163,7 +163,7 @@ shared_focus = {
 shared_focus = {
 	id = DIX_aryan_money_only
 	icon = GFX_DIX_aryan_money_only
-	cost = 1.00
+	cost = 2.00
 	
 	x = 13
 	y = 3
@@ -181,7 +181,7 @@ shared_focus = {
 shared_focus = {
 	id = DIX_strength_in_numbers
 	icon = GFX_DIX_strength_in_numbers
-	cost = 1.00
+	cost = 2.00
 	
 	x = 15
 	y = 3
@@ -199,7 +199,7 @@ shared_focus = {
 shared_focus = {
 	id = DIX_cover_up_slave_labor
 	icon = GFX_DIX_cover_up_slave_labor
-	cost = 1.00
+	cost = 2.00
 	
 	x = 17
 	y = 3
@@ -217,7 +217,7 @@ shared_focus = {
 shared_focus = {
 	id = DIX_dixie_wins
 	icon = GFX_DIX_dixie_wins
-	cost = 1.00
+	cost = 2.00
 	
 	x = 15
 	y = 4
@@ -237,7 +237,7 @@ shared_focus = {
 shared_focus = {
 	id = DIX_propaganda_of_the_deed
 	icon = GFX_DIX_propaganda_of_the_deed
-	cost = 1.00
+	cost = 2.00
 	
 	x = 20
 	y = 3
@@ -256,7 +256,7 @@ shared_focus = {
 shared_focus = {
 	id = DIX_berlin_architecture
 	icon = GFX_DIX_berlin_architecture
-	cost = 1.00
+	cost = 2.00
 	
 	x = 24
 	y = 3
@@ -274,7 +274,7 @@ shared_focus = {
 shared_focus = {
 	id = DIX_the_aryan_race_is_saved
 	icon = GFX_DIX_the_aryan_race_is_saved
-	cost = 1.00
+	cost = 2.00
 	
 	x = 20
 	y = 4
@@ -292,7 +292,7 @@ shared_focus = {
 shared_focus = {
 	id = DIX_21st_century_cities
 	icon = GFX_DIX_21st_century_cities
-	cost = 1.00
+	cost = 2.00
 	
 	x = 24
 	y = 4
@@ -310,7 +310,7 @@ shared_focus = {
 shared_focus = {
 	id = DIX_our_fuhrers_health
 	icon = GFX_DIX_our_fuhrers_health
-	cost = 1.00
+	cost = 2.00
 	
 	x = 20
 	y = 5
@@ -321,7 +321,7 @@ shared_focus = {
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: focus DIX_our_fuhrers_health"
 		country_event = {
-			id = GER.2
+			id = DIX.30
 			days = 0
 		}
 	}
