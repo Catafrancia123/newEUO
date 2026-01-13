@@ -4,16 +4,21 @@ state = {
 	manpower = 79243
 	
 	state_category = wasteland
-	impassable = yes
 	force_link_ownership_to = 898 # Gao
 
 	history = {
 
-		owner = FRA
+		owner = MLI
 		add_core_of = MLI
 
 		buildings = {
 			infrastructure = 0
+		}
+		2009.1.1 = {
+			TUA = {
+				set_province_controller = 10868
+				set_province_controller = 2068
+			}
 		}
 
 	}

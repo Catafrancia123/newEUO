@@ -88,6 +88,56 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
+	name = "GFX_DIX_neu_waschingten"
+	texturefile = "gfx/interface/goals/DIX/Neu-Waschingten.png"			
+	}
+	
+	SpriteType = {
+	name = "GFX_DIX_aryan_money_only"
+	texturefile = "gfx/interface/goals/DIX/Aryan Money Only.png"			
+	}
+	
+	SpriteType = {
+	name = "GFX_DIX_strength_in_numbers"
+	texturefile = "gfx/interface/goals/DIX/Strength in Numbers.png"			
+	}
+	
+	SpriteType = {
+	name = "GFX_DIX_cover_up_slave_labor"
+	texturefile = "gfx/interface/goals/DIX/Cover up Slave Labor.png"			
+	}
+	
+	SpriteType = {
+	name = "GFX_DIX_propaganda_of_the_deed"
+	texturefile = "gfx/interface/goals/DIX/Propaganda of the Deed.png"			
+	}
+	
+	SpriteType = {
+	name = "GFX_DIX_berlin_architecture"
+	texturefile = "gfx/interface/goals/DIX/Berlin Architecture.png"			
+	}
+	
+	SpriteType = {
+	name = "GFX_DIX_dixie_wins"
+	texturefile = "gfx/interface/goals/DIX/Dixie Wins.png"			
+	}
+	
+	SpriteType = {
+	name = "GFX_DIX_the_aryan_race_is_saved"
+	texturefile = "gfx/interface/goals/DIX/Aryan Race Saved.png"			
+	}
+	
+	SpriteType = {
+	name = "GFX_DIX_21st_century_cities"
+	texturefile = "gfx/interface/goals/DIX/21st Century Cities.png"			
+	}
+	
+	SpriteType = {
+	name = "GFX_DIX_our_fuhrers_health"
+	texturefile = "gfx/interface/goals/DIX/Our Fuhrers Health.png"			
+	}
+	
+	SpriteType = {
 	name = "GFX_GER_final_touches"
 	texturefile = "gfx/interface/goals/GER/Final Touches To Our Term.png"			
 	}	

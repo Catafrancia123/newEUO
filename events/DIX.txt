@@ -30,7 +30,7 @@ country_event = { #Intro
 	id = DIX.30
 	title = DIX.30.t
 	desc = DIX.30.d
-	picture = GFX_report_event_dix_meeting
+	picture = GFX_report_event_dix_hospitalization
 
 	is_triggered_only = yes
 	
@@ -40,15 +40,15 @@ country_event = { #Intro
 }
 
 country_event = { #Intro 
-	id = DIX.20
-	title = GER.20.t
-	desc = DIX.20.d
+	id = DIX.35
+	title = GER.35.t
+	desc = DIX.35.d
 	picture = GFX_report_event_chinese_soldiers_01
 
 	is_triggered_only = yes
 	
 	option = { #Puppetry
-		name = DIX.20.a
+		name = DIX.35.a
 		retire_country_leader = yes
 		create_country_leader = {
 			name = "Erich Gliebe"

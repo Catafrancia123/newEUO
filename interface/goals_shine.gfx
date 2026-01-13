@@ -546,11 +546,11 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "GFX_GER_forward_shine"
-		texturefile = "gfx/interface/goals/GER/From Where We Go Forward.png"
+		name = "GFX_DIX_neu_waschingten_shine"
+		texturefile = "gfx/interface/goals/DIX/Neu-Waschingten.png"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/GER/From Where We Go Forward.png"
+			animationmaskfile = "gfx/interface/goals/DIX/Neu-Waschingten.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -563,7 +563,7 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/GER/From Where We Go Forward.png"
+			animationmaskfile = "gfx/interface/goals/DIX/Neu-Waschingten.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -578,11 +578,11 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "GFX_GER_final_touches_shine"
-		texturefile = "gfx/interface/goals/GER/Final Touches To Our Term.png"
+		name = "GFX_DIX_aryan_money_only_shine"
+		texturefile = "gfx/interface/goals/DIX/Aryan Money Only.png"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/GER/Final Touches To Our Term.png"
+			animationmaskfile = "gfx/interface/goals/DIX/Aryan Money Only.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -595,7 +595,7 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/GER/Final Touches To Our Term.png"
+			animationmaskfile = "gfx/interface/goals/DIX/Aryan Money Only.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -610,11 +610,11 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "GFX_GER_for_the_german_worker_shine"
-		texturefile = "gfx/interface/goals/GER/focus_GER_for_the_german_worker.png"
+		name = "GFX_DIX_strength_in_numbers_shine"
+		texturefile = "gfx/interface/goals/DIX/Strength in Numbers.png"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/GER/focus_GER_for_the_german_worker.png"
+			animationmaskfile = "gfx/interface/goals/DIX/Strength in Numbers.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -627,7 +627,7 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/GER/focus_GER_for_the_german_worker.png"
+			animationmaskfile = "gfx/interface/goals/DIX/Strength in Numbers.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -642,11 +642,11 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "GFX_GER_for_the_unemployed_shine"
-		texturefile = "gfx/interface/goals/GER/focus_GER_for_the_unemployed.png"
+		name = "GFX_DIX_cover_up_slave_labor_shine"
+		texturefile = "gfx/interface/goals/DIX/Cover up Slave Labor.png"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/GER/focus_GER_for_the_unemployed.png"
+			animationmaskfile = "gfx/interface/goals/DIX/Cover up Slave Labor.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -659,7 +659,7 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/GER/focus_GER_for_the_unemployed.png"
+			animationmaskfile = "gfx/interface/goals/DIX/Cover up Slave Labor.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -674,11 +674,11 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "GFX_GER_last_calls_shine"
-		texturefile = "gfx/interface/goals/GER/focus_GER_last_calls.png"
+		name = "GFX_DIX_propaganda_of_the_deed_shine"
+		texturefile = "gfx/interface/goals/DIX/Propaganda of the Deed.png"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/GER/focus_GER_last_calls.png"
+			animationmaskfile = "gfx/interface/goals/DIX/Propaganda of the Deed.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -691,7 +691,7 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/GER/focus_GER_last_calls.png"
+			animationmaskfile = "gfx/interface/goals/DIX/Propaganda of the Deed.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -706,11 +706,11 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "GFX_GER_election_season_shine"
-		texturefile = "gfx/interface/goals/GER/focus_GER_election_season.png"
+		name = "GFX_DIX_berlin_architecture_shine"
+		texturefile = "gfx/interface/goals/DIX/Berlin Architecture.png"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/GER/focus_GER_election_season.png"
+			animationmaskfile = "gfx/interface/goals/DIX/Berlin Architecture.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -723,7 +723,7 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/GER/focus_GER_election_season.png"
+			animationmaskfile = "gfx/interface/goals/DIX/Berlin Architecture.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -738,11 +738,11 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "GFX_GER_sturm_sturm_sturm_shine"
-		texturefile = "gfx/interface/goals/focus_GER_sturm_sturm_sturm.png"
+		name = "GFX_DIX_dixie_wins_shine"
+		texturefile = "gfx/interface/goals/DIX/Dixie Wins.png"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/focus_GER_sturm_sturm_sturm.png.dds"
+			animationmaskfile = "gfx/interface/goals/DIX/Dixie Wins.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -755,7 +755,103 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/focus_GER_sturm_sturm_sturm.png.dds"
+			animationmaskfile = "gfx/interface/goals/DIX/Dixie Wins.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no			# yes or no ;)
+			animationtime = 0.75				# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	
+	SpriteType = {
+		name = "GFX_DIX_the_aryan_race_is_saved_shine"
+		texturefile = "gfx/interface/goals/DIX/Aryan Race Saved.png"
+				effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/DIX/Aryan Race Saved.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no			# yes or no ;)
+			animationtime = 0.75				# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+
+		animation = {
+			animationmaskfile = "gfx/interface/goals/DIX/Aryan Race Saved.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no			# yes or no ;)
+			animationtime = 0.75				# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	
+	SpriteType = {
+		name = "GFX_DIX_21st_century_cities_shine"
+		texturefile = "gfx/interface/goals/DIX/21st Century Cities.png"
+				effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/DIX/21st Century Cities.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no			# yes or no ;)
+			animationtime = 0.75				# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+
+		animation = {
+			animationmaskfile = "gfx/interface/goals/DIX/21st Century Cities.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no			# yes or no ;)
+			animationtime = 0.75				# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	
+	SpriteType = {
+		name = "GFX_DIX_our_fuhrers_health_shine"
+		texturefile = "gfx/interface/goals/DIX/Our Fuhrers Health.png"
+				effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/DIX/Our Fuhrers Health.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no			# yes or no ;)
+			animationtime = 0.75				# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+
+		animation = {
+			animationmaskfile = "gfx/interface/goals/DIX/Our Fuhrers Health.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
