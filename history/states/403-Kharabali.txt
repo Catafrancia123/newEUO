@@ -4,6 +4,11 @@ state={
 	provinces={
 		1294 3472 4780 6787 7681 7774 7833 9512 10600 10659 10670 12390 12521 
 	}
+	
+	history={
+		owner = WSI
+	}
+	
 	manpower=939067
 	buildings_max_level_factor=1
 	state_category=rural

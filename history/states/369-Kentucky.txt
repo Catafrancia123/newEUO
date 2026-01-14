@@ -1,32 +1,19 @@
-
 state={
 	id=369
 	name="STATE_369"
-	manpower = 2614588
-	
-	resources = {
-		coal = 56 # initial distribution = with infra 99.2 / 1280 total
+	resources={
+		coal=56
 	}
-
-	state_category = city
-
+	provinces={
+		1445 4402 4452 4988 6696 6974 10586 10727 12709 
+	}
+	
 	history={
 		owner = DIX
-		buildings = {
-			infrastructure = 3 #was: 5
-			industrial_complex = 3
-			air_base = 4
-		}
-		add_core_of = DIX
-		victory_points = {
-			6696 1 
-		}
-
 	}
-
-	provinces={
-		1445 1582 4402 4452 4988 6696 6974 7547 9727 10586 10727 12568 12637 12709 
-	}
-
-	local_supplies=0.0 
+	
+	manpower=2614588
+	buildings_max_level_factor=1
+	state_category=city
+	local_supplies=0
 }

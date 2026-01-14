@@ -76,7 +76,6 @@ country_event = { #Intro
 		GER = {
 			end_puppet = DIX
 		AMR = {
-			transfer_state = 1010
 			transfer_state = 816
 			declare_war_on = {
     			target = DIX
@@ -118,7 +117,7 @@ country_event = { #Intro
 			load_oob = CSA_REVOLT
 		}
 		PRA = {
-			transfer_state = 1011
+			transfer_state = 1050
 			declare_war_on = {
     			target = DIX
     			type = annex_everything
