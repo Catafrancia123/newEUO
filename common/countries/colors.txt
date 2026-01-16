@@ -824,8 +824,8 @@ AKT = {
 }
 
 WSI = {
-	color = rgb { 114 116 117 }
-	color_ui = rgb { 114 116 117 }
+	color = rgb { 75 124 87 }
+	color_ui = rgb { 75 124 87 }
 }
 
 KAZ = {

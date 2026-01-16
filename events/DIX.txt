@@ -36,6 +36,11 @@ country_event = { #Intro
 	
 	option = { #Puppetry
 		name = DIX.30.a
+		hidden_effect = {
+			load_focus_tree = {
+				tree = DIX_hospital
+			}
+		}
 	}
 }
 
