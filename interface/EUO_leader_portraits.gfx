@@ -246,4 +246,9 @@ spriteTypes = {
 		texturefile = "gfx/leaders/IRE/Portrait_IRE_Justin_Barrett.png"
 	}
 	
+	spriteType = {
+		name = "GFX_portrait_Nuon_Chea"
+		texturefile = "gfx/leaders/KHM/Portrait_KHM_Nuon_Chea.png"
+	}
+	
 }

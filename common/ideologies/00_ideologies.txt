@@ -6,6 +6,18 @@ ideologies = {
 
 			anarchism_subtype = {
 			}
+			
+			statelessness = {
+			}
+
+			anarcho-communism = {
+			}
+			
+			anarcho-syndicalism = {
+			}
+			
+			collectivist_anarchism = {
+			}
 		}
 
 		dynamic_faction_names = {
@@ -62,6 +74,21 @@ ideologies = {
 		types = {
 
 			revolutionary_socialism_subtype = {
+			}
+			
+			communism = {
+			}
+			
+			neo_communism = {
+			}
+			
+			left_wing_nationalism = {
+			}
+			
+			scientific_socialism = {
+			}
+			
+			syndicalism = {
 			}
 		}
 
@@ -123,6 +150,18 @@ ideologies = {
 			
 			progressivism = {
 			}
+			
+			democratic_socialism = {
+			}
+			
+			united_front = {
+			}
+			
+			social_patriotism = {
+			}
+			
+			liberal_socialism = {
+			}
 		}
 
 		dynamic_faction_names = {
@@ -180,6 +219,21 @@ ideologies = {
 
 			liberalism_subtype = {
 			}
+			
+			social_liberalism = {
+			}
+			
+			libertarian_capitalism = {
+			}
+			
+			classical_liberalism = {
+			}
+			
+			national_liberalism = {
+			}
+			
+			liberal_radicalism = {
+			}
 		}
 
 		dynamic_faction_names = {
@@ -236,6 +290,21 @@ ideologies = {
 		types = {
 
 			conservatism_subtype = {
+			}
+			
+			national_conservatism = {
+			}
+			
+			liberal_conservatism = {
+			}
+			
+			classical_conservatism = {
+			}
+			
+			paternalist_conservatism = {
+			}
+			
+			libertarian_conservatism = {
 			}
 		}
 

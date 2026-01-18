@@ -10,3 +10,5 @@ set_politics = {
 set_popularities = {
 	revolutionary_socialism = 100
 }
+
+recruit_character = KHM_nuon_chea
