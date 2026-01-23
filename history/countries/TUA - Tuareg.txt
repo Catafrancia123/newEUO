@@ -28,4 +28,4 @@ set_popularities = {
 		type = annex_everything
 	}
 
-recruit_character = ADE_guy
+recruit_character = TUA_Ibrahim_Ag_Bahanga

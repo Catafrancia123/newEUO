@@ -363,6 +363,21 @@ ideologies = {
 
 			autocratic_subtype = {
 			}
+			
+			absolutism = {
+			}
+			
+			authoritarian_democracy = {
+			}
+			
+			oligarchy = {
+			}
+			
+			corporatocracy = {
+			}
+			
+			military_rule = {
+			}
 		}
 
 		dynamic_faction_names = {
@@ -419,6 +434,18 @@ ideologies = {
 		types = {
 
 			reactionary_subtype = {
+			}
+			
+			neo_fascism = {
+			}
+			
+			fundamentalism = {
+			}
+			
+			ultraconservatism = {
+			}
+			
+			reactionary_populism = {
 			}
 		}
 
@@ -477,6 +504,18 @@ ideologies = {
 
 			fascism_subtype = {
 			}
+			
+			clerical_fascism = {
+			}
+			
+			neo_nazism = {
+			}
+			
+			revolutionary_fascism = {
+			}
+			
+			corporate_nationalism = {
+			}
 		}
 
 		dynamic_faction_names = {
@@ -534,6 +573,21 @@ ideologies = {
 
 			national_socialism_subtype = {
 			}
+			
+			modern_nazism = {
+			}
+			
+			military_nazism = {
+			}
+			
+			esoteric_nazism = {
+			}
+			
+			rouge_supremacism = {
+			}
+			
+			industrial_nazism = {
+			}
 		}
 
 		dynamic_faction_names = {
@@ -590,6 +644,21 @@ ideologies = {
 		types = {
 
 			syncretism_subtype = {
+			}
+			
+			national_bolshevism = {
+			}
+			
+			ethno_socialism = {
+			}
+			
+			ultrapopulism = {
+			}
+			
+			national_syndicalism = {
+			}
+			
+			social_chauvinism = {
 			}
 		}
 

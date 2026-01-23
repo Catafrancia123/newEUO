@@ -251,4 +251,34 @@ spriteTypes = {
 		texturefile = "gfx/leaders/KHM/Portrait_KHM_Nuon_Chea.png"
 	}
 	
+	spriteType = {
+		name = "GFX_portrait_Hissene_Habre"
+		texturefile = "gfx/leaders/CHA/Portrait_CHA_Hissene_Habre.png"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_Adams_Oshiomhole"
+		texturefile = "gfx/leaders/BEN/Portrait_BEN_Adams_Oshiomhole.png"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_Nzanga_Mobutu"
+		texturefile = "gfx/leaders/COG/Portrait_COG_Nzanga_Mobutu.png"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_Umaru_Musa_Yar_Adua"
+		texturefile = "gfx/leaders/NGA/Portrait_NGA_Umaru_Musa_Yar'Adua.png"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_Hubert_Kamgang"
+		texturefile = "gfx/leaders/CMR/Portrait_CMR_Hubert_Kamgang.png"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_Ibrahim_Ag_Bahanga"
+		texturefile = "gfx/leaders/TUA/Portrait_TUA_Ibrahim_Ag_Bahanga.png"
+	}
+	
 }

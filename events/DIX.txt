@@ -38,7 +38,7 @@ country_event = { #Intro
 		name = DIX.30.a
 		hidden_effect = {
 			load_focus_tree = {
-				tree = DIX_hospital
+				tree = DIX_main
 			}
 		}
 	}

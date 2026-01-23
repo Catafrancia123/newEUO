@@ -30,6 +30,7 @@ country_event = { #Elections
     			target = CAM
     			type = annex_everything
 			}
+			load_oob = KHM_REVOLT
 		}
 		CAM = {
 			leave_faction
