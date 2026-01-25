@@ -1,9 +1,9 @@
 characters = {
-	NOR_erik_blucher = {
-		name = "Erik Blücher" 
+	BNT_hans_thomas_tillschneider = {
+		name = "Hans-Thomas Tillschneider" 
 		portraits = {
 			civilian = {
-				large = GFX_portrait_erik_blucher
+				large = GFX_portrait_hans_thomas_tillschneider
 			}
 		}
 		country_leader = {

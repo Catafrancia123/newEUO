@@ -1,9 +1,9 @@
 characters = {
-	NOR_erik_blucher = {
-		name = "Erik Blücher" 
+	TKS_uwe_ulrich_jaschke = {
+		name = "Uwe Ulrich Jäschke" 
 		portraits = {
 			civilian = {
-				large = GFX_portrait_erik_blucher
+				large = GFX_portrait_uwe_ulrich_jaschke
 			}
 		}
 		country_leader = {

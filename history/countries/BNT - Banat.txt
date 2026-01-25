@@ -1,6 +1,4 @@
-﻿capital = 110 # Oslo
-
-oob = "NOR_2010"
+﻿capital = 993
 
 set_politics = {
 	ruling_party = national_socialism
@@ -13,4 +11,4 @@ set_popularities = {
 	national_socialism = 100
 }
 
-recruit_character = NOR_erik_blucher
+recruit_character = BNT_hans_thomas_tillschneider
