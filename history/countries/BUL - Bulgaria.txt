@@ -13,4 +13,4 @@ set_popularities = {
 	national_socialism = 100
 }
 
-recruit_character = BUL_volen_siderov
+recruit_character = BUL_boyan_rasate

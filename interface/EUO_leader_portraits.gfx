@@ -246,4 +246,84 @@ spriteTypes = {
 		texturefile = "gfx/leaders/IRE/Portrait_IRE_Justin_Barrett.png"
 	}
 	
+	spriteType = {
+		name = "GFX_portrait_Nuon_Chea"
+		texturefile = "gfx/leaders/KHM/Portrait_KHM_Nuon_Chea.png"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_Hissene_Habre"
+		texturefile = "gfx/leaders/CHA/Portrait_CHA_Hissene_Habre.png"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_Adams_Oshiomhole"
+		texturefile = "gfx/leaders/BEN/Portrait_BEN_Adams_Oshiomhole.png"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_Nzanga_Mobutu"
+		texturefile = "gfx/leaders/COG/Portrait_COG_Nzanga_Mobutu.png"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_Umaru_Musa_Yar_Adua"
+		texturefile = "gfx/leaders/NGA/Portrait_NGA_Umaru_Musa_Yar'Adua.png"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_Hubert_Kamgang"
+		texturefile = "gfx/leaders/CMR/Portrait_CMR_Hubert_Kamgang.png"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_Ibrahim_Ag_Bahanga"
+		texturefile = "gfx/leaders/TUA/Portrait_TUA_Ibrahim_Ag_Bahanga.png"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_erik_blucher"
+		texturefile = "gfx/leaders/NOR/Portrait_NOR_erik_blucher.png"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_istvan_csurka"
+		texturefile = "gfx/leaders/HUN/Portrait_HUN_istvan_csurka.png"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_tudor_ionescu"
+		texturefile = "gfx/leaders/ROM/Portrait_ROM_tudor_ionescu.png"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_hans_thomas_tillschneider"
+		texturefile = "gfx/leaders/BNT/Portrait_BNT_hans_thomas_tillschneide.png"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_boyan_rasate"
+		texturefile = "gfx/leaders/BUL/Portrait_BUL_boyan_rasate.png"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_fredrik_reinfeldt"
+		texturefile = "gfx/leaders/SWE/Portrait_SWE_fredrik_reinfeldt.png"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_nebojsa_krstic"
+		texturefile = "gfx/leaders/SER/Portrait_SER_nebojsa_krstic.png"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_povl_riis_knudsen"
+		texturefile = "gfx/leaders/DEN/Portrait_DEN_povl_riis_knudsen.png"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_uwe_ulrich_jaschke"
+		texturefile = "gfx/leaders/TKS/Portrait_TKS_uwe_ulrich_jaschke.png"
+	}
+	
 }

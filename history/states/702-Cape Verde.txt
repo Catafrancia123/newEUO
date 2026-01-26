@@ -8,7 +8,7 @@ state = {
 	history = { 
 
 		owner = GNB
-		add_core_of = GNB
+		add_core_of = CBV
 
 		victory_points = {
 			13014 1 # Praia

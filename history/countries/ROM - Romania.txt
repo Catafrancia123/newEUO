@@ -13,4 +13,4 @@ set_popularities = {
 	fascism = 100
 }
 
-recruit_character = ROM_corneliu_vadim_tudor
+recruit_character = ROM_tudor_ionescu

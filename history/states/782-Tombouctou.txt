@@ -1,21 +1,30 @@
-state={
-	id=782
-	name="STATE_782"
-	provinces={
-		1115 8116 10725 10788 10868 
-	}
+state = {
+	id = 782
+	name = "STATE_782" # Tombouctou
+	manpower = 79243
 	
-	history={
+	state_category = wasteland
+
+	history = {
+
 		owner = MLI
+		add_core_of = MLI
+
+		buildings = {
+			infrastructure = 0
+		}
 		2009.1.1 = {
 			TUA = {
 				set_province_controller = 10868
+				set_province_controller = 2068
 			}
 		}
+
 	}
-	
-	manpower=79243
-	buildings_max_level_factor=1.000
-	state_category=wasteland
-	local_supplies=0.000
+
+	provinces = {
+		1115 2068 10725 10868
+	}
+
+	local_supplies = 0.0 
 }

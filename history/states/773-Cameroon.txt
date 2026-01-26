@@ -1,16 +1,17 @@
 state={
 	id=773
 	name="STATE_773"
-	provinces={
-		6039 9137 11194 
-	}
-	
+
 	history={
 		owner = CMR
+
 	}
-	
+
+	provinces={
+		5036 6039 9137 11194 
+	}
 	manpower=2945782
-	buildings_max_level_factor=1.000
+	buildings_max_level_factor=1
 	state_category=rural
-	local_supplies=0.000
+	local_supplies=0
 }

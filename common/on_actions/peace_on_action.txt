@@ -27,4 +27,18 @@ on_actions = {
 		} 
 	}
 	
+	on_capitulation = {
+		effect = {
+			if = {
+				limit = {
+					ROOT = { tag = TUA }
+					FROM = { tag = ALG }
+				}
+				ALG = {
+					country_event = { id = WAE.1 days = 2 }
+				}
+			}
+		} 
+	}
+	
 }

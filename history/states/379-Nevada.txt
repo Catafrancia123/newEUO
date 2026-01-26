@@ -2,12 +2,12 @@ state={
 	id=379
 	name="STATE_379"
 	resources={
-		steel=70.000
-		tungsten=32.000
-		aluminium=25.000
+		steel=70
+		tungsten=32
+		aluminium=25
 	}
 	provinces={
-		4521 4607 4736 10422 12134 
+		4521 4607 4736 10422 12134 12399 
 	}
 	
 	history={
@@ -15,7 +15,7 @@ state={
 	}
 	
 	manpower=91057
-	buildings_max_level_factor=1.000
+	buildings_max_level_factor=1
 	state_category=rural
-	local_supplies=0.000
+	local_supplies=0
 }

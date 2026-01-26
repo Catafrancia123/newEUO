@@ -2,7 +2,7 @@ state={
 	id=561
 	name="STATE_561"
 	provinces={
-		1730 1845 4731 4821 4847 7691 7785 7844 7851 10678 12543 12591 12657 12660 
+		1730 1772 1807 1845 4731 4821 4847 7691 7785 7844 7851 10590 10678 12543 12591 12660 
 	}
 	
 	history={
@@ -10,7 +10,7 @@ state={
 	}
 	
 	manpower=454281
-	buildings_max_level_factor=1.000
+	buildings_max_level_factor=1
 	state_category=rural
-	local_supplies=6.000
+	local_supplies=6
 }

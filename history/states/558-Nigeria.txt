@@ -2,10 +2,10 @@ state={
 	id=558
 	name="STATE_558"
 	resources={
-		rubber=2.000
+		rubber=2
 	}
 	provinces={
-		2050 12731 12900 
+		2050 4952 12731 12900 
 	}
 	
 	history={
@@ -13,7 +13,7 @@ state={
 	}
 	
 	manpower=19757000
-	buildings_max_level_factor=1.000
+	buildings_max_level_factor=1
 	state_category=rural
-	local_supplies=0.000
+	local_supplies=0
 }

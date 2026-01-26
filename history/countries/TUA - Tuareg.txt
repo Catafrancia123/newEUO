@@ -1,5 +1,7 @@
 ﻿capital = 993
 
+oob = "TUA_2010"
+
 set_politics = {
 	ruling_party = reactionary
 	last_election = "1936.1.1"
@@ -28,4 +30,6 @@ set_popularities = {
 		type = annex_everything
 	}
 
-recruit_character = ADE_guy
+recruit_character = TUA_Ibrahim_Ag_Bahanga
+
+add_manpower = 100000

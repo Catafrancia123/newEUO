@@ -1,16 +1,34 @@
-state={
-	id=742
-	name="STATE_742"
-	provinces={
-		756 1216 1384 1632 7224 7639 8027 10205 10417 10671 12218 12239 12250 12722 12805 
+state = {
+	id = 742
+	name = "STATE_742"
+
+	resources = {
+		steel = 3.000
+	}
+
+	history = {
+
+		owner = UZB
+		victory_points = {
+			1384 1
+		}
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = UZB
+		add_core_of = TAJ
+		add_core_of = BUK
+
+	}
+
+	provinces = {
+		1216 1384 1919 4542 7224 8027 10187 10417 12218 12250 12430 12805 
 	}
 	
-	history={
-		owner = TKS
-	}
-	
-	manpower=230000
-	buildings_max_level_factor=1.000
-	state_category=wasteland
-	local_supplies=0.000
+	manpower = 230000
+	buildings_max_level_factor = 1.000
+	state_category = wasteland
+
+	local_supplies = 0.0 
 }
