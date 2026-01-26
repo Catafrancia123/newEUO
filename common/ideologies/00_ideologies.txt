@@ -6,6 +6,18 @@ ideologies = {
 
 			anarchism_subtype = {
 			}
+			
+			statelessness = {
+			}
+
+			anarcho-communism = {
+			}
+			
+			anarcho-syndicalism = {
+			}
+			
+			collectivist_anarchism = {
+			}
 		}
 
 		dynamic_faction_names = {
@@ -62,6 +74,21 @@ ideologies = {
 		types = {
 
 			revolutionary_socialism_subtype = {
+			}
+			
+			communism = {
+			}
+			
+			neo_communism = {
+			}
+			
+			left_wing_nationalism = {
+			}
+			
+			scientific_socialism = {
+			}
+			
+			syndicalism = {
 			}
 		}
 
@@ -123,6 +150,18 @@ ideologies = {
 			
 			progressivism = {
 			}
+			
+			democratic_socialism = {
+			}
+			
+			united_front = {
+			}
+			
+			social_patriotism = {
+			}
+			
+			liberal_socialism = {
+			}
 		}
 
 		dynamic_faction_names = {
@@ -179,6 +218,21 @@ ideologies = {
 		types = {
 
 			liberalism_subtype = {
+			}
+			
+			social_liberalism = {
+			}
+			
+			libertarian_capitalism = {
+			}
+			
+			classical_liberalism = {
+			}
+			
+			national_liberalism = {
+			}
+			
+			liberal_radicalism = {
 			}
 		}
 
@@ -237,6 +291,21 @@ ideologies = {
 
 			conservatism_subtype = {
 			}
+			
+			national_conservatism = {
+			}
+			
+			liberal_conservatism = {
+			}
+			
+			classical_conservatism = {
+			}
+			
+			paternalist_conservatism = {
+			}
+			
+			libertarian_conservatism = {
+			}
 		}
 
 		dynamic_faction_names = {
@@ -293,6 +362,21 @@ ideologies = {
 		types = {
 
 			autocratic_subtype = {
+			}
+			
+			absolutism = {
+			}
+			
+			authoritarian_democracy = {
+			}
+			
+			oligarchy = {
+			}
+			
+			corporatocracy = {
+			}
+			
+			military_rule = {
 			}
 		}
 
@@ -351,6 +435,18 @@ ideologies = {
 
 			reactionary_subtype = {
 			}
+			
+			neo_fascism = {
+			}
+			
+			fundamentalism = {
+			}
+			
+			ultraconservatism = {
+			}
+			
+			reactionary_populism = {
+			}
 		}
 
 		dynamic_faction_names = {
@@ -407,6 +503,18 @@ ideologies = {
 		types = {
 
 			fascism_subtype = {
+			}
+			
+			clerical_fascism = {
+			}
+			
+			neo_nazism = {
+			}
+			
+			revolutionary_fascism = {
+			}
+			
+			corporate_nationalism = {
 			}
 		}
 
@@ -465,6 +573,21 @@ ideologies = {
 
 			national_socialism_subtype = {
 			}
+			
+			modern_nazism = {
+			}
+			
+			military_nazism = {
+			}
+			
+			esoteric_nazism = {
+			}
+			
+			rouge_supremacism = {
+			}
+			
+			industrial_nazism = {
+			}
 		}
 
 		dynamic_faction_names = {
@@ -521,6 +644,21 @@ ideologies = {
 		types = {
 
 			syncretism_subtype = {
+			}
+			
+			national_bolshevism = {
+			}
+			
+			ethno_socialism = {
+			}
+			
+			ultrapopulism = {
+			}
+			
+			national_syndicalism = {
+			}
+			
+			social_chauvinism = {
 			}
 		}
 

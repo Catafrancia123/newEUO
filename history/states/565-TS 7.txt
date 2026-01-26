@@ -1,20 +1,31 @@
-state={
-	id=565
-	name="STATE_565"
-	resources={
-		steel=10.000
-		chromium=5.000
+state = {
+	id = 565
+	name = "STATE_565" # Bodaybo
+
+	manpower = 195325
+
+	state_category = rural
+
+	resources = {
+		steel = 10 # was: 32
+		chromium = 5 # was: 12
 	}
-	provinces={
-		1666 4762 4795 4855 4868 7889 12538 12565 
+
+	history = {
+
+		owner = WSI
+		add_core_of = WSI
+		add_core_of = EVE
+
+		buildings = {
+			infrastructure = 1
+		}
+		
 	}
-	
-	history={
-		owner = SZO
+
+	provinces = {
+		1666 1761 4762 4795 4868 7759 7854 10583 10654 12538  
 	}
-	
-	manpower=195325
-	buildings_max_level_factor=1.000
-	state_category=rural
-	local_supplies=5.000
+
+	local_supplies = 5.0 
 }

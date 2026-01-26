@@ -1,22 +1,19 @@
 state={
 	id=367
 	name="STATE_367"
+	resources={
+		coal=8
+	}
 	provinces={
 		492 860 1587 4622 4756 7422 7480 7640 10520 11509 11942 12735 
 	}
 	
 	history={
 		owner = DIX
-		victory_points = {
-			7480 1 
-		}
-		victory_points = {
-			12735 1 
-		}
 	}
 	
 	manpower=2646247
-	buildings_max_level_factor=1.000
+	buildings_max_level_factor=1
 	state_category=city
-	local_supplies=0.000
+	local_supplies=0
 }

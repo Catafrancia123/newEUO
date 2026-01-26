@@ -25,11 +25,12 @@ country_event = { #Elections
 		name = CAM.40.a
 		hidden_effect = {
 		KHM = {
-			transfer_state = 994
+			transfer_state = 1059
 			declare_war_on = {
     			target = CAM
     			type = annex_everything
 			}
+			load_oob = KHM_REVOLT
 		}
 		CAM = {
 			leave_faction

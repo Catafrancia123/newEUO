@@ -2,7 +2,7 @@ state={
 	id=514
 	name="STATE_514"
 	provinces={
-		1095 1901 1958 2049 7041 8088 10731 12711 12842 12849 
+		1095 1901 1958 2049 5035 7041 8088 10731 12711 12842 12849 
 	}
 	
 	history={
@@ -10,7 +10,7 @@ state={
 	}
 	
 	manpower=207733
-	buildings_max_level_factor=1.000
+	buildings_max_level_factor=1
 	state_category=wasteland
-	local_supplies=0.000
+	local_supplies=0
 }

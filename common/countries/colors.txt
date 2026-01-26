@@ -86,12 +86,12 @@ ALB = {
 	color_ui = rgb { 194 59 133 }
 }
 NOR = {
-	color = rgb { 111 71 71 }
-	color_ui = rgb { 144 92 92 }
+	color = rgb { 63 63 59 }
+	color_ui = rgb { 63 63 59 }
 }
 DEN = {
-	color = rgb { 153 116 93 }
-	color_ui = rgb { 199 151 121 }
+	color = rgb { 107 90 81 }
+	color_ui = rgb { 107 90 81 }
 }
 BUL = {
 	color = rgb { 51 155 0 }
@@ -809,8 +809,8 @@ CAF = {
 }
 
 TKS = {
-	color = rgb { 80 96 114 }
-	color_ui = rgb { 80 96 114 }
+	color = rgb { 61 59 57 }
+	color_ui = rgb { 61 59 57 }
 }
 
 CHT = {
@@ -824,8 +824,8 @@ AKT = {
 }
 
 WSI = {
-	color = rgb { 114 116 117 }
-	color_ui = rgb { 114 116 117 }
+	color = rgb { 75 124 87 }
+	color_ui = rgb { 75 124 87 }
 }
 
 KAZ = {

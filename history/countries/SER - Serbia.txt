@@ -13,4 +13,4 @@ set_popularities = {
 	fascism = 100
 }
 
-recruit_character = SER_vojislav_seselj
+recruit_character = SER_nebojsa_krstic

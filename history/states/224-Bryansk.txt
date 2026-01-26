@@ -2,7 +2,7 @@ state={
 	id=224
 	name="STATE_224"
 	provinces={
-		315 343 371 398 3226 6305 11229 11298 11325 
+		315 343 352 371 398 3226 3345 3390 6305 9301 11229 11284 11298 11325 
 	}
 	
 	history={
@@ -10,7 +10,7 @@ state={
 	}
 	
 	manpower=1707567
-	buildings_max_level_factor=1.000
+	buildings_max_level_factor=1
 	state_category=town
-	local_supplies=0.000
+	local_supplies=0
 }

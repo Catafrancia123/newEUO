@@ -11,4 +11,4 @@ set_popularities = {
 	fascism = 100
 }
 
-recruit_character = CHA_guy
+recruit_character = CHA_hissene_habre

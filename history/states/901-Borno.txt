@@ -2,7 +2,7 @@ state={
 	id=901
 	name="STATE_901"
 	provinces={
-		4997 5028 7963 8109 
+		4889 4997 5028 7963 8109 10820 
 	}
 	
 	history={
@@ -10,7 +10,7 @@ state={
 	}
 	
 	manpower=166240
-	buildings_max_level_factor=1.000
+	buildings_max_level_factor=1
 	state_category=pastoral
-	local_supplies=0.000
+	local_supplies=0
 }

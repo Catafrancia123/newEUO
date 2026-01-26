@@ -9,6 +9,8 @@ state = {
 
 		owner = GER
 		add_core_of = GER
+		add_core_of = KSH
+		add_claim_by = PRE
 
 		victory_points = {
 			9263 5 # Gdynia

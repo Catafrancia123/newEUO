@@ -2,10 +2,11 @@ state={
 	id=380
 	name="STATE_380"
 	resources={
-		tungsten=76.000
+		tungsten=76
+		coal=4
 	}
 	provinces={
-		1663 1740 1756 1862 4668 4742 4799 4816 4865 7756 7764 7818 7827 7879 10582 10591 10651 10662 12399 12425 12573 12699 13153 
+		850 1663 1740 1756 1862 4668 4742 4799 4816 4865 6897 7756 7764 7818 7821 7827 7879 10573 10582 10591 10651 10662 12425 12573 12699 12765 13153 
 	}
 	
 	history={
@@ -13,7 +14,7 @@ state={
 	}
 	
 	manpower=507846
-	buildings_max_level_factor=1.000
+	buildings_max_level_factor=1
 	state_category=rural
-	local_supplies=0.000
+	local_supplies=0
 }

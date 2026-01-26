@@ -1,8 +1,11 @@
 state={
 	id=869
 	name="STATE_869"
+	resources={
+		coal=1
+	}
 	provinces={
-		1253 1488 1990 4175 4496 7400 7492 7531 7647 7675 7909 7974 8045 10330 10356 10371 10456 12317 
+		1253 1488 1990 4496 7492 7531 7675 8045 10330 10356 10371 10456 
 	}
 	
 	history={
@@ -10,7 +13,7 @@ state={
 	}
 	
 	manpower=2000000
-	buildings_max_level_factor=1.000
-	state_category=rural
-	local_supplies=0.000
+	buildings_max_level_factor=1
+	state_category=town
+	local_supplies=0
 }

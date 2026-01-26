@@ -1,5 +1,5 @@
 ﻿focus_tree = {
-	id = GER_Intro
+	id = DIX_Intro
 	country = {
 		factor = 0
 		modifier = {
@@ -11,5 +11,21 @@
 	shared_focus = DIX_party_in_dixieland
 	initial_show_position = {
 		focus = DIX_party_in_dixieland
+	}
+}
+
+focus_tree = {
+	id = DIX_main
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = DIX
+		}
+	}
+	default = no
+	shared_focus = DIX_he_isnt_well
+	initial_show_position = {
+		focus = DIX_he_isnt_well
 	}
 }

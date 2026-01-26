@@ -69,7 +69,6 @@ bookmarks = {
 		GER = {
 			history = "GER_GATHERING_STORM_DESC"
 			ideology = national_socialism
-			available = { NOT = { has_dlc = "Gotterdammerung" } }
 			ideas = {
 				GER_mefo_bills_1936_fake_ns
 				GER_army_1936_fake_ns

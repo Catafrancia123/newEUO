@@ -1,16 +1,37 @@
-state={
-	id=569
-	name="STATE_569"
-	provinces={
-		1369 1685 1702 1816 4665 4724 4789 4793 7757 7815 7822 7886 10580 10712 12631 
+
+state = {
+	id = 569
+	name = "STATE_569" # Khakassia
+	manpower = 1567322
+
+	resources = {
+		coal = 16 #initial distirbution
 	}
 	
-	history={
+	state_category = town
+
+	history = {
 		owner = WSI
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		add_core_of = WSI
+		add_core_of = KHA
+		victory_points = {
+			7757 1
+		}
+		victory_points = {
+			7822 1
+		}
+		victory_points = {
+			10580 2
+		}
 	}
-	
-	manpower=1567322
-	buildings_max_level_factor=1.000
-	state_category=town
-	local_supplies=0.000
+
+	provinces = {
+		1369 1685 1702 1816 4665 4789 4793 7757 7822 7886 10580 10649 12631 
+	}
+
+	local_supplies = 0.0 
 }

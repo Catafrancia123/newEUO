@@ -2,7 +2,7 @@ state={
 	id=3
 	name="STATE_3"
 	provinces={
-		636 661 663 9618 9620 11590 11601 11604 11623 
+		661 663 9618 9620 11590 11601 11604 11623 
 	}
 	
 	history={
@@ -10,7 +10,7 @@ state={
 	}
 	
 	manpower=1216838
-	buildings_max_level_factor=1.000
+	buildings_max_level_factor=1
 	state_category=city
-	local_supplies=0.000
+	local_supplies=0
 }

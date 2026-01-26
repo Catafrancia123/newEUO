@@ -18,3 +18,5 @@ set_autonomy = {
 	autonomous_state = autonomy_reichskommissariat
 	freedom_level = 0.2
 }
+
+recruit_character = COG_nzanga_mobutu
