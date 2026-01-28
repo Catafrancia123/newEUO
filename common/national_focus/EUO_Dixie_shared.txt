@@ -3,6 +3,13 @@ shared_focus = {
 	id = DIX_party_in_dixieland
 	icon = GFX_DIX_party_in_dixieland
 	cost = 2.00
+
+    allow_branch = {
+		has_country_leader = {
+			character = DIX_william_luther_pierce
+			ruling_only = yes
+		}
+	}
 	
 	x = 20
 	y = 0
@@ -327,7 +334,7 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = DIX_our_fuhrers_health
+	id = DIX_Aryan_Century
 	icon = GFX_DIX_our_fuhrers_health
 	cost = 2.00
 	
@@ -347,13 +354,30 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = DIX_pierces_legacy
-	icon = GFX_DIX_pierces_legacy
+	id = DIX_our_fuhrers_health
+	icon = GFX_DIX_our_fuhrers_health
 	cost = 2.00
 	
 	x = 5
 	y = 0
 	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus DIX_our_fuhrers_health"
+		country_event = {
+			id = DIX.30
+			days = 0
+		}
+	}
+}
+
+shared_focus = {
+	id = DIX_pierces_legacy
+	icon = GFX_DIX_pierces_legacy
+	cost = 2.00
+	
+	x = 3
+	y = 1
+	prerequisite = { focus = DIX_our_fuhrers_health }
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: focus DIX_pierces_legacy"
 		country_event = {
@@ -368,10 +392,10 @@ shared_focus = {
 	icon = GFX_DIX_call_the_best_doctors
 	cost = 2.00
 	
-	x = 5
+	x = 7
 	y = 1
 	
-	prerequisite = { focus = DIX_he_isnt_well }
+	prerequisite = { focus = DIX_our_fuhrers_health }
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: focus DIX_call_the_best_doctors"
 		country_event = {
@@ -390,6 +414,7 @@ shared_focus = {
 	y = 2
 	
 	prerequisite = { focus = DIX_call_the_best_doctors }
+	prerequisite = { focus = DIX_pierces_legacy }
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: focus DIX_do_everything_we_can"
 		country_event = {
