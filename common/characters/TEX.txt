@@ -7,7 +7,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = autocratic_subtype
+			ideology = military_rule
 			expire = "1950.1.1.1"
 			id = -1
 		}

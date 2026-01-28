@@ -37,3 +37,5 @@
  PRA_win_DEF:0 "Res Publica Nova Romana"
  KUM_win:0 "Republic of China"
  KUM_win_DEF:0 "the Republic of China"
+ BAI_win:0 "Union of Soviet Socialist Republics"
+ BAI_win_DEF:0 "the Union of Soviet Socialist Republics"

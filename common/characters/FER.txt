@@ -7,7 +7,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = fascism_subtype
+			ideology = corporate_nationalism
 			expire = "1950.1.1.1"
 			id = -1
 		}

@@ -336,4 +336,19 @@ spriteTypes = {
 		texturefile = "gfx/leaders/MAD/Portrait_MAD_georg_degrelle.png"
 	}
 	
+	spriteType = {
+		name = "GFX_portrait_Ermukhamet_Ertisbaev"
+		texturefile = "gfx/leaders/KAZ/Portrait_KAZ_Ermukhamet_Ertisbaev.png"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_nikola_ii"
+		texturefile = "gfx/leaders/MNT/Portrait_MNT_nikola_ii.png"
+	}	
+	
+	spriteType = {
+		name = "GFX_portrait_adriatik_alimadhi"
+		texturefile = "gfx/leaders/ALB/Portrait_ALB_adriatik_alimadhi.png"
+	}
+
 }

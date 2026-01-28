@@ -1,0 +1,96 @@
+﻿add_namespace = WSI
+
+country_event = { #Intro 
+	id = WSI.1
+	title = WSI.1.t
+	desc = WSI.1.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { #Puppetry
+		name = WSI.1.a
+	}
+}
+
+country_event = { #Elections 
+	id = WSI.40
+	title = WSI.40.t
+	desc = WSI.40.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { #Rosenberg
+		name = WSI.40.a
+		hidden_effect = {
+		BAI = {
+			transfer_state = 564
+			declare_war_on = {
+    			target = IRK
+    			type = annex_everything
+			}
+			load_oob = BAI_REVOLT
+		}
+		WSI = {
+			country_event = WSI.41
+			}
+		}
+	}
+}
+
+country_event = { #Elections 
+	id = WSI.41
+	title = WSI.41.t
+	desc = WSI.41.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { #Rosenberg
+		name = WSI.41.a
+		hidden_effect = {
+		CHT = {
+			transfer_state = 563
+			declare_war_on = {
+    			target = IRK
+    			type = annex_everything
+			}
+			load_oob = CHT_REVOLT
+		}
+		WSI = {
+			country_event = WSI.42
+			}
+		}
+	}
+}
+
+country_event = { #Elections 
+	id = WSI.42
+	title = WSI.42.t
+	desc = WSI.42.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { #Rosenberg
+		name = WSI.42.a
+		hidden_effect = {
+		IRK = {
+			transfer_state = 566
+			declare_war_on = {
+    			target = BAI
+    			type = annex_everything
+			}
+			declare_war_on = {
+    			target = CHT
+    			type = annex_everything
+			}
+			load_oob = IRK_REVOLT
+		}
+		WSI = {
+			country_event = WSI.43
+			}
+		}
+	}
+}

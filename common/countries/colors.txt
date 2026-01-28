@@ -425,6 +425,11 @@ NRE = {
 	color_ui = rgb { 158 120 80 }
 }
 
+BAI = {
+	color = rgb { 130 22 41 }
+	color_ui = rgb { 130 22 41 }
+}
+
 STL = {
 	color = rgb { 36 87 140 }
 	color_ui = rgb { 36 87 140 }
@@ -749,8 +754,8 @@ BNT = {
 }
 
 EVE = {
-	color = rgb { 206 0 86 }
-	color_ui = rgb { 206 0 86 }
+	color = rgb { 129 130 128 }
+	color_ui = rgb { 129 130 128 }
 }
 
 GMS = {
