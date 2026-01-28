@@ -7,7 +7,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = syncretism_subtype
+			ideology = national_bolshevism
 			expire = "1950.1.1.1"
 			id = -1
 		}

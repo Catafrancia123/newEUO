@@ -326,4 +326,14 @@ spriteTypes = {
 		texturefile = "gfx/leaders/TKS/Portrait_TKS_uwe_ulrich_jaschke.png"
 	}
 	
+	spriteType = {
+		name = "GFX_portrait_ilker_basbug"
+		texturefile = "gfx/leaders/TUR/Portrait_TUR_ilker_basbug.png"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_georg_degrelle"
+		texturefile = "gfx/leaders/MAD/Portrait_MAD_georg_degrelle.png"
+	}
+	
 }

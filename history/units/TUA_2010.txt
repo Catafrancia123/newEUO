@@ -146,8 +146,6 @@ units = {
 
 instant_effect = {
 
-	add_manpower = 2000
-
 	add_equipment_production = {
 		equipment = {
 			type = infantry_equipment_2

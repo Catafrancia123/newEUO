@@ -101,35 +101,35 @@ units = {
 
 	division = {	
 		name = "7. Tuareg Soldier"
-		location = 5095  # Berlin
+		location = 12849  # Berlin
 		division_template = "National Guard Division"
 		start_experience_factor = 0.3
 	}
 	
 	division = {	
 		name = "7. Tuareg Soldier"
-		location = 5095  # Berlin
+		location = 12849  # Berlin
 		division_template = "National Guard Division"
 		start_experience_factor = 0.3
 	}
 	
 	division = {	
 		name = "7. Tuareg Soldier"
-		location = 5095  # Berlin
+		location = 12849  # Berlin
 		division_template = "National Guard Division"
 		start_experience_factor = 0.3
 	}
 	
 	division = {	
 		name = "7. Tuareg Soldier"
-		location = 10868  # Berlin
+		location = 12849  # Berlin
 		division_template = "National Guard Division"
 		start_experience_factor = 0.3
 	}
 	
 	division = {	
 		name = "7. Tuareg Soldier"
-		location = 10868  # Berlin
+		location = 12849  # Berlin
 		division_template = "National Guard Division"
 		start_experience_factor = 0.3
 	}

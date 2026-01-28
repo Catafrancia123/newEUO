@@ -24,8 +24,8 @@ focus_tree = {
 		}
 	}
 	default = no
-	shared_focus = DIX_he_isnt_well
+	shared_focus = DIX_pierces_legacy
 	initial_show_position = {
-		focus = DIX_he_isnt_well
+		focus = DIX_pierces_legacy
 	}
 }

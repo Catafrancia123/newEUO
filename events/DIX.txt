@@ -64,6 +64,11 @@ country_event = { #Intro
 				traits = {
 			}
 		}
+		hidden_effect = {
+			load_focus_tree = {
+				tree = DIX_main
+			}
+		}
 	}
 }
 

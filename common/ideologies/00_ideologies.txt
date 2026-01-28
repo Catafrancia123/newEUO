@@ -18,6 +18,9 @@ ideologies = {
 			
 			collectivist_anarchism = {
 			}
+			
+			militant_anarchism = {
+			}
 		}
 
 		dynamic_faction_names = {

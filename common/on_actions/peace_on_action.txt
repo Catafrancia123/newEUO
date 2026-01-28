@@ -41,4 +41,46 @@ on_actions = {
 		} 
 	}
 	
+	on_capitulation = {
+		effect = {
+			if = {
+				limit = {
+					ROOT = { tag = TUA }
+					FROM = { tag = MLI }
+				}
+				MLI = {
+					country_event = { id = WAE.1 days = 2 }
+				}
+			}
+		} 
+	}
+	
+	on_capitulation = {
+		effect = {
+			if = {
+				limit = {
+					ROOT = { tag = TUA }
+					FROM = { tag = NGR }
+				}
+				NGR = {
+					country_event = { id = WAE.1 days = 2 }
+				}
+			}
+		} 
+	}
+	
+	on_annex = {
+		effect = {
+			if = {
+				limit = {
+					ROOT = { tag = ALG }
+					FROM = { tag = TUA }
+				}
+				ALG = {
+					country_event = { id = WAE.1 days = 2 }
+				}
+			}
+		} 
+	}
+	
 }

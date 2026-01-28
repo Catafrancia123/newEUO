@@ -9,10 +9,8 @@ shared_focus = {
 	
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: focus DIX_party_in_dixieland"
-		country_event = {
-			id = GER.2
-			days = 0
-		}
+		add_stability = 0.04
+		add_political_power = 100
 	}
 }
 
@@ -28,7 +26,7 @@ shared_focus = {
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: focus DIX_money_to_germany"
 		country_event = {
-			id = GER.2
+			id = DIX.14
 			days = 0
 		}
 	}
@@ -66,6 +64,27 @@ shared_focus = {
 		country_event = {
 			id = GER.2
 			days = 0
+		}
+		361 = {
+			add_building_construction = {
+				type = infrastructure
+				level = 1
+				instant_build = yes
+			}
+		}
+		362 = {
+			add_building_construction = {
+				type = infrastructure
+				level = 1
+				instant_build = yes
+			}
+		}
+		363 = {
+			add_building_construction = {
+				type = infrastructure
+				level = 1
+				instant_build = yes
+			}
 		}
 	}
 }
@@ -328,15 +347,15 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = DIX_he_isnt_well
-	icon = GFX_DIX_he_isnt_well
+	id = DIX_pierces_legacy
+	icon = GFX_DIX_pierces_legacy
 	cost = 2.00
 	
 	x = 5
 	y = 0
 	
 	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: focus DIX_he_isnt_well"
+		log = "[GetDateText]: [Root.GetName]: focus DIX_pierces_legacy"
 		country_event = {
 			id = GER.2
 			days = 0

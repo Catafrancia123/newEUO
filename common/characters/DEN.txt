@@ -1,6 +1,6 @@
 characters = {
 	DEN_povl_riis_knudsen = {
-		name = "Povl Riis-Knudsen" 
+		name = "Povl Heinrich Riis-Knudsen" 
 		portraits = {
 			civilian = {
 				large = GFX_portrait_povl_riis_knudsen
