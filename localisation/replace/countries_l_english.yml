@@ -3526,6 +3526,10 @@
  IRK_DEF:0 "the Union of Eurasia"
  KRS:0 "Principality of Krasnoyarsk"
  KRS_DEF:0 "the Principality of Krasnoyarsk"
+ MDF:0 "Midwestern Democratic Forces"
+ MDF_DEF:0 "Midwestern Democratic Forces"
+ WIS:0 "Republic of Wisconsin"
+ WIS_DEF:0 "Republic of Wisconsin"
 
  SIL_communism:0 "Silesian People's Republic"
  SIL_communism_DEF:0 "the Silesian People's Republic"

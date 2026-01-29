@@ -1,0 +1,25 @@
+capital = 395
+
+oob = "MDF"
+
+set_politics = {
+	ruling_party = liberalism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	liberalism = 40
+	conservatism = 30
+	moderate_socialism = 30
+}
+
+create_country_leader = {
+	name = "Rahm Emanuel"
+	desc = "Rahm_Desc"
+	picture = "gfx/leaders/MDF/Rahm-Emanuel-EUO.png"
+	expire = "2040.1.1"
+	ideology = social_liberalism
+	traits = {}
+}

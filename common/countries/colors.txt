@@ -420,6 +420,16 @@ DNV = {
 	color_ui = rgb { 50 120 190 }
 }
 
+WIS = {
+	color = rgb { 108 120 133 }
+	color_ui = rgb { 108 120 133 }
+}
+
+MDF = {
+	color = rgb { 215 205 179 }
+	color_ui = rgb { 215 205 179 }
+}
+
 NRE = {
 	color = rgb { 158 120 80 }
 	color_ui = rgb { 158 120 80 }

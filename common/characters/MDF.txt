@@ -1,0 +1,16 @@
+characters = {
+	MDF_Rahm_Emanuel = {
+		name = "Rahm Emanuel" 
+		portraits = {
+			civilian = {
+				large = Rahm-Emanuel-EUO.png
+			}
+		}
+		country_leader = {
+			ideology = liberalism
+			expire = "2030.1.1.1"
+			id = -1
+		}
+	}
+}
+	
