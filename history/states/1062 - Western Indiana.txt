@@ -1,0 +1,24 @@
+state={
+	id=1062
+	name="STATE_1062"
+	provinces={
+		6713 9654 4437 9653 4531 7551
+	}
+	
+	state_category = town
+	
+	history={
+		owner = NGE
+		add_core_of = NGE
+
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 4
+		}
+	}
+	
+	manpower= 5784938
+	buildings_max_level_factor=1
+	local_supplies=0
+}

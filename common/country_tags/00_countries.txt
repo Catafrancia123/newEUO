@@ -380,4 +380,6 @@ HUI = "countries/Hui State.txt"
 SMO = "countries/SAF Mozambique.txt"
 AKA = "countries/Afrika.txt"
 NRE = "countries/Niger Rebels.txt"
+MDF = "countries/Midwestern Democratic Forces.txt"
+WIS = "countries/Wisconsin.txt"
 

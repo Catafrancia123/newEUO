@@ -8,12 +8,12 @@ state={
 		coal = 14 #initial distribution = with infra 44.8 / 1280 total
 	}
 
-	state_category = large_city
+	state_category = town
 
 	history={
 		owner = NGE
 		buildings = {
-			infrastructure = 3 #was: 6
+			infrastructure = 3
 			industrial_complex = 5
 		}
 		add_core_of = NGE
@@ -24,7 +24,7 @@ state={
 	}
 
 	provinces={
-		870 1595 1881 4437 4527 4531 6713 7551 9653 9654 9796 9810 10448 11621 11635 11637 12437 
+		870 1881 4527 9796 9810 10448 11621 11635 11637 12437 
 	}
 
 	local_supplies=0.0 
