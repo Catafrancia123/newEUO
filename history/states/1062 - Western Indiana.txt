@@ -16,6 +16,12 @@ state={
 			arms_factory = 2
 			industrial_complex = 4
 		}
+		victory_points = {
+			4437 5
+		}
+		victory_points = {
+			9654 5
+		}
 	}
 	
 	manpower= 5784938

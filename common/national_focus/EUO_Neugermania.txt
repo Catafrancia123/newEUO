@@ -1,63 +1,15 @@
-
-shared_focus = {
-	id = NGE_the_great_aryan_triumph
-	icon = GFX_NGE_the_great_aryan_triumph
-	cost = 2
-	x = 2
-	y = 0
-	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus NGE_the_great_aryan_triumph"
+focus_tree = {
+	id = NGE_intro
+	country = {
+		factor = 0
+		modifier = {
+			add = 20
+			tag = NGE
+		}
 	}
-}
-
-shared_focus = {
-	id = NGE_our_new_german_identity
-	icon = GFX_NGE_our_new_german_identity
-	cost = 2
-	x = -2
-	y = 1
-	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus NGE_our_new_german_identity"
+	default = no
+	shared_focus = NGE_the_great_aryan_triumph
+	initial_show_position = {
+		focus = NGE_the_great_aryan_triumph
 	}
-	relative_position_id = NGE_the_great_aryan_triumph
-	prerequisite = { focus = NGE_the_great_aryan_triumph }
-}
-
-shared_focus = {
-	id = NGE_economy_of_the_strong_off_the_weak
-	icon = GFX_NGE_economy_of_the_strong_off_the_weak
-	cost = 2
-	x = 2
-	y = 1
-	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus NGE_economy_of_the_strong_off_the_weak"
-	}
-	relative_position_id = NGE_the_great_aryan_triumph
-	prerequisite = { focus = NGE_the_great_aryan_triumph }
-}
-
-shared_focus = {
-	id = NGE_the_unstoppable_aryan_spirit
-	icon = GFX_NGE_the_unstoppable_aryan_spirit
-	cost = 2
-	x = 0
-	y = 1
-	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus NGE_the_unstoppable_aryan_spirit"
-	}
-	relative_position_id = NGE_our_new_german_identity
-	prerequisite = { focus = NGE_our_new_german_identity }
-}
-
-shared_focus = {
-	id = NGE_destroying_degenrate_culture
-	icon = GFX_NGE_destroying_degenrate_culture
-	cost = 2
-	x = 0
-	y = 1
-	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus NGE_destroying_degenrate_culture"
-	}
-	relative_position_id = NGE_economy_of_the_strong_off_the_weak
-	prerequisite = { focus = NGE_economy_of_the_strong_off_the_weak }
 }

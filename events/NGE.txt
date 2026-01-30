@@ -1,0 +1,150 @@
+﻿add_namespace = NGE_Skeleton
+add_namespace = NGE_Fluff
+add_namespace = NGE_MDF
+add_namespace = NGE_MDF_Fluff
+
+country_event = {
+    id = NGE_Skeleton.1
+    title = NGE_Skeleton.1.t
+    desc = NGE_Skeleton.1.desc
+    
+    is_triggered_only = yes
+    
+    option = { #Boyz in the hood saxaphones
+        name = NGE_Skeleton.1.a
+		NGE = {
+			1061 = { set_demilitarized_zone = yes }
+			1062 = { set_demilitarized_zone = yes }
+			1063 = { set_demilitarized_zone = yes }
+			1064 = { set_demilitarized_zone = yes }
+			1065 = { set_demilitarized_zone = yes }
+			1066 = { set_demilitarized_zone = yes }
+			country_event = {
+				id = NGE_Skeleton.2
+				days = 4
+				random_days = 3
+			}
+		}
+    }
+}
+
+country_event = {
+    id = NGE_Skeleton.2
+    title = NGE_Skeleton.2.t
+    desc = NGE_Skeleton.2.desc
+    
+    is_triggered_only = yes
+    
+    option = {
+        name = NGE_Skeleton.2.a
+		GER = {
+			end_puppet = NGE
+		}
+		NGE = {
+			leave_faction
+		}
+        MDF = {
+			transfer_state = 1061
+			transfer_state = 1062
+			transfer_state = 1063
+			transfer_state = 1064
+			transfer_state = 1065
+			declare_war_on = {
+    			target = NGE
+    			type = annex_everything
+			}
+			load_oob = MDF_Gotime
+		}
+        WIS = {
+			transfer_state = 1066
+			declare_war_on = {
+    			target = NGE
+    			type = annex_everything
+			}
+			load_oob = WIS_Gotime
+		}
+    }
+}
+
+
+country_event = { #Intro 
+	id = DIX.40
+	title = GER.40.t
+	desc = DIX.40.d
+	picture = GFX_report_event_chinese_soldiers_01
+
+	is_triggered_only = yes
+	
+	option = { #Puppetry
+		name = DIX.40.a
+		hidden_effect = {
+		GER = {
+			end_puppet = DIX
+		AMR = {
+			transfer_state = 816
+			declare_war_on = {
+    			target = DIX
+    			type = annex_everything
+			}
+			load_oob = AMR_REVOLT
+		}
+		RNR = {
+			transfer_state = 368
+			transfer_state = 369
+			declare_war_on = {
+    			target = DIX
+    			type = annex_everything
+			}
+			declare_war_on = {
+    			target = AMR
+    			type = annex_everything
+			}
+			load_oob = RNR_REVOLT
+		}
+		CSA = {
+			transfer_state = 364
+			transfer_state = 365
+			transfer_state = 366
+			transfer_state = 367
+			transfer_state = 370
+			declare_war_on = {
+    			target = DIX
+    			type = annex_everything
+			}
+			declare_war_on = {
+    			target = AMR
+    			type = annex_everything
+			}
+			declare_war_on = {
+    			target = RNR
+    			type = annex_everything
+			}
+			load_oob = CSA_REVOLT
+		}
+		PRA = {
+			transfer_state = 1050
+			declare_war_on = {
+    			target = DIX
+    			type = annex_everything
+			}
+			declare_war_on = {
+    			target = AMR
+    			type = annex_everything
+			}
+			declare_war_on = {
+    			target = RNR
+    			type = annex_everything
+			}
+			declare_war_on = {
+    			target = CSA
+    			type = annex_everything
+			}
+			load_oob = PRA_REVOLT
+		}
+		DIX = {
+			leave_faction
+			}
+			load_oob = DIX_REVOLT
+		}
+	}
+}
