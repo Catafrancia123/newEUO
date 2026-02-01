@@ -12,19 +12,6 @@ country_event = {
     
     option = { #Boyz in the hood saxaphones
         name = NGE_Skeleton.1.a
-		NGE = {
-			1061 = { set_demilitarized_zone = yes }
-			1062 = { set_demilitarized_zone = yes }
-			1063 = { set_demilitarized_zone = yes }
-			1064 = { set_demilitarized_zone = yes }
-			1065 = { set_demilitarized_zone = yes }
-			1066 = { set_demilitarized_zone = yes }
-			country_event = {
-				id = NGE_Skeleton.2
-				days = 4
-				random_days = 3
-			}
-		}
     }
 }
 
@@ -35,8 +22,41 @@ country_event = {
     
     is_triggered_only = yes
     
-    option = {
+    option = { #Boyz in the hood saxaphones
         name = NGE_Skeleton.2.a
+		NGE = {
+			1061 = { set_demilitarized_zone = yes }
+			1062 = { set_demilitarized_zone = yes }
+			1063 = { set_demilitarized_zone = yes }
+			1064 = { set_demilitarized_zone = yes }
+			1065 = { set_demilitarized_zone = yes }
+			1066 = { set_demilitarized_zone = yes }
+			1067 = { set_demilitarized_zone = yes }
+			1068 = { set_demilitarized_zone = yes }
+			country_event = {
+				id = NGE_Skeleton.3
+				days = 4
+				random_days = 3
+			}
+			every_state = {
+			    limit = {
+				    is_controlled_by = NGE
+				}
+				add_core_of = MDF
+			}
+		}
+    }
+}
+
+country_event = {
+    id = NGE_Skeleton.3
+    title = NGE_Skeleton.3.t
+    desc = NGE_Skeleton.3.desc
+    
+    is_triggered_only = yes
+    
+    option = {
+        name = NGE_Skeleton.3.a
 		GER = {
 			end_puppet = NGE
 		}
@@ -54,6 +74,16 @@ country_event = {
     			type = annex_everything
 			}
 			load_oob = MDF_Gotime
+			create_faction_from_template = {
+				template =
+				faction_template_defensive_democratic
+				name = Great_Lakes_Alliance
+				icon = GFX_Great_Lakes_Alliance
+				color = { 186 155 121 }
+			}
+			add_to_faction = WIS
+			add_to_faction = ANT
+			add_to_faction = FLP
 		}
         WIS = {
 			transfer_state = 1066
@@ -62,6 +92,22 @@ country_event = {
     			type = annex_everything
 			}
 			load_oob = WIS_Gotime
+		}
+        FLP = {
+			transfer_state = 1067
+			declare_war_on = {
+    			target = NGE
+    			type = annex_everything
+			}
+			load_oob = FLP_Gotime
+		}
+        ANT = {
+			transfer_state = 1068
+			declare_war_on = {
+    			target = NGE
+    			type = annex_everything
+			}
+			load_oob = FLP_Gotime
 		}
     }
 }

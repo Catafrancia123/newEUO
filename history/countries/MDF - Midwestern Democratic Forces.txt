@@ -1,4 +1,4 @@
-capital = 395
+capital = 9450
 
 oob = "MDF"
 
@@ -10,9 +10,9 @@ set_politics = {
 }
 
 set_popularities = {
-	liberalism = 40
+	liberalism = 60
 	conservatism = 30
-	moderate_socialism = 30
+	moderate_socialism = 10
 }
 
 create_country_leader = {

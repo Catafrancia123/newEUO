@@ -430,6 +430,26 @@ MDF = {
 	color_ui = rgb { 215 205 179 }
 }
 
+ANT = {
+	color = rgb { 60 21 21 }
+	color_ui = rgb { 60 21 21 }
+}
+
+FLP = {
+	color = rgb { 62 101 137 }
+	color_ui = rgb { 62 101 137 }
+}
+
+ODF = {
+	color = rgb { 125 143 105 }
+	color_ui = rgb { 125 143 105 }
+}
+
+OHC = {
+	color = rgb { 168 72 73 }
+	color_ui = rgb { 168 72 73 }
+}
+
 NRE = {
 	color = rgb { 158 120 80 }
 	color_ui = rgb { 158 120 80 }
