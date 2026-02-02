@@ -426,8 +426,8 @@ WIS = {
 }
 
 MDF = {
-	color = rgb { 215 205 179 }
-	color_ui = rgb { 215 205 179 }
+	color = rgb { 179 147 72 }
+	color_ui = rgb { 179 147 72 }
 }
 
 ANT = {

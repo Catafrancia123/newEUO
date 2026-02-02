@@ -10,6 +10,7 @@ state={
 	
 	history={
 		owner = NGE
+		add_core_of = NGE
 	}
 	
 	manpower=2939004

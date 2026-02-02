@@ -107,7 +107,35 @@ units = {
 
 	division = {	
 		name = "Neugermanian Infantry"
-		location = 689
+		location = 10599
+		division_template = "Neues-Deutsch-Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+
+	division = {	
+		name = "Neugermanian Infantry"
+		location = 9746
+		division_template = "Neues-Deutsch-Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+
+	division = {	
+		name = "Neugermanian Infantry"
+		location = 7829
+		division_template = "Neues-Deutsch-Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+
+	division = {	
+		name = "Neugermanian Infantry"
+		location = 6890
+		division_template = "Neues-Deutsch-Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+
+	division = {	
+		name = "Neugermanian Infantry"
+		location = 10233
 		division_template = "Neues-Deutsch-Infanterie-Division"
 		start_experience_factor = 0.3
 	}

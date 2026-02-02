@@ -38,14 +38,29 @@ country_event = {
 				days = 4
 				random_days = 3
 			}
-			every_state = {
-			    limit = {
-				    is_controlled_by = NGE
-				}
-				add_core_of = MDF
 			}
+        MDF = {
+			add_state_core = 261
+			add_state_core = 395
+			add_state_core = 396
+			add_state_core = 1061
+			add_state_core = 1062
+			add_state_core = 1063
+			add_state_core = 1064
+			add_state_core = 1065
 		}
-    }
+        WIS = {
+			add_state_core = 1066
+			add_state_core = 394
+		}
+        FLP = {
+			add_state_core = 1067
+		}
+        ANT = {
+			add_state_core = 393
+			add_state_core = 1068
+		}
+	}
 }
 
 country_event = {
@@ -61,7 +76,7 @@ country_event = {
 			end_puppet = NGE
 		}
 		NGE = {
-			leave_faction
+			leave_faction = yes
 		}
         MDF = {
 			transfer_state = 1061
@@ -107,90 +122,7 @@ country_event = {
     			target = NGE
     			type = annex_everything
 			}
-			load_oob = FLP_Gotime
+			load_oob = ANT_Gotime
 		}
     }
-}
-
-
-country_event = { #Intro 
-	id = DIX.40
-	title = GER.40.t
-	desc = DIX.40.d
-	picture = GFX_report_event_chinese_soldiers_01
-
-	is_triggered_only = yes
-	
-	option = { #Puppetry
-		name = DIX.40.a
-		hidden_effect = {
-		GER = {
-			end_puppet = DIX
-		AMR = {
-			transfer_state = 816
-			declare_war_on = {
-    			target = DIX
-    			type = annex_everything
-			}
-			load_oob = AMR_REVOLT
-		}
-		RNR = {
-			transfer_state = 368
-			transfer_state = 369
-			declare_war_on = {
-    			target = DIX
-    			type = annex_everything
-			}
-			declare_war_on = {
-    			target = AMR
-    			type = annex_everything
-			}
-			load_oob = RNR_REVOLT
-		}
-		CSA = {
-			transfer_state = 364
-			transfer_state = 365
-			transfer_state = 366
-			transfer_state = 367
-			transfer_state = 370
-			declare_war_on = {
-    			target = DIX
-    			type = annex_everything
-			}
-			declare_war_on = {
-    			target = AMR
-    			type = annex_everything
-			}
-			declare_war_on = {
-    			target = RNR
-    			type = annex_everything
-			}
-			load_oob = CSA_REVOLT
-		}
-		PRA = {
-			transfer_state = 1050
-			declare_war_on = {
-    			target = DIX
-    			type = annex_everything
-			}
-			declare_war_on = {
-    			target = AMR
-    			type = annex_everything
-			}
-			declare_war_on = {
-    			target = RNR
-    			type = annex_everything
-			}
-			declare_war_on = {
-    			target = CSA
-    			type = annex_everything
-			}
-			load_oob = PRA_REVOLT
-		}
-		DIX = {
-			leave_faction
-			}
-			load_oob = DIX_REVOLT
-		}
-	}
 }
