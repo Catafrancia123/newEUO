@@ -33,6 +33,8 @@ country_event = {
 			1066 = { set_demilitarized_zone = yes }
 			1067 = { set_demilitarized_zone = yes }
 			1068 = { set_demilitarized_zone = yes }
+			1069 = { set_demilitarized_zone = yes }
+			1070 = { set_demilitarized_zone = yes }
 			country_event = {
 				id = NGE_Skeleton.3
 				days = 4
@@ -123,6 +125,22 @@ country_event = {
     			type = annex_everything
 			}
 			load_oob = ANT_Gotime
+		}
+        ODF = {
+			transfer_state = 1069
+			declare_war_on = {
+    			target = NGE
+    			type = annex_everything
+			}
+			load_oob = ODF_Gotime
+		}
+        OHC = {
+			transfer_state = 1070
+			declare_war_on = {
+    			target = NGE
+    			type = annex_everything
+			}
+			load_oob = OHC_Gotime
 		}
     }
 }
