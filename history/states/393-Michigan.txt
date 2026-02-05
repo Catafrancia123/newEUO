@@ -15,8 +15,25 @@ state={
 			arms_factory = 1
 
 		}
+		#Saginaw
 		victory_points = {
-			11669 10
+			11669 5
+		}
+		#Lansing
+		victory_points = {
+			9684 10
+		}
+		#Marquette
+		victory_points = {
+			4854 5
+		}
+		#Houghton
+		victory_points = {
+			10599 5
+		}
+		#Traverse City
+		victory_points = {
+			6874 10 #Akron
 		}
 		add_core_of = NGE
 

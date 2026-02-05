@@ -14,7 +14,7 @@ state={
 		owner = NGE
 		add_core_of = NGE
 		victory_points = {
-			6890 30
+			6855 30
 		}
 	}
 	

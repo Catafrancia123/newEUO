@@ -12,6 +12,20 @@ country_event = {
     
     option = { #Boyz in the hood saxaphones
         name = NGE_Skeleton.1.a
+		NGE = {
+			1061 = { set_demilitarized_zone = yes }
+			1062 = { set_demilitarized_zone = yes }
+			1063 = { set_demilitarized_zone = yes }
+			1064 = { set_demilitarized_zone = yes }
+			1065 = { set_demilitarized_zone = yes }
+			1066 = { set_demilitarized_zone = yes }
+			1068 = { set_demilitarized_zone = yes }
+			country_event = {
+				id = NGE_Skeleton.1
+				days = 4
+				random_days = 3
+			}
+		}
     }
 }
 
@@ -25,14 +39,7 @@ country_event = {
     option = { #Boyz in the hood saxaphones
         name = NGE_Skeleton.2.a
 		NGE = {
-			1061 = { set_demilitarized_zone = yes }
-			1062 = { set_demilitarized_zone = yes }
-			1063 = { set_demilitarized_zone = yes }
-			1064 = { set_demilitarized_zone = yes }
-			1065 = { set_demilitarized_zone = yes }
-			1066 = { set_demilitarized_zone = yes }
 			1067 = { set_demilitarized_zone = yes }
-			1068 = { set_demilitarized_zone = yes }
 			1069 = { set_demilitarized_zone = yes }
 			1070 = { set_demilitarized_zone = yes }
 			country_event = {
@@ -40,7 +47,7 @@ country_event = {
 				days = 4
 				random_days = 3
 			}
-			}
+		}
         MDF = {
 			add_state_core = 261
 			add_state_core = 395
@@ -61,6 +68,16 @@ country_event = {
         ANT = {
 			add_state_core = 393
 			add_state_core = 1068
+		}
+        ODF = {
+			add_state_core = 261
+			add_state_core = 1069
+			add_state_core = 1070
+		}
+        OHC = {
+			add_state_core = 261
+			add_state_core = 1069
+			add_state_core = 1070
 		}
 	}
 }
@@ -98,9 +115,7 @@ country_event = {
 				icon = GFX_Great_Lakes_Alliance
 				color = { 186 155 121 }
 			}
-			add_to_faction = WIS
-			add_to_faction = ANT
-			add_to_faction = FLP
+			load_focus_tree = MDF_Starting
 		}
         WIS = {
 			transfer_state = 1066
@@ -130,6 +145,10 @@ country_event = {
 			transfer_state = 1069
 			declare_war_on = {
     			target = NGE
+    			type = annex_everything
+			}
+				declare_war_on = {
+    			target = OHC
     			type = annex_everything
 			}
 			load_oob = ODF_Gotime

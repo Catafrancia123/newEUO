@@ -11,6 +11,15 @@ state={
 	history={
 		owner = NGE
 		add_core_of = NGE
+
+		#Wisconsin Rapids
+		victory_points = {
+			4834 5
+		}
+		#Eau Claire
+		victory_points = {
+			4029 10
+		}
 	}
 	
 	manpower=2939004

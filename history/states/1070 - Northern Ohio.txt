@@ -16,10 +16,7 @@ state={
 
 		}
 		victory_points = {
-			4601 15 # Cincinatti
-		}
-		victory_points = {
-			11776 10 # Dayton
+			6874 10 #Akron
 		}
 		add_core_of = NGE
 
