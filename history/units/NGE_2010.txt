@@ -41,6 +41,13 @@ units = {
 		division_template = "Neues-Deutsch-Infanterie-Division"
 		start_experience_factor = 0.3
 	}
+
+	division = {	
+		name = "Neugermanian Infantry"
+		location = 9450  # Chicago
+		division_template = "Neues-Deutsch-Infanterie-Division"
+		start_experience_factor = 0.3
+	}
 	
 	division = {	
 		name = "Neugermanian Infantry"
@@ -48,7 +55,21 @@ units = {
 		division_template = "Neues-Deutsch-Infanterie-Division"
 		start_experience_factor = 0.3
 	}
+
+	division = {	
+		name = "Neugermanian Infantry"
+		location = 6710  # Detroit
+		division_template = "Neues-Deutsch-Infanterie-Division"
+		start_experience_factor = 0.3
+	}
 	
+	division = {	
+		name = "Neugermanian Infantry"
+		location = 1595  # Indianapolis
+		division_template = "Neues-Deutsch-Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+
 	division = {	
 		name = "Neugermanian Infantry"
 		location = 1595  # Indianapolis
@@ -73,6 +94,13 @@ units = {
 	division = {	
 		name = "Neugermanian Infantry"
 		location = 12357 
+		division_template = "Neues-Deutsch-Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+
+	division = {	
+		name = "Neugermanian Infantry"
+		location = 11685
 		division_template = "Neues-Deutsch-Infanterie-Division"
 		start_experience_factor = 0.3
 	}

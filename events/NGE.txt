@@ -133,6 +133,7 @@ country_event = {
     			type = annex_everything
 			}
 			load_oob = ODF_Gotime
+			add_ideas = Ohio_No_Factions
 		}
         OHC = {
 			transfer_state = 1070
@@ -141,6 +142,7 @@ country_event = {
     			type = annex_everything
 			}
 			load_oob = OHC_Gotime
+			add_ideas = Ohio_No_Factions
 		}
     }
 }

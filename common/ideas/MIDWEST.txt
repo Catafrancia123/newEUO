@@ -1,5 +1,5 @@
 ideas = {
-
+    #################### NeuGermania ####################
 	country = {
 		NGE_Miss_Management = {
 			picture = economic_woes
@@ -23,9 +23,6 @@ ideas = {
 				army_defence_factor = -0.075
 				army_org_regain = -0.05
 			}
-			rule = {
-				can_create_factions = yes
-			}
 		}
 		NGE_Draconian_Human_Rights_Abuses = {
 			picture = economic_woes
@@ -45,9 +42,6 @@ ideas = {
 				local_manpower = -0.3
 				army_attack_factor = 0.05
 			}
-			rule = {
-				can_create_factions = yes
-			}
 		}
 		NGE_High_Poverty = {
 			picture = economic_woes
@@ -64,9 +58,6 @@ ideas = {
 			
 			modifier = {
 				stability_factor = -0.25
-			}
-			rule = {
-				can_create_factions = yes
 			}
 		}
 		NGE_Endemic_Corruption = {
@@ -87,8 +78,26 @@ ideas = {
 				production_speed_buildings_factor = -0.1
 				supply_node_range = -0.15
 			}
+		}
+	}
+	country = {
+		Ohio_No_Factions = {
+			picture = economic_woes
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+			}
 			rule = {
-				can_create_factions = yes
+				can_join_factions = no
 			}
 		}
 	}
