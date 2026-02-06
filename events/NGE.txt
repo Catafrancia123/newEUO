@@ -13,12 +13,6 @@ country_event = {
     option = { #Boyz in the hood saxaphones
         name = NGE_Skeleton.1.a
 		NGE = {
-			1061 = { set_demilitarized_zone = yes }
-			1062 = { set_demilitarized_zone = yes }
-			1063 = { set_demilitarized_zone = yes }
-			1064 = { set_demilitarized_zone = yes }
-			1065 = { set_demilitarized_zone = yes }
-			1066 = { set_demilitarized_zone = yes }
 			1068 = { set_demilitarized_zone = yes }
 			country_event = {
 				id = NGE_Skeleton.1
@@ -39,9 +33,8 @@ country_event = {
     option = { #Boyz in the hood saxaphones
         name = NGE_Skeleton.2.a
 		NGE = {
-			1067 = { set_demilitarized_zone = yes }
-			1069 = { set_demilitarized_zone = yes }
-			1070 = { set_demilitarized_zone = yes }
+			1061 = { set_demilitarized_zone = yes }
+			1063 = { set_demilitarized_zone = yes }
 			country_event = {
 				id = NGE_Skeleton.3
 				days = 4
@@ -80,6 +73,107 @@ country_event = {
 			add_state_core = 1070
 		}
 	}
+}
+
+country_event = {
+    id = NGE_Skeleton.3
+    title = NGE_Skeleton.3.t
+    desc = NGE_Skeleton.3.desc
+    
+    is_triggered_only = yes
+    
+    option = { #Boyz in the hood saxaphones
+        name = NGE_Skeleton.3.a
+		NGE = {
+			1062 = { set_demilitarized_zone = yes }
+			1064 = { set_demilitarized_zone = yes }
+			1065 = { set_demilitarized_zone = yes }
+			1066 = { set_demilitarized_zone = yes }
+			1067 = { set_demilitarized_zone = yes }
+			country_event = {
+				id = NGE_Skeleton.4
+				days = 4
+				random_days = 3
+			}
+		}
+    }
+}
+
+country_event = {
+    id = NGE_Skeleton.4
+    title = NGE_Skeleton.4.t
+    desc = NGE_Skeleton.4.desc
+    
+    is_triggered_only = yes
+    
+    option = { #Boyz in the hood saxaphones
+        name = NGE_Skeleton.4.a
+		NGE = {
+			1069 = { set_demilitarized_zone = yes }
+			1070 = { set_demilitarized_zone = yes }
+			country_event = {
+				id = NGE_Skeleton.5
+				days = 4
+				random_days = 3
+			}
+		}
+    }
+}
+
+country_event = {
+    id = NGE_Skeleton.5
+    title = NGE_Skeleton.5.t
+    desc = NGE_Skeleton.5.desc
+    
+    is_triggered_only = yes
+    
+    option = { #Boyz in the hood saxaphones
+        name = NGE_Skeleton.5.a
+        MDF = {
+			transfer_state = 1061
+			transfer_state = 1062
+			transfer_state = 1063
+			transfer_state = 1064
+			transfer_state = 1065
+			declare_war_on = {
+    			target = NGE
+    			type = annex_everything
+			}
+			load_oob = MDF_Gotime
+			create_faction_from_template = {
+				template =
+				faction_template_defensive_democratic
+				name = Great_Lakes_Alliance
+				icon = GFX_Great_Lakes_Alliance
+				color = { 186 155 121 }
+			}
+			load_focus_tree = MDF_Spring
+		}
+        WIS = {
+			transfer_state = 1066
+			declare_war_on = {
+    			target = NGE
+    			type = annex_everything
+			}
+			load_oob = WIS_Gotime
+		}
+        FLP = {
+			transfer_state = 1067
+			declare_war_on = {
+    			target = NGE
+    			type = annex_everything
+			}
+			load_oob = FLP_Gotime
+		}
+        ANT = {
+			transfer_state = 1068
+			declare_war_on = {
+    			target = NGE
+    			type = annex_everything
+			}
+			load_oob = ANT_Gotime
+		}
+    }
 }
 
 country_event = {

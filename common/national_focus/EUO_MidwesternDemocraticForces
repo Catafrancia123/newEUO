@@ -1,5 +1,5 @@
 focus_tree = {
-	id = MDF_Starting
+	id = MDF_Spring
 	country = {
 		factor = 0
 		modifier = {
