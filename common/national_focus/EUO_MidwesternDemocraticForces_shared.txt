@@ -17,6 +17,11 @@ shared_focus = {
 	x = -2
 	y = 1
 	completion_reward = {
+			add_building_construction = {
+			    type = arms_factory
+			    level = 3
+			    instant_build = yes
+			}
 		log = "[GetDateText]: [Root.GetName]: Focus MDF_scraping_together_a_supply_chain"
 	}
 	relative_position_id = MDF_out_into_the_streets
@@ -43,6 +48,7 @@ shared_focus = {
 	x = -1
 	y = 1
 	completion_reward = {
+		load_oob = MDF_SmallDeployment
 		log = "[GetDateText]: [Root.GetName]: Focus MDF_aim_high_and_aim_well"
 	}
 	relative_position_id = MDF_directing_recruitment_towards_the_mta
@@ -57,6 +63,7 @@ shared_focus = {
 	x = 1
 	y = 1
 	completion_reward = {
+		load_oob = MDF_LargeDeployment
 		log = "[GetDateText]: [Root.GetName]: Focus MDF_no_time_to_waste"
 	}
 	relative_position_id = MDF_directing_recruitment_towards_the_mta
@@ -71,6 +78,7 @@ shared_focus = {
 	x = 0
 	y = 1
 	completion_reward = {
+		add_ideas = MDF_professional_army
 		log = "[GetDateText]: [Root.GetName]: Focus MDF_a_more_professional_force"
 	}
 	relative_position_id = MDF_aim_high_and_aim_well
@@ -84,6 +92,8 @@ shared_focus = {
 	x = 0
 	y = 1
 	completion_reward = {
+		add_manpower = 53000
+		add_ideas = MDF_mass_attack
 		log = "[GetDateText]: [Root.GetName]: Focus MDF_a_large_fighting_force"
 	}
 	relative_position_id = MDF_no_time_to_waste
@@ -123,6 +133,11 @@ shared_focus = {
 	x = -1
 	y = 1
 	completion_reward = {
+		add_equipment_to_stockpile = {
+			type = infantry_equipment
+			amount = 1810
+			producer = NGE
+		}
 		log = "[GetDateText]: [Root.GetName]: Focus MDF_locating_leftbehind_caches"
 	}
 	relative_position_id = MDF_scraping_together_a_supply_chain
@@ -149,6 +164,16 @@ shared_focus = {
 	x = 0
 	y = 1
 	completion_reward = {
+			add_building_construction = {
+			    type = arms_factory
+			    level = 1
+			    instant_build = yes
+			}
+			add_building_construction = {
+			    type = industrial_complex
+			    level = 3
+			    instant_build = yes
+			}
 		log = "[GetDateText]: [Root.GetName]: Focus MDF_bringing_the_industrial_centers_under_our_management"
 	}
 	relative_position_id = MDF_locating_leftbehind_caches

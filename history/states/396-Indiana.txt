@@ -18,6 +18,13 @@ state={
 		}
 		add_core_of = NGE
 
+		victory_points = {
+			11635 15
+		}
+		victory_points = {
+			870 10
+		}
+
 	}
 
 	provinces={

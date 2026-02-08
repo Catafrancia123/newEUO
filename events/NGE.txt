@@ -1,6 +1,6 @@
 ﻿add_namespace = NGE_Skeleton
 add_namespace = NGE_Fluff
-add_namespace = NGE_MDF
+add_namespace = MDF_Skeleton
 add_namespace = NGE_MDF_Fluff
 
 country_event = {
@@ -15,10 +15,11 @@ country_event = {
 		NGE = {
 			1068 = { set_demilitarized_zone = yes }
 			country_event = {
-				id = NGE_Skeleton.1
+				id = NGE_Skeleton.2
 				days = 4
 				random_days = 3
 			}
+			leave_faction = yes
 		}
     }
 }
@@ -129,6 +130,16 @@ country_event = {
     
     option = { #Boyz in the hood saxaphones
         name = NGE_Skeleton.5.a
+		GER = {
+			end_puppet = NGE
+		}
+		NGE = {
+			country_event = {
+				id = NGE_Skeleton.6
+				days = 4
+				random_days = 3
+			}
+		}
         MDF = {
 			transfer_state = 1061
 			transfer_state = 1062
@@ -177,64 +188,14 @@ country_event = {
 }
 
 country_event = {
-    id = NGE_Skeleton.3
-    title = NGE_Skeleton.3.t
-    desc = NGE_Skeleton.3.desc
+    id = NGE_Skeleton.6
+    title = NGE_Skeleton.6.t
+    desc = NGE_Skeleton.6.desc
     
     is_triggered_only = yes
     
     option = {
-        name = NGE_Skeleton.3.a
-		GER = {
-			end_puppet = NGE
-		}
-		NGE = {
-			leave_faction = yes
-		}
-        MDF = {
-			transfer_state = 1061
-			transfer_state = 1062
-			transfer_state = 1063
-			transfer_state = 1064
-			transfer_state = 1065
-			declare_war_on = {
-    			target = NGE
-    			type = annex_everything
-			}
-			load_oob = MDF_Gotime
-			create_faction_from_template = {
-				template =
-				faction_template_defensive_democratic
-				name = Great_Lakes_Alliance
-				icon = GFX_Great_Lakes_Alliance
-				color = { 186 155 121 }
-			}
-			load_focus_tree = MDF_Starting
-		}
-        WIS = {
-			transfer_state = 1066
-			declare_war_on = {
-    			target = NGE
-    			type = annex_everything
-			}
-			load_oob = WIS_Gotime
-		}
-        FLP = {
-			transfer_state = 1067
-			declare_war_on = {
-    			target = NGE
-    			type = annex_everything
-			}
-			load_oob = FLP_Gotime
-		}
-        ANT = {
-			transfer_state = 1068
-			declare_war_on = {
-    			target = NGE
-    			type = annex_everything
-			}
-			load_oob = ANT_Gotime
-		}
+        name = NGE_Skeleton.6.a
         ODF = {
 			transfer_state = 1069
 			declare_war_on = {
@@ -256,6 +217,22 @@ country_event = {
 			}
 			load_oob = OHC_Gotime
 			add_ideas = Ohio_No_Factions
+		}
+    }
+}
+
+country_event = {
+    id = NGE_Skeleton.7
+    title = NGE_Skeleton.7.t
+    desc = NGE_Skeleton.7.7.desc
+    
+    is_triggered_only = yes
+    
+    option = {
+        name = NGE_Skeleton.7.a
+		load_focus_tree = {
+			tree = MDF_Spring
+			keep_completed = yes
 		}
     }
 }
