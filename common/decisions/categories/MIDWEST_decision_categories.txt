@@ -1,0 +1,9 @@
+MDF_Midwestern_Spring = {
+
+	allowed = {
+		original_tag = MDF
+	}
+    available = {
+    has_war = yes
+    }
+}

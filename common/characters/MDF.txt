@@ -12,5 +12,37 @@ characters = {
 			id = -1
 		}
 	}
+	MDF_Robert_Boyd = {
+		name = MDF_Robert_Boyd
+		portraits = {
+			army = {
+				large = "gfx/leaders/MDF/Robert-Boyd-EUO.png"
+			}
+		}
+		corps_commander = {
+			traits = { infantry_officer }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 2
+		}
+	}
+	MDF_Robert_Boyd = {
+		name = MDF_Johnny_R_Miler
+		portraits = {
+			army = {
+				large = "gfx/leaders/MDF/Johnny-Miller-EUO.png"
+			}
+		}
+		corps_commander = {
+			traits = { infantry_officer }
+			skill = 2
+			attack_skill = 3
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
 }
 	

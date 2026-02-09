@@ -2,6 +2,9 @@ capital = 9450
 
 oob = "MDF"
 
+recruit_character = MDF_Robert_Boyd
+recruit_character = MDF_Johnny_R_Miler
+
 set_politics = {
 	ruling_party = liberalism
 	last_election = "1936.1.1"

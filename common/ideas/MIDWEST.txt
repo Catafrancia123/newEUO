@@ -149,7 +149,7 @@ ideas = {
 			
 			modifier = {
 				consumer_goods_factor = -0.05
-				equipment_capture = 0.2
+				equipment_capture = 0.4
 			}
 			rule = {
 				can_join_factions = no

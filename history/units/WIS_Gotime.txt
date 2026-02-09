@@ -18,7 +18,7 @@ units = {
 
 	division = {	
 		name = "Wisconsin Republic Militia"
-		location = 12357
+		location = 4166
 		division_template = "Wisconsin Republic Militia"
 		start_experience_factor = 0.1
 	}
@@ -30,9 +30,14 @@ units = {
 	}
 	division = {	
 		name = "Wisconsin Republic Militia"
-		location = 12357
+		location = 12456
 		division_template = "Wisconsin Republic Militia"
 		start_experience_factor = 0.1
 	}
-
+	division = {	
+		name = "Wisconsin Republic Militia"
+		location = 9657
+		division_template = "Wisconsin Republic Militia"
+		start_experience_factor = 0.1
+	}
 }

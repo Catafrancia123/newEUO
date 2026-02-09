@@ -6,6 +6,7 @@ shared_focus = {
 	x = 3
 	y = 0
 	completion_reward = {
+		add_ideas = MDF_Onto_The_Streets
 		log = "[GetDateText]: [Root.GetName]: Focus MDF_out_into_the_streets"
 	}
 }
@@ -35,6 +36,7 @@ shared_focus = {
 	x = 2
 	y = 1
 	completion_reward = {
+		add_ideas = MDF_Territorial_Army
 		log = "[GetDateText]: [Root.GetName]: Focus MDF_creation_of_the_midwestern_territorial_army"
 	}
 	relative_position_id = MDF_out_into_the_streets
@@ -120,6 +122,7 @@ shared_focus = {
 	x = 0
 	y = 1
 	completion_reward = {
+		add_ideas = MDF_war_overtime
 		log = "[GetDateText]: [Root.GetName]: Focus MDF_negotiate_for_more"
 	}
 	relative_position_id = MDF_new_points_of_supply
@@ -151,6 +154,7 @@ shared_focus = {
 	x = 0
 	y = 1
 	completion_reward = {
+		add_manpower = 25000
 		log = "[GetDateText]: [Root.GetName]: Focus MDF_directing_recruitment_towards_the_mta"
 	}
 	relative_position_id = MDF_creation_of_the_midwestern_territorial_army

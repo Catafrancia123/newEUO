@@ -184,26 +184,10 @@ country_event = {
 			}
 			load_oob = ANT_Gotime
 		}
-    }
-}
-
-country_event = {
-    id = NGE_Skeleton.6
-    title = NGE_Skeleton.6.t
-    desc = NGE_Skeleton.6.desc
-    
-    is_triggered_only = yes
-    
-    option = {
-        name = NGE_Skeleton.6.a
         ODF = {
 			transfer_state = 1069
 			declare_war_on = {
     			target = NGE
-    			type = annex_everything
-			}
-				declare_war_on = {
-    			target = OHC
     			type = annex_everything
 			}
 			load_oob = ODF_Gotime
@@ -217,6 +201,24 @@ country_event = {
 			}
 			load_oob = OHC_Gotime
 			add_ideas = Ohio_No_Factions
+		}
+    }
+}
+
+country_event = {
+    id = NGE_Skeleton.6
+    title = NGE_Skeleton.6.t
+    desc = NGE_Skeleton.6.desc
+    
+    is_triggered_only = yes
+    
+    option = {
+        name = NGE_Skeleton.6.a
+        ODF = {
+				declare_war_on = {
+    			target = OHC
+    			type = annex_everything
+			}
 		}
     }
 }
