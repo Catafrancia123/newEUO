@@ -35,6 +35,20 @@ bookmarks = {
 				USA_reestablish_the_gold_standard
 			}
 		}
+		"NGE"={
+			history = "NGE_GATHERING_STORM_DESC"
+			ideology = national_socialism
+			ideas = {
+				home_of_the_free
+				great_depression
+				undisturbed_isolation
+			}
+			focuses = {
+				USA_war_plan_black
+				USA_limited_intervention
+				USA_reestablish_the_gold_standard
+			}
+		}
 		"ENG"={
 			history = "ENG_GATHERING_STORM_DESC"
 			ideology = democratic

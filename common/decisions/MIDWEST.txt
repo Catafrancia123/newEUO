@@ -1,0 +1,22 @@
+MDF_Midwestern_Spring = {
+    MDF_Attack_Ohio = {
+        available = {
+            NOT = {
+                Country_exists = NGE
+            }
+            tag = MDF
+        }
+        icon = MDF_HERE
+        fire_only_once = yes
+        complete_effect = {
+            declare_war_on = {
+                target = ODF
+                type = annex_everything
+            }
+          declare_war_on = {
+                target = OHC
+                type = annex_everything
+            }
+        }
+    }
+}

@@ -333,7 +333,7 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = DIX_our_fuhrers_health
+	id = DIX_Aryan_Century
 	icon = GFX_DIX_our_fuhrers_health
 	cost = 2.00
 	
@@ -353,8 +353,8 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = DIX_pierces_legacy
-	icon = GFX_DIX_pierces_legacy
+	id = DIX_our_fuhrers_health
+	icon = GFX_DIX_our_fuhrers_health
 	cost = 2.00
 	
 	x = 10
@@ -364,6 +364,120 @@ shared_focus = {
 		log = "[GetDateText]: [Root.GetName]: focus DIX_our_fuhrers_health"
 		country_event = {
 			id = DIX.30
+		country_event = {
+			id = DIX.30
+			days = 0
+		}
+	}
+}
+
+shared_focus = {
+	id = DIX_pierces_legacy
+	icon = GFX_DIX_pierces_legacy
+	cost = 2.00
+	
+	x = 3
+	y = 1
+	prerequisite = { focus = DIX_our_fuhrers_health }
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus DIX_pierces_legacy"
+		country_event = {
+			id = GER.2
+			days = 0
+		}
+	}
+}
+
+shared_focus = {
+	id = DIX_call_the_best_doctors
+	icon = GFX_DIX_call_the_best_doctors
+	cost = 2.00
+	
+	x = 7
+	y = 1
+	
+	prerequisite = { focus = DIX_our_fuhrers_health }
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus DIX_call_the_best_doctors"
+		country_event = {
+			id = GER.2
+			days = 0
+		}
+	}
+}
+
+shared_focus = {
+	id = DIX_do_everything_we_can
+	icon = GFX_DIX_do_everything_we_can
+	cost = 2.00
+	
+	x = 5
+	y = 2
+	
+	prerequisite = { focus = DIX_call_the_best_doctors }
+	prerequisite = { focus = DIX_pierces_legacy }
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus DIX_do_everything_we_can"
+		country_event = {
+			id = GER.2
+			days = 0
+		}
+	}
+}
+
+shared_focus = {
+	id = DIX_hold_onto_hope
+	icon = GFX_DIX_hold_onto_hope
+	cost = 2.00
+	
+	mutually_exclusive = { focus = DIX_difficult_decisions }
+	
+	x = 4
+	y = 3
+	
+	prerequisite = { focus = DIX_do_everything_we_can }
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus DIX_hold_onto_hope"
+		country_event = {
+			id = GER.2
+			days = 0
+		}
+	}
+}
+
+shared_focus = {
+	id = DIX_difficult_decisions
+	icon = GFX_DIX_difficult_decisions
+	cost = 2.00
+	
+	mutually_exclusive = { focus = DIX_hold_onto_hope }
+	
+	x = 6
+	y = 3
+	
+	prerequisite = { focus = DIX_do_everything_we_can }
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus DIX_difficult_decisions"
+		country_event = {
+			id = GER.2
+			days = 0
+		}
+	}
+}
+
+shared_focus = {
+	id = DIX_whats_his_status
+	icon = GFX_DIX_whats_his_status
+	cost = 2.00
+	
+	x = 5
+	y = 4
+	
+	prerequisite = { focus = DIX_hold_onto_hope focus = DIX_difficult_decisions }
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus DIX_whats_his_status"
+		country_event = {
+			id = GER.2
 			days = 0
 		}
 	}
