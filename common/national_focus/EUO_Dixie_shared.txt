@@ -1,8 +1,14 @@
-﻿#intro tree
-shared_focus = {
+﻿shared_focus = {
 	id = DIX_party_in_dixieland
 	icon = GFX_DIX_party_in_dixieland
 	cost = 2.00
+
+    allow_branch = {
+		has_country_leader = {
+			character = DIX_william_luther_pierce
+			ruling_only = yes
+		}
+	}
 	
 	x = 20
 	y = 0
@@ -351,111 +357,16 @@ shared_focus = {
 	icon = GFX_DIX_pierces_legacy
 	cost = 2.00
 	
-	x = 5
+	x = 10
 	y = 0
 	
 	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: focus DIX_pierces_legacy"
+		log = "[GetDateText]: [Root.GetName]: focus DIX_our_fuhrers_health"
 		country_event = {
-			id = GER.2
+			id = DIX.30
 			days = 0
 		}
 	}
 }
-
-shared_focus = {
-	id = DIX_call_the_best_doctors
-	icon = GFX_DIX_call_the_best_doctors
-	cost = 2.00
-	
-	x = 5
-	y = 1
-	
-	prerequisite = { focus = DIX_he_isnt_well }
-	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: focus DIX_call_the_best_doctors"
-		country_event = {
-			id = GER.2
-			days = 0
-		}
-	}
-}
-
-shared_focus = {
-	id = DIX_do_everything_we_can
-	icon = GFX_DIX_do_everything_we_can
-	cost = 2.00
-	
-	x = 5
-	y = 2
-	
-	prerequisite = { focus = DIX_call_the_best_doctors }
-	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: focus DIX_do_everything_we_can"
-		country_event = {
-			id = GER.2
-			days = 0
-		}
-	}
-}
-
-shared_focus = {
-	id = DIX_hold_onto_hope
-	icon = GFX_DIX_hold_onto_hope
-	cost = 2.00
-	
-	mutually_exclusive = { focus = DIX_difficult_decisions }
-	
-	x = 4
-	y = 3
-	
-	prerequisite = { focus = DIX_do_everything_we_can }
-	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: focus DIX_hold_onto_hope"
-		country_event = {
-			id = GER.2
-			days = 0
-		}
-	}
-}
-
-shared_focus = {
-	id = DIX_difficult_decisions
-	icon = GFX_DIX_difficult_decisions
-	cost = 2.00
-	
-	mutually_exclusive = { focus = DIX_hold_onto_hope }
-	
-	x = 6
-	y = 3
-	
-	prerequisite = { focus = DIX_do_everything_we_can }
-	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: focus DIX_difficult_decisions"
-		country_event = {
-			id = GER.2
-			days = 0
-		}
-	}
-}
-
-shared_focus = {
-	id = DIX_whats_his_status
-	icon = GFX_DIX_whats_his_status
-	cost = 2.00
-	
-	x = 5
-	y = 4
-	
-	prerequisite = { focus = DIX_hold_onto_hope focus = DIX_difficult_decisions }
-	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: focus DIX_whats_his_status"
-		country_event = {
-			id = GER.2
-			days = 0
-		}
-	}
-}
-
 
 
