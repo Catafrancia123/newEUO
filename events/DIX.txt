@@ -38,7 +38,7 @@ country_event = { #Intro
 		name = DIX.30.a
 		hidden_effect = {
 			load_focus_tree = {
-				tree = DIX_main
+				tree = DIX_Main
 			}
 		}
 	}
@@ -66,7 +66,7 @@ country_event = { #Intro
 		}
 		hidden_effect = {
 			load_focus_tree = {
-				tree = DIX_main
+				tree = DIX_branch_legacy_of_our_fuhrer
 			}
 		}
 	}

@@ -9,9 +9,6 @@
 	}
 	default = no
 	shared_focus = DIX_party_in_dixieland
-	initial_show_position = {
-		focus = DIX_party_in_dixieland
-	}
 }
 
 focus_tree = {
@@ -24,8 +21,18 @@ focus_tree = {
 		}
 	}
 	default = no
-	shared_focus = DIX_pierces_legacy
-	initial_show_position = {
-		focus = DIX_pierces_legacy
+	shared_focus = DIX_our_fuhrers_health
+}
+
+focus_tree = {
+	id = DIX_branch_legacy_of_our_fuhrer
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = DIX
+		}
 	}
+	default = no
+	shared_focus = DIX_legacy_of_our_fuhrer
 }

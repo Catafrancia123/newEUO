@@ -344,7 +344,7 @@ shared_focus = {
 	prerequisite = { focus = DIX_the_aryan_race_is_saved }
 	prerequisite = { focus = DIX_21st_century_cities }
 	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: focus DIX_our_fuhrers_health"
+		log = "[GetDateText]: [Root.GetName]: focus DIX_Aryan_Century"
 		country_event = {
 			id = DIX.30
 			days = 0
@@ -357,16 +357,13 @@ shared_focus = {
 	icon = GFX_DIX_our_fuhrers_health
 	cost = 2.00
 	
-	x = 10
+	x = 5
 	y = 0
 	
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: focus DIX_our_fuhrers_health"
 		country_event = {
 			id = DIX.30
-		country_event = {
-			id = DIX.30
-			days = 0
 		}
 	}
 }
@@ -477,10 +474,225 @@ shared_focus = {
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: focus DIX_whats_his_status"
 		country_event = {
+			id = DIX.35
+			days = 0
+		}
+	}
+}
+
+shared_focus = {
+	id = DIX_legacy_of_our_fuhrer
+	icon = DIX_legacy_of_our_fuhrer
+	cost = 2.00
+	
+	x = 10
+	y = 0
+	
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus DIX_legacy_of_our_fuhrer"
+		country_event = {
 			id = GER.2
 			days = 0
 		}
 	}
 }
 
+shared_focus = {
+	id = DIX_control_the_situation
+	icon = GFX_DIX_control_the_situation
+	cost = 2.00
+	
+	x = 10
+	y = 1
+	
+	prerequisite = { focus = DIX_legacy_of_our_fuhrer }
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus DIX_control_the_situation"
+		country_event = {
+			id = GER.2
+			days = 0
+		}
+	}
+}
 
+shared_focus = {
+	id = DIX_deputize_kkk
+	icon = GFX_DIX_control_the_situation
+	cost = 2.00
+	
+	x = 7
+	y = 2
+	
+	prerequisite = { focus = DIX_control_the_situation }
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus DIX_deputize_kkk"
+		country_event = {
+			id = GER.2
+			days = 0
+		}
+	}
+}
+
+shared_focus = {
+	id = DIX_what_would_hitler_think
+	icon = GFX_DIX_control_the_situation
+	cost = 2.00
+	
+	x = 10
+	y = 2
+	
+	prerequisite = { focus = DIX_control_the_situation }
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus DIX_what_would_hitler_think"
+		country_event = {
+			id = GER.2
+			days = 0
+		}
+	}
+}
+
+shared_focus = {
+	id = DIX_mobilize_the_army
+	icon = GFX_DIX_mobilize_the_army
+	cost = 2.00
+	
+	x = 13
+	y = 2
+	
+	prerequisite = { focus = DIX_control_the_situation }
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus DIX_mobilize_the_army"
+		country_event = {
+			id = GER.2
+			days = 0
+		}
+	}
+}
+
+shared_focus = {
+	id = DIX_rifles_to_police_stations
+	icon = GFX_DIX_rifles_to_police_stations
+	cost = 2.00
+	
+	x = 7
+	y = 3
+	
+	prerequisite = { focus = DIX_deputize_kkk }
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus DIX_rifles_to_police_stations"
+		country_event = {
+			id = GER.2
+			days = 0
+		}
+	}
+}
+
+shared_focus = {
+	id = DIX_fuhrer_speech
+	icon = GFX_DIX_fuhrer_speech
+	cost = 2.00
+	
+	x = 10
+	y = 3
+	
+	prerequisite = { focus = DIX_what_would_hitler_think }
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus DIX_fuhrer_speech"
+		country_event = {
+			id = GER.2
+			days = 0
+		}
+	}
+}
+
+shared_focus = {
+	id = DIX_fire_at_will
+	icon = GFX_DIX_fire_at_will
+	cost = 2.00
+	
+	x = 13
+	y = 3
+	
+	prerequisite = { focus = DIX_mobilize_the_army }
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus DIX_fire_at_will"
+		country_event = {
+			id = GER.2
+			days = 0
+		}
+	}
+}
+
+shared_focus = {
+	id = DIX_control_key_cities
+	icon = GFX_DIX_control_key_cities
+	cost = 2.00
+	
+	x = 9
+	y = 4
+	
+	prerequisite = { focus = DIX_rifles_to_police_stations }
+	prerequisite = { focus = DIX_fuhrer_speech }
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus DIX_control_key_cities"
+		country_event = {
+			id = GER.2
+			days = 0
+		}
+	}
+}
+
+shared_focus = {
+	id = DIX_control_rural_areas
+	icon = GFX_DIX_control_rural_areas
+	cost = 2.00
+	
+	x = 11
+	y = 4
+	
+	prerequisite = { focus = DIX_fire_at_will }
+	prerequisite = { focus = DIX_fuhrer_speech }
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus DIX_control_rural_areas"
+		country_event = {
+			id = GER.2
+			days = 0
+		}
+	}
+}
+
+shared_focus = {
+	id = DIX_no_place_for_traitors
+	icon = GFX_DIX_no_place_for_traitors
+	cost = 2.00
+	
+	x = 10
+	y = 5
+	
+	prerequisite = { focus = DIX_control_key_cities }
+	prerequisite = { focus = DIX_control_rural_areas }
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus DIX_no_place_for_traitors"
+		country_event = {
+			id = GER.2
+			days = 0
+		}
+	}
+}
+shared_focus = {
+	id = DIX_a_purified_dixieland
+	icon = GFX_DIX_a_purified_dixieland
+	cost = 2.00
+	
+	x = 10
+	y = 6
+	
+	prerequisite = { focus = DIX_no_place_for_traitors }
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: focus DIX_no_place_for_traitors"
+		country_event = {
+			id = GER.2
+			days = 0
+		}
+	}
+}
