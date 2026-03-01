@@ -488,6 +488,31 @@ spriteTypes = {
 		name = "GFX_ideology_revolutionary_socialism_group"
 		texturefile = "gfx/interface/ideologies/revolutionary_socialism_group.png"
 	}	
+	
+	spriteType = {
+		name = "GFX_ideology_communism"
+		texturefile = "gfx/interface/ideologies/commie.png"
+	}	
+	
+	spriteType = {
+		name = "GFX_ideology_neo_communism"
+		texturefile = "gfx/interface/ideologies/neo_communism.png"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_left_wing_nationalism"
+		texturefile = "gfx/interface/ideologies/left_wing_nationalism.png"
+	}		
+	
+	spriteType = {
+		name = "GFX_ideology_scientific_socialism"
+		texturefile = "gfx/interface/ideologies/scientific_socialism.png"
+	}		
+	
+	spriteType = {
+		name = "GFX_ideology_syndicalism"
+		texturefile = "gfx/interface/ideologies/syndicalism.png"
+	}
 
 	spriteType = {
 		name = "GFX_ideology_moderate_socialism_group"

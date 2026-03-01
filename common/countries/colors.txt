@@ -1364,8 +1364,8 @@ SHL = {
 	color_ui = rgb { 51 51 255 }
 }
 ALT = {
-	color = rgb { 204 255 255 }
-	color_ui = rgb { 0 230 230 }
+	color = rgb { 116 132 132 }
+	color_ui = rgb { 116 132 132 }
 }
 KAL = {
 	color = rgb { 255 204 0 }
@@ -1428,8 +1428,8 @@ KKP = {
 	color_ui = rgb { 204 102 0 }
 }
 YAM = {
-	color = rgb { 204 153 0 }
-	color_ui = rgb { 153 115 0 }
+	color = rgb { 155 132 69 }
+	color_ui = rgb { 155 132 69 }
 }
 TAY = {
 	color = rgb { 0 102 153 }
@@ -1552,8 +1552,8 @@ QEM = {
 	color_ui = rgb { 51 102 153 }
 }
 KHA = {
-	color = rgb { 51 204 51 }
-	color_ui = rgb { 25 102 25 }
+	color = rgb { 84 145 84 }
+	color_ui = rgb { 84 145 84 }
 }
 IEA = {
 	color = rgb { 131 175 103 }

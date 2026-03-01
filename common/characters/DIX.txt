@@ -12,5 +12,18 @@ characters = {
 			id = -1
 		}
 	}
+	#DIX_Erich_Gliebe = {
+	#	name = "Erich_Gliebe" 
+	#	portraits = {
+	#		civilian = {
+	#			large = GFX_portrait_Erich_Gliebe
+	#		}
+	#	}
+	#	country_leader = {
+	#		ideology = national_socialism_subtype
+	#		expire = "2030.1.1.1"
+	#		id = -1
+	#	}
+	#}
 }
 	

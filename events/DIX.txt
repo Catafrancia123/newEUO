@@ -38,7 +38,7 @@ country_event = { #Intro
 		name = DIX.30.a
 		hidden_effect = {
 			load_focus_tree = {
-				tree = DIX_main
+				tree = DIX_Main
 			}
 		}
 	}
@@ -46,7 +46,7 @@ country_event = { #Intro
 
 country_event = { #Intro 
 	id = DIX.35
-	title = GER.35.t
+	title = DIX.35.t
 	desc = DIX.35.d
 	picture = GFX_report_event_chinese_soldiers_01
 
@@ -66,7 +66,7 @@ country_event = { #Intro
 		}
 		hidden_effect = {
 			load_focus_tree = {
-				tree = DIX_main
+				tree = DIX_branch_legacy_of_our_fuhrer
 			}
 		}
 	}
@@ -74,7 +74,7 @@ country_event = { #Intro
 
 country_event = { #Intro 
 	id = DIX.40
-	title = GER.40.t
+	title = DIX.40.t
 	desc = DIX.40.d
 	picture = GFX_report_event_chinese_soldiers_01
 
