@@ -10,8 +10,8 @@ state = {
 	
 	history = {
 
-		owner = COG
-		add_core_of = COG
+		owner = KIV
+		add_core_of = KIV
 
 		victory_points = {
 			4941 1 # Albertville

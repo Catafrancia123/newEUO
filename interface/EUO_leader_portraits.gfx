@@ -355,5 +355,10 @@ spriteTypes = {
 		name = "GFX_portrait_Sauli_Niinisto"
 		texturefile = "gfx/leaders/FIN/Portrait_FIN_Sauli_Niinisto.png"
 	}
+	
+	spriteType = {
+		name = "GFX_portrait_Hu_Jintao"
+		texturefile = "gfx/leaders/BEI/Portrait_BEI_Hu_Jintao.png"
+	}
 
 }

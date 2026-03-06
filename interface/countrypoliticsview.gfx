@@ -520,6 +520,36 @@ spriteTypes = {
 	}	
 	
 	spriteType = {
+		name = "GFX_ideology_progressivism"
+		texturefile = "gfx/interface/ideologies/progressivism.png"
+	}	
+	
+	spriteType = {
+		name = "GFX_ideology_democratic_socialism"
+		texturefile = "gfx/interface/ideologies/democratic_socialism.png"
+	}	
+	
+	spriteType = {
+		name = "GFX_ideology_democratic_socialism"
+		texturefile = "gfx/interface/ideologies/democratic_socialism.png"
+	}	
+	
+	spriteType = {
+		name = "GFX_ideology_united_front"
+		texturefile = "gfx/interface/ideologies/united_front.png"
+	}	
+	
+	spriteType = {
+		name = "GFX_ideology_social_patriotism"
+		texturefile = "gfx/interface/ideologies/social_patriotism.png"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_liberal_socialism"
+		texturefile = "gfx/interface/ideologies/liberal_socialism.png"
+	}
+	
+	spriteType = {
 		name = "GFX_ideology_liberalism_group"
 		texturefile = "gfx/interface/ideologies/liberalism_group.png"
 	}	

@@ -10,3 +10,7 @@ FRA_free = {
     color = rgb { 62 106 168 }
     color_ui = rgb { 62 106 168 }
 }
+ITA_rome = {
+    color = rgb { 109 55 51 }
+    color_ui = rgb { 109 55 51 }
+}
