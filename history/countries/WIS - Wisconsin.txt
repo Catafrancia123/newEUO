@@ -10,17 +10,17 @@ set_politics = {
 }
 
 set_popularities = {
-	liberalism = 25
-	conservatism = 60
+	liberalism = 35
+	conservatism = 50
 	moderate_socialism = 10
 	autocratic = 5
 }
 
 create_country_leader = {
-	name = "Michele Bachmann"
-	desc = "Bachmann_Desc"
-	picture = "gfx/leaders/MDF/Bachmann-EUO.png"
+	name = "Tom Petri"
+	desc = "Petri_Desc"
+	picture = "gfx/leaders/MDF/Tom-Petri-EUO.png"
 	expire = "2040.1.1"
-	ideology = libertarian_conservatism
+	ideology = liberal_conservatism
 	traits = {}
 }

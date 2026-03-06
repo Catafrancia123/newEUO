@@ -4,6 +4,10 @@ oob = "MDF"
 
 recruit_character = MDF_Robert_Boyd
 recruit_character = MDF_Johnny_R_Miler
+recruit_character = MDF_William_Enyart
+recruit_character = MDF_David_Krumrei
+recruit_character = MDF_Paul_Schimpf
+recruit_character = MDF_Alicia_Nadeau
 
 set_politics = {
 	ruling_party = liberalism
