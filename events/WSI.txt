@@ -62,6 +62,11 @@ country_event = { #Elections
 			country_event = WSI.42
 			}
 		}
+		BAI = {
+			create_faction = "Siberian United Front"
+			add_to_faction = CHT
+			}
+		}
 	}
 }
 
@@ -142,6 +147,11 @@ country_event = { #Elections
 		}
 		WSI = {
 			country_event = WSI.45
+			}
+		}
+		IRK = {
+			create_faction = "Siberian National Front"
+			add_to_faction = KRS
 			}
 		}
 	}
@@ -254,6 +264,13 @@ country_event = { #Elections
 	option = { #Rosenberg
 		name = WSI.49.a
 		hidden_effect = {
+		WSI = {
+			release_autonomy = {
+				target = KIR
+				autonomy_state = autonomy_integrated_puppet
+				freedom_level = 0.5
+			}
+		}
 		KIR = {
 			transfer_state = 565
 			transfer_state = 575
