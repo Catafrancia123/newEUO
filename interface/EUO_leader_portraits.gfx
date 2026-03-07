@@ -360,5 +360,25 @@ spriteTypes = {
 		name = "GFX_portrait_Hu_Jintao"
 		texturefile = "gfx/leaders/BEI/Portrait_BEI_Hu_Jintao.png"
 	}
+	
+	spriteType = {
+		name = "GFX_portrait_Blas_Pinar"
+		texturefile = "gfx/leaders/SPR/Portrait_SPR_Blas_Pinar.png"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_Sergey_Naryshkin"
+		texturefile = "gfx/leaders/BAI/Portrait_BAI_Sergey_Naryshkin.png"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_Eduard_Limonov"
+		texturefile = "gfx/leaders/CHT/Portrait_CHT_Eduard_Limonov.png"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_Aleksandr_Dugin"
+		texturefile = "gfx/leaders/IRK/Portrait_IRK_Aleksandr_Dugin.png"
+	}	
 
 }

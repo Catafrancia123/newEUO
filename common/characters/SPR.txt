@@ -12,5 +12,18 @@ characters = {
 			id = -1
 		}
 	}
+	SPR_blas_pinar = {
+		name = "Blas Piñar" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_Blas_Pinar
+			}
+		}
+		country_leader = {
+			ideology = clerical_fascism
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
 }
 	

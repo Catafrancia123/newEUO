@@ -670,6 +670,11 @@ KAT = {
 	color_ui = rgb { 61 86 61 }
 }
 
+KIR = {
+	color = rgb { 97 122 85 }
+	color_ui = rgb { 97 122 85 }
+}
+
 TUA = {
 	color = rgb { 61 22 30 }
 	color_ui = rgb { 61 22 30 }

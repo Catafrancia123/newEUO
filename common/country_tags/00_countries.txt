@@ -387,4 +387,5 @@ FLP = "countries/Farmer-Labor.txt"
 ODF = "countries/Ohio Defense Force.txt"
 OHC = "countries/Ohio Communists.txt"
 KIV = "countries/Kivu.txt"
+KIR = "countries/Kirensk.txt"
 

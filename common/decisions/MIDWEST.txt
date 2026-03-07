@@ -1,13 +1,12 @@
 MDF_Midwestern_Spring = {
     MDF_Attack_Ohio = {
         available = {
-            NOT = {
-                Country_exists = NGE
+            NGE = {
+                surrender_progress > 0.75
             }
             tag = MDF
         }
         icon = MDF_HERE
-        fire_only_once = yes
         complete_effect = {
             declare_war_on = {
                 target = ODF
