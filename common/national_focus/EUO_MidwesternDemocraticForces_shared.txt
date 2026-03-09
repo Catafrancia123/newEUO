@@ -183,4 +183,3 @@ shared_focus = {
 	relative_position_id = MDF_locating_leftbehind_caches
 	prerequisite = { focus = MDF_locating_leftbehind_caches }
 }
-
