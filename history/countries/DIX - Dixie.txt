@@ -13,4 +13,12 @@ set_popularities = {
 	national_socialism = 100
 }
 
+add_ideas = {
+	goldmine_of_the_reich
+	dixie_prosperity
+	feeble_military
+	pierces_long_reign
+	white_harmony
+}
+
 recruit_character = DIX_william_luther_pierce

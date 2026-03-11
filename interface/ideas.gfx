@@ -29,6 +29,31 @@ spriteTypes = {
 		name = "GFX_idea_thousand_year_reich"
 		texturefile = "gfx/interface/ideas/GER/idea_ger_thousand_year_reich.dds"
 	}	
+	
+	spriteType = {
+		name = "GFX_idea_white_harmony"
+		texturefile = "gfx/interface/ideas/DIX/idea_dix_white_harmony.dds"
+	}	
+	
+	spriteType = {
+		name = "GFX_idea_feeble_military"
+		texturefile = "gfx/interface/ideas/DIX/idea_dix_feeble_military.dds"
+	}	
+	
+	spriteType = {
+		name = "GFX_idea_dixie_prosperity"
+		texturefile = "gfx/interface/ideas/DIX/idea_dix_dixie_prosperity.dds"
+	}	
+	
+	spriteType = {
+		name = "GFX_idea_pierces_long_reign"
+		texturefile = "gfx/interface/ideas/DIX/idea_dix_pierces_long_reign.dds"
+	}	
+	
+	spriteType = {
+		name = "GFX_idea_goldmine_of_the_reich"
+		texturefile = "gfx/interface/ideas/DIX/idea_dix_goldmine_of_the_reich.dds"
+	}	
 
 	spriteType = {
 		name = "GFX_idea_generic_degauss_ship_hulls"

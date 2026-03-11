@@ -380,5 +380,20 @@ spriteTypes = {
 		name = "GFX_portrait_Aleksandr_Dugin"
 		texturefile = "gfx/leaders/IRK/Portrait_IRK_Aleksandr_Dugin.png"
 	}	
+	
+	spriteType = {
+		name = "GFX_portrait_Vladimir_Shamanov"
+		texturefile = "gfx/leaders/EVE/Portrait_EVE_Vladimir_Shamanov.png"
+	}	
+	
+	spriteType = {
+		name = "GFX_portrait_Dimitri_Romanov"
+		texturefile = "gfx/leaders/KRS/Portrait_KRS_Dimitri_Romanov.png"
+	}	
+
+	spriteType = {
+		name = "GFX_portrait_Nikolay_Kharitonov"
+		texturefile = "gfx/leaders/ALT/Portrait_ALT_Nikolay_Kharitonov.png"
+	}	
 
 }

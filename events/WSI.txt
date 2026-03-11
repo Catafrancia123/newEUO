@@ -63,9 +63,8 @@ country_event = { #Elections
 			}
 		}
 		BAI = {
-			create_faction = "Siberian United Front"
+			create_faction = "United Front for the Defense of the Motherland"
 			add_to_faction = CHT
-			}
 		}
 	}
 }
@@ -150,9 +149,8 @@ country_event = { #Elections
 			}
 		}
 		IRK = {
-			create_faction = "Siberian National Front"
+			create_faction = "All-Russian National Front"
 			add_to_faction = KRS
-			}
 		}
 	}
 }
@@ -275,6 +273,10 @@ country_event = { #Elections
 			transfer_state = 565
 			transfer_state = 575
 			load_oob = KIR_REVOLT
+			set_politics = {
+					ruling_party = autocratic
+				}
+			}
 		}
 	}
 }
