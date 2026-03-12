@@ -1,0 +1,5 @@
+﻿capital = 556
+
+oob = "MLI_2010"
+
+add_manpower = 100000
