@@ -10,10 +10,10 @@ ideologies = {
 			statelessness = {
 			}
 
-			anarcho-communism = {
+			anarcho_communism = {
 			}
 			
-			anarcho-syndicalism = {
+			anarcho_syndicalism = {
 			}
 			
 			collectivist_anarchism = {
