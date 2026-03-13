@@ -1,5 +1,0 @@
-﻿capital = 781
-
-oob = "NGR_2010"
-
-add_manpower = 100000

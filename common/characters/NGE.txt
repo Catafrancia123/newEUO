@@ -1,0 +1,16 @@
+characters = {
+	NGE_joshua_caleb_sutter = {
+		name = "Joshua Caleb Sutter" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_joshua_caleb_sutter
+			}
+		}
+		country_leader = {
+			ideology = esoteric_nazism
+			expire = "2030.1.1.1"
+			id = -1
+		}
+	}
+}
+	

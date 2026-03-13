@@ -1,6 +1,0 @@
-MDF_Midwestern_Spring = {
-
-	allowed = {
-		original_tag = MDF
-	}
-}

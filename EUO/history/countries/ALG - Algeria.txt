@@ -1,5 +1,0 @@
-﻿capital = 459
-
-oob = "ALG_2010"
-
-add_manpower = 100000
