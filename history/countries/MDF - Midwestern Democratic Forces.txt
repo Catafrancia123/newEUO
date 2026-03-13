@@ -9,6 +9,15 @@ recruit_character = MDF_David_Krumrei
 recruit_character = MDF_Paul_Schimpf
 recruit_character = MDF_Alicia_Nadeau
 
+set_technology = {
+    infantry_weapons = 1
+    infantry_weapons1 = 1
+    gw_artillery = 1
+    interwar_antiair = 1
+    fuel_silos = 1
+    basic_train = 1
+}
+
 set_politics = {
 	ruling_party = liberalism
 	last_election = "1936.1.1"

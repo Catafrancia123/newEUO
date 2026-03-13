@@ -1,186 +1,468 @@
 
 shared_focus = {
-	id = MDF_out_into_the_streets
-	icon = GFX_MDF_out_into_the_streets
+	id = MDF_out_into_the_frontlines
+	icon = GFX_MDF_out_into_the_frontlines
 	cost = 2
-	x = 3
+	x = 11
 	y = 0
 	completion_reward = {
-		add_ideas = MDF_Onto_The_Streets
-		log = "[GetDateText]: [Root.GetName]: Focus MDF_out_into_the_streets"
+		log = "[GetDateText]: [Root.GetName]: Focus MDF_out_into_the_frontlines"
 	}
 }
 
 shared_focus = {
-	id = MDF_scraping_together_a_supply_chain
-	icon = GFX_MDF_scraping_together_a_supply_chain
+	id = MDF_uncover_our_stockpiles
+	icon = GFX_MDF_uncover_our_stockpiles
 	cost = 2
-	x = -2
+	x = -6
 	y = 1
 	completion_reward = {
-			add_building_construction = {
-			    type = arms_factory
-			    level = 3
-			    instant_build = yes
-			}
-		log = "[GetDateText]: [Root.GetName]: Focus MDF_scraping_together_a_supply_chain"
+		log = "[GetDateText]: [Root.GetName]: Focus MDF_uncover_our_stockpiles"
 	}
-	relative_position_id = MDF_out_into_the_streets
-	prerequisite = { focus = MDF_out_into_the_streets }
+	relative_position_id = MDF_out_into_the_frontlines
+	prerequisite = { focus = MDF_out_into_the_frontlines }
 }
 
 shared_focus = {
 	id = MDF_creation_of_the_midwestern_territorial_army
 	icon = GFX_MDF_creation_of_the_midwestern_territorial_army
 	cost = 2
+	x = 7
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MDF_creation_of_the_midwestern_territorial_army"
+	}
+	relative_position_id = MDF_out_into_the_frontlines
+	prerequisite = { focus = MDF_out_into_the_frontlines }
+}
+
+shared_focus = {
+	id = MDF_a_natural_evolution
+	icon = GFX_MDF_a_natural_evolution
+	cost = 2
+	x = -7
+	y = 0
+	completion_reward = {
+		add_dynamic_modifier = { 
+			modifier = MDF_Professionalizing_Midwestern_Army
+		}
+		log = "[GetDateText]: [Root.GetName]: Focus MDF_a_natural_evolution"
+	}
+	relative_position_id = MDF_balls_to_the_wall
+	prerequisite = { focus = MDF_balls_to_the_wall }
+	prerequisite = { focus = MDF_in_it_to_win_it }
+	mutually_exclusive = { focus = MDF_balls_to_the_wall }
+}
+
+shared_focus = {
+	id = MDF_balls_to_the_wall
+	icon = GFX_MDF_balls_to_the_wall
+	cost = 2
+	x = 3
+	y = 1
+	completion_reward = {
+		add_dynamic_modifier = { 
+			modifier = MDF_An_Insurrectionary_Army
+		}
+		log = "[GetDateText]: [Root.GetName]: Focus MDF_balls_to_the_wall"
+	}
+	relative_position_id = MDF_in_it_to_win_it
+	prerequisite = { focus = MDF_in_it_to_win_it }
+	mutually_exclusive = { focus = MDF_a_natural_evolution }
+}
+
+shared_focus = {
+	id = MDF_coordinating_military_strategies
+	icon = GFX_MDF_coordinating_military_strategies
+	cost = 2
 	x = 2
 	y = 1
 	completion_reward = {
-		add_ideas = MDF_Territorial_Army
-		log = "[GetDateText]: [Root.GetName]: Focus MDF_creation_of_the_midwestern_territorial_army"
+		log = "[GetDateText]: [Root.GetName]: Focus MDF_coordinating_military_strategies"
 	}
-	relative_position_id = MDF_out_into_the_streets
-	prerequisite = { focus = MDF_out_into_the_streets }
+	relative_position_id = MDF_a_natural_evolution
+	prerequisite = { focus = MDF_a_natural_evolution }
 }
 
 shared_focus = {
-	id = MDF_aim_high_and_aim_well
-	icon = GFX_MDF_aim_high_and_aim_well
+	id = MDF_from_all_walks_of_life_an_army
+	icon = GFX_MDF_from_all_walks_of_life_an_army
 	cost = 2
-	x = -1
+	x = -2
 	y = 1
 	completion_reward = {
-		load_oob = MDF_SmallDeployment
-		log = "[GetDateText]: [Root.GetName]: Focus MDF_aim_high_and_aim_well"
+		log = "[GetDateText]: [Root.GetName]: Focus MDF_from_all_walks_of_life_an_army"
 	}
-	relative_position_id = MDF_directing_recruitment_towards_the_mta
-	prerequisite = { focus = MDF_directing_recruitment_towards_the_mta }
-	mutually_exclusive = { focus = MDF_no_time_to_waste }
+	relative_position_id = MDF_balls_to_the_wall
+	prerequisite = { focus = MDF_balls_to_the_wall }
 }
 
 shared_focus = {
-	id = MDF_no_time_to_waste
-	icon = GFX_MDF_no_time_to_waste
-	cost = 2
-	x = 1
-	y = 1
-	completion_reward = {
-		load_oob = MDF_LargeDeployment
-		log = "[GetDateText]: [Root.GetName]: Focus MDF_no_time_to_waste"
-	}
-	relative_position_id = MDF_directing_recruitment_towards_the_mta
-	prerequisite = { focus = MDF_directing_recruitment_towards_the_mta }
-	mutually_exclusive = { focus = MDF_aim_high_and_aim_well }
-}
-
-shared_focus = {
-	id = MDF_a_more_professional_force
-	icon = GFX_MDF_a_more_professional_force
+	id = MDF_in_it_to_win_it
+	icon = GFX_MDF_in_it_to_win_it
 	cost = 2
 	x = 0
 	y = 1
 	completion_reward = {
-		add_ideas = MDF_professional_army
-		log = "[GetDateText]: [Root.GetName]: Focus MDF_a_more_professional_force"
-	}
-	relative_position_id = MDF_aim_high_and_aim_well
-	prerequisite = { focus = MDF_aim_high_and_aim_well }
-}
-
-shared_focus = {
-	id = MDF_a_large_fighting_force
-	icon = GFX_MDF_a_large_fighting_force
-	cost = 2
-	x = 0
-	y = 1
-	completion_reward = {
-		add_manpower = 53000
-		add_ideas = MDF_mass_attack
-		log = "[GetDateText]: [Root.GetName]: Focus MDF_a_large_fighting_force"
-	}
-	relative_position_id = MDF_no_time_to_waste
-	prerequisite = { focus = MDF_no_time_to_waste }
-}
-
-shared_focus = {
-	id = MDF_new_points_of_supply
-	icon = GFX_MDF_new_points_of_supply
-	cost = 2
-	x = 1
-	y = 1
-	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus MDF_new_points_of_supply"
-	}
-	relative_position_id = MDF_scraping_together_a_supply_chain
-	prerequisite = { focus = MDF_scraping_together_a_supply_chain }
-}
-
-shared_focus = {
-	id = MDF_negotiate_for_more
-	icon = GFX_MDF_negotiate_for_more
-	cost = 2
-	x = 0
-	y = 1
-	completion_reward = {
-		add_ideas = MDF_war_overtime
-		log = "[GetDateText]: [Root.GetName]: Focus MDF_negotiate_for_more"
-	}
-	relative_position_id = MDF_new_points_of_supply
-	prerequisite = { focus = MDF_new_points_of_supply }
-}
-
-shared_focus = {
-	id = MDF_locating_leftbehind_caches
-	icon = GFX_MDF_locating_leftbehind_caches
-	cost = 2
-	x = -1
-	y = 1
-	completion_reward = {
-		add_equipment_to_stockpile = {
-			type = infantry_equipment
-			amount = 1810
-			producer = NGE
-		}
-		log = "[GetDateText]: [Root.GetName]: Focus MDF_locating_leftbehind_caches"
-	}
-	relative_position_id = MDF_scraping_together_a_supply_chain
-	prerequisite = { focus = MDF_scraping_together_a_supply_chain }
-}
-
-shared_focus = {
-	id = MDF_directing_recruitment_towards_the_mta
-	icon = GFX_MDF_directing_recruitment_towards_the_mta
-	cost = 2
-	x = 0
-	y = 1
-	completion_reward = {
-		add_manpower = 25000
-		log = "[GetDateText]: [Root.GetName]: Focus MDF_directing_recruitment_towards_the_mta"
+		log = "[GetDateText]: [Root.GetName]: Focus MDF_in_it_to_win_it"
 	}
 	relative_position_id = MDF_creation_of_the_midwestern_territorial_army
 	prerequisite = { focus = MDF_creation_of_the_midwestern_territorial_army }
 }
 
 shared_focus = {
-	id = MDF_bringing_the_industrial_centers_under_our_management
-	icon = GFX_MDF_bringing_the_industrial_centers_under_our_management
+	id = MDF_coordinate_armory_raids
+	icon = GFX_MDF_coordinate_armory_raids
+	cost = 2
+	x = -4
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MDF_coordinate_armory_raids"
+	}
+	relative_position_id = MDF_uncover_our_stockpiles
+	prerequisite = { focus = MDF_uncover_our_stockpiles }
+}
+
+shared_focus = {
+	id = MDF_local_arms_workshops
+	icon = GFX_MDF_local_arms_workshops
+	cost = 2
+	x = 3
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MDF_local_arms_workshops"
+	}
+	relative_position_id = MDF_uncover_our_stockpiles
+	prerequisite = { focus = MDF_uncover_our_stockpiles }
+}
+
+shared_focus = {
+	id = MDF_exploit_corrupt_quartermasters
+	icon = GFX_MDF_exploit_corrupt_quartermasters
+	cost = 2
+	x = 1
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MDF_exploit_corrupt_quartermasters"
+	}
+	relative_position_id = MDF_coordinate_armory_raids
+	prerequisite = { focus = MDF_coordinate_armory_raids }
+}
+
+shared_focus = {
+	id = MDF_scrounging_for_steel
+	icon = GFX_MDF_scrounging_for_steel
+	cost = 2
+	x = 2
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MDF_scrounging_for_steel"
+	}
+	relative_position_id = MDF_local_arms_workshops
+	prerequisite = { focus = MDF_local_arms_workshops }
+}
+
+shared_focus = {
+	id = MDF_raise_hell_now
+	icon = GFX_MDF_raise_hell_now
+	cost = 2
+	x = -1
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MDF_raise_hell_now"
+	}
+	relative_position_id = MDF_coordinate_armory_raids
+	prerequisite = { focus = MDF_coordinate_armory_raids }
+}
+
+shared_focus = {
+	id = MDF_loot_and_never_look_back
+	icon = GFX_MDF_loot_and_never_look_back
 	cost = 2
 	x = 0
 	y = 1
 	completion_reward = {
-			add_building_construction = {
-			    type = arms_factory
-			    level = 1
-			    instant_build = yes
-			}
-			add_building_construction = {
-			    type = industrial_complex
-			    level = 3
-			    instant_build = yes
-			}
-		log = "[GetDateText]: [Root.GetName]: Focus MDF_bringing_the_industrial_centers_under_our_management"
+		log = "[GetDateText]: [Root.GetName]: Focus MDF_loot_and_never_look_back"
 	}
-	relative_position_id = MDF_locating_leftbehind_caches
-	prerequisite = { focus = MDF_locating_leftbehind_caches }
+	relative_position_id = MDF_raise_hell_now
+	prerequisite = { focus = MDF_raise_hell_now }
 }
+
+shared_focus = {
+	id = MDF_a_guarantee_of_safety
+	icon = GFX_MDF_a_guarantee_of_safety
+	cost = 2
+	x = 0
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MDF_a_guarantee_of_safety"
+	}
+	relative_position_id = MDF_exploit_corrupt_quartermasters
+	prerequisite = { focus = MDF_exploit_corrupt_quartermasters }
+}
+
+shared_focus = {
+	id = MDF_provide_the_necessary_tools
+	icon = GFX_MDF_provide_the_necessary_tools
+	cost = 2
+	x = -2
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MDF_provide_the_necessary_tools"
+	}
+	relative_position_id = MDF_local_arms_workshops
+	prerequisite = { focus = MDF_local_arms_workshops }
+}
+
+shared_focus = {
+	id = MDF_expertise_from_detroit
+	icon = GFX_MDF_expertise_from_detroit
+	cost = 2
+	x = -1
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MDF_expertise_from_detroit"
+	}
+	relative_position_id = MDF_provide_the_necessary_tools
+	prerequisite = { focus = MDF_provide_the_necessary_tools }
+}
+
+shared_focus = {
+	id = MDF_with_help_from_our_allies
+	icon = GFX_MDF_with_help_from_our_allies
+	cost = 2
+	x = 0
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MDF_with_help_from_our_allies"
+	}
+	relative_position_id = MDF_scrounging_for_steel
+	prerequisite = { focus = MDF_scrounging_for_steel }
+}
+
+shared_focus = {
+	id = MDF_constructing_munitions_plants
+	icon = GFX_MDF_constructing_munitions_plants
+	cost = 2
+	x = 1
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MDF_constructing_munitions_plants"
+	}
+	relative_position_id = MDF_provide_the_necessary_tools
+	prerequisite = { focus = MDF_provide_the_necessary_tools }
+}
+
+shared_focus = {
+	id = MDF_munitions_production_commission
+	icon = GFX_MDF_munitions_production_commission
+	cost = 2
+	x = 1
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MDF_munitions_production_commission"
+	}
+	relative_position_id = MDF_expertise_from_detroit
+	prerequisite = { focus = MDF_expertise_from_detroit }
+	prerequisite = { focus = MDF_constructing_munitions_plants }
+}
+
+shared_focus = {
+	id = MDF_muscle_dissent
+	icon = GFX_MDF_muscle_dissent
+	cost = 2
+	x = 2
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MDF_muscle_dissent"
+	}
+	relative_position_id = MDF_balls_to_the_wall
+	prerequisite = { focus = MDF_balls_to_the_wall }
+}
+
+shared_focus = {
+	id = MDF_to_the_fields_of_battle
+	icon = GFX_MDF_to_the_fields_of_battle
+	cost = 2
+	x = 1
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MDF_to_the_fields_of_battle"
+	}
+	relative_position_id = MDF_muscle_dissent
+	prerequisite = { focus = MDF_muscle_dissent }
+}
+
+shared_focus = {
+	id = MDF_from_tattered_shanty_towns
+	icon = GFX_MDF_from_tattered_shanty_towns
+	cost = 2
+	x = -1
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MDF_from_tattered_shanty_towns"
+	}
+	relative_position_id = MDF_muscle_dissent
+	prerequisite = { focus = MDF_muscle_dissent }
+}
+
+shared_focus = {
+	id = MDF_insistent_recruitment_tactics
+	icon = GFX_MDF_insistent_recruitment_tactics
+	cost = 2
+	x = 0
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MDF_insistent_recruitment_tactics"
+	}
+	relative_position_id = MDF_from_all_walks_of_life_an_army
+	prerequisite = { focus = MDF_from_all_walks_of_life_an_army }
+}
+
+shared_focus = {
+	id = MDF_millers_suggestion
+	icon = GFX_MDF_millers_suggestion
+	cost = 2
+	x = 1
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MDF_millers_suggestion"
+	}
+	relative_position_id = MDF_coordinating_military_strategies
+	prerequisite = { focus = MDF_coordinating_military_strategies }
+}
+
+shared_focus = {
+	id = MDF_individual_training_plan
+	icon = GFX_MDF_individual_training_plan
+	cost = 2
+	x = 0
+	y = 1
+	completion_reward = {
+		add_equipment_to_stockpile = {
+            type = infantry_equipment
+            amount = 550
+            producer = GER
+        }
+		log = "[GetDateText]: [Root.GetName]: Focus MDF_individual_training_plan"
+	}
+	relative_position_id = MDF_millers_suggestion
+	prerequisite = { focus = MDF_millers_suggestion }
+}
+
+shared_focus = {
+	id = MDF_professionalize_the_mta
+	icon = GFX_MDF_professionalize_the_mta
+	cost = 2
+	x = -2
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MDF_professionalize_the_mta"
+	}
+	relative_position_id = MDF_a_natural_evolution
+	prerequisite = { focus = MDF_a_natural_evolution }
+}
+
+shared_focus = {
+	id = MDF_boyds_artillery_plan
+	icon = GFX_MDF_boyds_artillery_plan
+	cost = 2
+	x = -1
+	y = 1
+	completion_reward = {
+		add_tech_bonus = {
+            bonus = 0.5
+            uses = 1
+            category = artillery
+        }
+		log = "[GetDateText]: [Root.GetName]: Focus MDF_boyds_artillery_plan"
+	}
+	relative_position_id = MDF_coordinating_military_strategies
+	prerequisite = { focus = MDF_coordinating_military_strategies }
+}
+
+shared_focus = {
+	id = MDF_accelerated_artillery_prioritization
+	icon = GFX_MDF_accelerated_artillery_prioritization
+	cost = 2
+	x = 0
+	y = 1
+	completion_reward = {
+		add_equipment_to_stockpile = {
+            type = artillery
+            amount = 300
+            producer = GER
+        }
+		log = "[GetDateText]: [Root.GetName]: Focus MDF_accelerated_artillery_prioritization"
+	}
+	relative_position_id = MDF_boyds_artillery_plan
+	prerequisite = { focus = MDF_boyds_artillery_plan }
+}
+
+shared_focus = {
+	id = MDF_from_militia_to_military
+	icon = GFX_MDF_from_militia_to_military
+	cost = 2
+	x = 0
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MDF_from_militia_to_military"
+	}
+	relative_position_id = MDF_professionalize_the_mta
+	prerequisite = { focus = MDF_professionalize_the_mta }
+}
+
+shared_focus = {
+	id = MDF_outskill_the_neugermanians
+	icon = GFX_MDF_outskill_the_neugermanians
+	cost = 2
+	x = 0
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MDF_outskill_the_neugermanians"
+	}
+	relative_position_id = MDF_from_militia_to_military
+	prerequisite = { focus = MDF_from_militia_to_military }
+}
+
+shared_focus = {
+	id = MDF_a_fervor_for_liberation
+	icon = GFX_MDF_a_fervor_for_liberation
+	cost = 2
+	x = -1
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MDF_a_fervor_for_liberation"
+	}
+	relative_position_id = MDF_to_the_fields_of_battle
+	prerequisite = { focus = MDF_to_the_fields_of_battle }
+	prerequisite = { focus = MDF_from_tattered_shanty_towns }
+}
+
+shared_focus = {
+	id = MDF_throttle_resource_extraction
+	icon = GFX_MDF_throttle_resource_extraction
+	cost = 2
+	x = 0
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MDF_throttle_resource_extraction"
+	}
+	relative_position_id = MDF_with_help_from_our_allies
+	prerequisite = { focus = MDF_with_help_from_our_allies }
+}
+
+shared_focus = {
+	id = MDF_unconventional_tactics_and_training
+	icon = GFX_MDF_unconventional_tactics_and_training
+	cost = 2
+	x = 0
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus MDF_unconventional_tactics_and_training"
+	}
+	relative_position_id = MDF_insistent_recruitment_tactics
+	prerequisite = { focus = MDF_insistent_recruitment_tactics }
+}
+
 

@@ -1,0 +1,12 @@
+MDF_Professionalizing_Midwestern_Army = {
+    icon = GFX_idea_unknown
+    enable = { always = yes }
+    army_org_regain = 0.075
+    army_org_factor = 0.05
+}
+MDF_An_Insurrectionary_Army = {
+    icon = GFX_idea_unknown
+    enable = { always = yes }
+    army_org_regain = 0.075
+    army_org_factor = 0.05
+}
