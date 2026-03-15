@@ -1,0 +1,15 @@
+﻿focus_tree = {
+	id = GER_Intro
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = ENG
+		}
+	}
+	default = no
+	shared_focus = ENG_some_memories_are_best_forgotten
+	initial_show_position = {
+		focus = ENG_some_memories_are_best_forgotten
+	}
+}
