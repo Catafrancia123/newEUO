@@ -400,5 +400,20 @@ spriteTypes = {
 		name = "GFX_portrait_Anastasia_Baburova"
 		texturefile = "gfx/leaders/EVE/Portrait_EVE_Anastasia_Baburova.png"
 	}	
+	
+	spriteType = {
+		name = "GFX_portrait_Eduardo_Duhalde"
+		texturefile = "gfx/leaders/ARG/Portrait_ARG_Eduardo_Duhalde.png"
+	}	
+	
+	spriteType = {
+		name = "GFX_portrait_Gerhard_Frey"
+		texturefile = "gfx/leaders/AKA/Portrait_AKA_Gerhard_Frey.png"
+	}	
+	
+	spriteType = {
+		name = "GFX_portrait_Alex_Linder"
+		texturefile = "gfx/leaders/NEE/Portrait_NEE_Alex_Linder.png"
+	}	
 
 }

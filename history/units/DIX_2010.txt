@@ -182,6 +182,232 @@ units = {
 		start_experience_factor = 0.3
 	}
 
+	### 1st Army -- note: Armies only paper organizations in 1936 ###
+	# I Army Corps #
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 26
+		}
+		location = 10824
+		division_template = "National Guard Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 43
+		}
+		location = 10824
+		division_template = "National Guard Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	# II Army Corps #
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 9779
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 27
+		}
+		location = 9779
+		division_template = "National Guard Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 44
+		}
+		location = 9779
+		division_template = "National Guard Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	# III Army Corps #
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 28
+		}
+		location = 6984
+		division_template = "National Guard Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 29
+		}
+		location = 6984
+		division_template = "National Guard Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+
+
+	### 2nd Army -- note: Armies only paper organizations in 1936 ###
+	# V Army Corps #
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 37
+		}
+		location = 788
+		division_template = "National Guard Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 38
+		}
+		location = 788
+		division_template = "National Guard Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	# VI Army Corps #
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 32
+		}
+		location = 1132
+		division_template = "National Guard Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 33
+		}
+		location = 1132
+		division_template = "National Guard Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+
+
+	### 3rd Army -- note: Armies only paper organizations in 1936 ###
+	# IV Army Corps #
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 30
+		}
+		location = 12384
+		division_template = "National Guard Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 31
+		}
+		location = 12384
+		division_template = "National Guard Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+
+	### 4th Army -- note: Armies only paper organizations in 1936 ###
+	# VII Army Corps (CO: Bishop) #
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 34
+		}
+		location = 4565
+		division_template = "National Guard Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 35
+		}
+		location = 4565
+		division_template = "National Guard Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 34
+		}
+		location = 12381
+		division_template = "National Guard Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 35
+		}
+		location = 12381
+		division_template = "National Guard Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 34
+		}
+		location = 10407
+		division_template = "National Guard Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 35
+		}
+		location = 10407
+		division_template = "National Guard Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+
 }
 
 

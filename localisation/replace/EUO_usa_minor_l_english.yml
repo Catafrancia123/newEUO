@@ -19,3 +19,12 @@
  TEX_autocratic_party_long:0 "American National Salvation Junta"
  TEX_syncretism_party:0 "V-USA"
  TEX_syncretism_party_long:0 "Vpered USA"
+ TEX_liberalism_party:0 "NLP" 
+ TEX_liberalism_party_long:0 "National Liberal Party" 
+ TEX_conservatism_party:0 "AFP" 
+ TEX_conservatism_party_long:0 "American First Party" 
+ TEX_autocracy_party:0 "HC" 
+ TEX_autocracy_party_long:0 "Houston Clique" 
+ TEX_fascism_party:0 "ANRA"
+ TEX_fascism_party_long:0 "American National Redemption Army"
+

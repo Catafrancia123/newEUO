@@ -17,7 +17,16 @@ add_ideas = {
 }
 
 set_popularities = {
-	national_socialism = 100
+	anarchism = 12
+	revolutionary_socialism = 11
+	moderate_socialism = 8
+	liberalism = 12
+	conservatism = 8
+	autocratic = 9
+	reactionary = 15
+	fascism = 0
+	national_socialism = 25
+	syncretism = 0
 }
 
 recruit_character = NGE_joshua_caleb_sutter
