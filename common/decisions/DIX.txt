@@ -1,0 +1,62 @@
+DIX_debug = {
+    DIX_load_hospital_tree = {
+        available = {
+            DIX = {
+            }
+        }
+        icon = MDF_HERE
+        complete_effect = {
+			load_focus_tree = {
+				tree = DIX_Main
+			}
+        }
+    }
+    DIX_load_gliebe_tree = {
+        available = {
+            DIX = {
+            }
+        }
+        icon = MDF_HERE
+        complete_effect = {
+			load_focus_tree = {
+				tree = DIX_branch_legacy_of_our_fuhrer
+			}
+        }
+    }
+    DIX_kill_wlp = {
+        available = {
+            DIX = {
+            }
+        }
+        icon = MDF_HERE
+        complete_effect = {
+			country_event = {
+				id = DIX.35
+			}
+        }
+    }
+    DIX_collapse = {
+        available = {
+            DIX = {
+            }
+        }
+        icon = MDF_HERE
+        complete_effect = {
+			country_event = {
+				id = DIX.40
+			}
+        }
+    }
+    DIX_load_gliebe_war_tree = {
+        available = {
+            DIX = {
+            }
+        }
+        icon = MDF_HERE
+        complete_effect = {
+			load_focus_tree = {
+				tree = DIX_gliebe_war
+			}
+        }
+    }
+}

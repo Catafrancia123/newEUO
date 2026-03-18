@@ -435,5 +435,20 @@ spriteTypes = {
 		name = "GFX_portrait_Anibal_Cavaco_Silva"
 		texturefile = "gfx/leaders/POR/Portrait_POR_Anibal_Cavaco_Silva.png"
 	}	
+	
+	spriteType = {
+		name = "GFX_portrait_Anibal_Cavaco_Silva"
+		texturefile = "gfx/leaders/POR/Portrait_POR_Anibal_Cavaco_Silva.png"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_Foday_Sankoh"
+		texturefile = "gfx/leaders/SIE/Portrait_SIE_Foday_Sankoh.png"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_Alassane_Ouattara"
+		texturefile = "gfx/leaders/IVO/Portrait_IVO_Alassane_Ouattara.png"
+	}
 
 }

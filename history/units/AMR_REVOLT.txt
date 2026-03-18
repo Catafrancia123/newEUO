@@ -104,6 +104,174 @@ units = {
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
 	}
+	
+	division = {	
+		name = "7. Partisan Unit"
+		location = 3941  # Berlin
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+	
+	division = {	
+		name = "7. Partisan Unit"
+		location = 3941  # Berlin
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+	
+	division = {	
+		name = "7. Partisan Unit"
+		location = 3941  # Berlin
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+
+	division = {	
+		name = "7. Partisan Unit"
+		location = 7202  # Berlin
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+
+	division = {	
+		name = "7. Partisan Unit"
+		location = 7202  # Berlin
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+	
+	division = {	
+		name = "7. Partisan Unit"
+		location = 7202  # Berlin
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+	
+	division = {	
+		name = "7. Partisan Unit"
+		location = 7202  # Berlin
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+	
+	division = {	
+		name = "7. Partisan Unit"
+		location = 7202  # Berlin
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+
+	division = {	
+		name = "7. Partisan Unit"
+		location = 7558  # Berlin
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+	
+	division = {	
+		name = "7. Partisan Unit"
+		location = 7558  # Berlin
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+	
+	division = {	
+		name = "7. Partisan Unit"
+		location = 7558  # Berlin
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+	
+	division = {	
+		name = "7. Partisan Unit"
+		location = 7558  # Berlin
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+	
+	division = {	
+		name = "7. Partisan Unit"
+		location = 3941  # Berlin
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+	
+	division = {	
+		name = "7. Partisan Unit"
+		location = 3941  # Berlin
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+	
+	division = {	
+		name = "7. Partisan Unit"
+		location = 3941  # Berlin
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+
+	division = {	
+		name = "7. Partisan Unit"
+		location = 7202  # Berlin
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+
+	division = {	
+		name = "7. Partisan Unit"
+		location = 7202  # Berlin
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+	
+	division = {	
+		name = "7. Partisan Unit"
+		location = 7202  # Berlin
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+	
+	division = {	
+		name = "7. Partisan Unit"
+		location = 7202  # Berlin
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+	
+	division = {	
+		name = "7. Partisan Unit"
+		location = 7202  # Berlin
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+
+	division = {	
+		name = "7. Partisan Unit"
+		location = 7558  # Berlin
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+	
+	division = {	
+		name = "7. Partisan Unit"
+		location = 7558  # Berlin
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+	
+	division = {	
+		name = "7. Partisan Unit"
+		location = 7558  # Berlin
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+	
+	division = {	
+		name = "7. Partisan Unit"
+		location = 7558  # Berlin
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
 
 }
 

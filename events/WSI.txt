@@ -19,7 +19,11 @@ country_event = { #Elections
 	desc = WSI.40.d
 	picture = GFX_report_event_chinese_soldiers_01
 
-	is_triggered_only = yes
+	trigger = {
+		tag = WSI
+		date > 2013.5.1
+		date < 2013.5.31
+	}
 	
 	option = { #Rosenberg
 		name = WSI.40.a
