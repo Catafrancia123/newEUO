@@ -416,4 +416,24 @@ spriteTypes = {
 		texturefile = "gfx/leaders/NEE/Portrait_NEE_Alex_Linder.png"
 	}	
 
+	spriteType = {
+		name = "GFX_portrait_Thomas_Boni_Yayi"
+		texturefile = "gfx/leaders/DAH/Portrait_DAH_Thomas_Boni_Yayi.png"
+	}	
+	
+	spriteType = {
+		name = "GFX_portrait_Faure_Gnassingbe"
+		texturefile = "gfx/leaders/TOG/Portrait_TOG_Faure_Gnassingbe.png"
+	}	
+	
+	spriteType = {
+		name = "GFX_portrait_Pius_XIII"
+		texturefile = "gfx/leaders/VAT/Portrait_VAT_Pius_XIII.png"
+	}	
+	
+	spriteType = {
+		name = "GFX_portrait_Anibal_Cavaco_Silva"
+		texturefile = "gfx/leaders/POR/Portrait_POR_Anibal_Cavaco_Silva.png"
+	}	
+
 }

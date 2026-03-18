@@ -13,4 +13,4 @@ set_popularities = {
 	autocratic = 100
 }
 
-recruit_character = POR_
+recruit_character = POR_Anibal_Cavaco_Silva
