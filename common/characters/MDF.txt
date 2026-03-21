@@ -9,7 +9,7 @@ characters = {
 		country_leader = {
 			ideology = liberalism
 			expire = "2030.1.1.1"
-			id = -1
+			id = 676767194
 		}
 	}
 	MDF_Robert_Boyd = {
@@ -21,7 +21,7 @@ characters = {
 		}
 		corps_commander = {
 			traits = { infantry_officer }
-			skill = 2
+			skill = 3
 			attack_skill = 1
 			defense_skill = 2
 			planning_skill = 1
@@ -48,16 +48,16 @@ characters = {
 		name = MDF_William_Enyart
 		portraits = {
 			army = {
-				large = "gfx/leaders/MDF/David-Krumrei-EUO.png"
+				large = "gfx/leaders/MDF/William-Enyart-EUO.png"
 			}
 		}
-		corps_commander = {
-			traits = { infantry_officer }
-			skill = 2
-			attack_skill = 3
+		field_marshal = {
+			traits = { politically_connected }
+			skill = 3
+			attack_skill = 2
 			defense_skill = 1
-			planning_skill = 1
-			logistics_skill = 1
+			planning_skill = 3
+			logistics_skill = 3
 		}
 	}
 	MDF_Alicia_Nadeau = {
@@ -68,11 +68,11 @@ characters = {
 			}
 		}
 		corps_commander = {
-			traits = { infantry_officer }
+			traits = { politically_connected }
 			skill = 2
 			attack_skill = 3
 			defense_skill = 1
-			planning_skill = 1
+			planning_skill = 2
 			logistics_skill = 1
 		}
 	}
@@ -84,24 +84,24 @@ characters = {
 			}
 		}
 		corps_commander = {
-			traits = { infantry_officer }
+			traits = { politically_connected }
 			skill = 2
-			attack_skill = 3
-			defense_skill = 1
+			attack_skill = 2
+			defense_skill = 2
 			planning_skill = 1
-			logistics_skill = 1
+			logistics_skill = 2
 		}
 	}
-	MDF_David_Krumrei = {
-		name = MDF_David_Krumrei
+	MDF_Daniel_Krumrei = {
+		name = MDF_Daniel_Krumrei
 		portraits = {
 			army = {
 				large = "gfx/leaders/MDF/David-Krumrei-EUO.png"
 			}
 		}
-		corps_commander = {
-			traits = { infantry_officer }
-			skill = 2
+		field_marshal = {
+			traits = { }
+			skill = 3
 			attack_skill = 3
 			defense_skill = 1
 			planning_skill = 1

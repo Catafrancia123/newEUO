@@ -8,8 +8,8 @@ focus_tree = {
 		}
 	}
 	default = no
-	shared_focus = MDF_out_into_the_streets
+	shared_focus = MDF_out_into_the_frontlines
 	initial_show_position = {
-		focus = MDF_out_into_the_streets
+		focus = MDF_out_into_the_frontlines
 	}
 }

@@ -19,3 +19,70 @@ MDF_Midwestern_Spring = {
         }
     }
 }
+MDF_After_War = {
+    Annex_Anarchists = {
+        available = {
+            NGE = {
+                surrender_progress > 0.99
+            }
+            tag = MDF
+        }
+        icon = MDF_HERE
+        complete_effect = {
+            annex_country = {
+                target = ANT
+                type = annex_everything
+            }
+            ANT = {
+                any_core_state ={
+                    limit = {
+                        is_core_of = ANT
+                    }
+                add_core_of = MDF
+                }
+            }
+        }
+    }
+    Annex_Civil_Guard = {
+        available = {
+            NGE = {
+                surrender_progress > 0.99
+            }
+            tag = MDF
+        }
+        icon = MDF_HERE
+            annex_country = {
+                target = FLP
+                type = annex_everything
+            }
+            MDF = {
+                any_core_state ={
+                    limit = {
+                        is_core_of = FLP
+                    }
+                add_core_of = MDF
+            }
+        }
+    }
+    Annex_Wisconsin = {
+        available = {
+            NGE = {
+                surrender_progress > 0.99
+            }
+            tag = MDF
+        }
+        icon = MDF_HERE
+        complete_effect = {
+            annex_country = {
+                target = WIS
+                type = annex_everything
+            }
+            any_core_state ={
+                limit = {
+                    is_core_of = FLP
+                }
+                add_core_of = MDF
+            }
+        }
+    }
+}

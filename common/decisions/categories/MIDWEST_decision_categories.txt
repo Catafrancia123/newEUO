@@ -4,3 +4,9 @@ MDF_Midwestern_Spring = {
 		original_tag = MDF
 	}
 }
+MDF_After_War = {
+
+	allowed = {
+		original_tag = MDF
+	}
+}

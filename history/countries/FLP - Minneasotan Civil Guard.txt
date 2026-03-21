@@ -3,7 +3,7 @@ capital = 1719
 oob = "FLP_2010"
 
 set_politics = {
-	ruling_party = liberal_socialism
+	ruling_party = moderate_socialism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -20,6 +20,6 @@ create_country_leader = {
 	desc = "Rukavina_Desc"
 	picture = "gfx/leaders/FLP/Tom-Rukavina-EUO.png"
 	expire = "2040.1.1"
-	ideology = anarcho-syndicalism
+	ideology = liberal_socialism
 	traits = {}
 }
