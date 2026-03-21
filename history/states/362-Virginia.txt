@@ -10,6 +10,24 @@ state={
 	
 	history={
 		owner = DIX
+		buildings = {
+			infrastructure = 3 #was: 6
+			industrial_complex = 2
+			dockyard = 4
+			air_base = 6
+			fuel_silo = 1
+			788 = {
+				naval_base = 10
+				naval_supply_hub = 1
+			}
+		}
+		add_core_of = DIX
+		victory_points = {
+			788 10 
+		}
+		victory_points = {
+			10412 15 
+		}
 	}
 	
 	manpower=2249080

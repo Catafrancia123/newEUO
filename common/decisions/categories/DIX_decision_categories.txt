@@ -1,0 +1,7 @@
+DIX_debug = {
+
+	allowed = {
+		is_debug = yes
+		original_tag = DIX
+	}
+}

@@ -400,5 +400,55 @@ spriteTypes = {
 		name = "GFX_portrait_Anastasia_Baburova"
 		texturefile = "gfx/leaders/EVE/Portrait_EVE_Anastasia_Baburova.png"
 	}	
+	
+	spriteType = {
+		name = "GFX_portrait_Eduardo_Duhalde"
+		texturefile = "gfx/leaders/ARG/Portrait_ARG_Eduardo_Duhalde.png"
+	}	
+	
+	spriteType = {
+		name = "GFX_portrait_Gerhard_Frey"
+		texturefile = "gfx/leaders/AKA/Portrait_AKA_Gerhard_Frey.png"
+	}	
+	
+	spriteType = {
+		name = "GFX_portrait_Alex_Linder"
+		texturefile = "gfx/leaders/NEE/Portrait_NEE_Alex_Linder.png"
+	}	
+
+	spriteType = {
+		name = "GFX_portrait_Thomas_Boni_Yayi"
+		texturefile = "gfx/leaders/DAH/Portrait_DAH_Thomas_Boni_Yayi.png"
+	}	
+	
+	spriteType = {
+		name = "GFX_portrait_Faure_Gnassingbe"
+		texturefile = "gfx/leaders/TOG/Portrait_TOG_Faure_Gnassingbe.png"
+	}	
+	
+	spriteType = {
+		name = "GFX_portrait_Pius_XIII"
+		texturefile = "gfx/leaders/VAT/Portrait_VAT_Pius_XIII.png"
+	}	
+	
+	spriteType = {
+		name = "GFX_portrait_Anibal_Cavaco_Silva"
+		texturefile = "gfx/leaders/POR/Portrait_POR_Anibal_Cavaco_Silva.png"
+	}	
+	
+	spriteType = {
+		name = "GFX_portrait_Anibal_Cavaco_Silva"
+		texturefile = "gfx/leaders/POR/Portrait_POR_Anibal_Cavaco_Silva.png"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_Foday_Sankoh"
+		texturefile = "gfx/leaders/SIE/Portrait_SIE_Foday_Sankoh.png"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_Alassane_Ouattara"
+		texturefile = "gfx/leaders/IVO/Portrait_IVO_Alassane_Ouattara.png"
+	}
 
 }

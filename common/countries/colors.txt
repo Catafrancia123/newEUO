@@ -5,8 +5,8 @@ GER = {
 	color_ui = rgb { 64 64 64 }
 }
 ENG = {
-	color = rgb { 201 56 93 }
-	color_ui = rgb { 255 73 121 }
+	color = rgb { 142 51 75 }
+	color_ui = rgb { 142 51 75 }
 }
 SOV = {
 	color = rgb { 125 13 24 }
@@ -110,8 +110,8 @@ FIN = {
 	color_ui = rgb { 255 255 255 }
 }
 IRE = {
-	color = rgb { 80 159 90 }
-	color_ui = rgb { 104 207 117 }
+	color = rgb { 67 132 75 }
+	color_ui = rgb { 67 132 75 }
 }
 HUN = {
 	color = rgb { 249 126 98 }

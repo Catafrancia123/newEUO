@@ -36,3 +36,16 @@ focus_tree = {
 	default = no
 	shared_focus = DIX_legacy_of_our_fuhrer
 }
+
+focus_tree = {
+	id = DIX_gliebe_war
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = DIX
+		}
+	}
+	default = no
+	shared_focus = DIX_disaster_strikes
+}

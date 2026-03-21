@@ -22,6 +22,7 @@ add_to_faction = SAU
 add_to_faction = IRQ
 add_to_faction = OMA
 add_to_faction = YEM
+add_to_faction = SPR
 
 set_autonomy = {
 	target = ALB

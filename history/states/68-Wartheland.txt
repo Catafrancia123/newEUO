@@ -5,7 +5,7 @@ state={
 		aluminium=15
 	}
 	provinces={
-		444 537 3473 6236 9387 11478 
+		6236 9387 11478 
 	}
 	
 	history={

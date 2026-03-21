@@ -53,6 +53,7 @@ country_event = { #Intro
 			load_focus_tree = {
 				tree = DIX_Main
 			}
+			complete_national_focus = DIX_our_fuhrers_health
 		}
 	}
 }
@@ -62,26 +63,34 @@ country_event = { #Intro
 	title = DIX.35.t
 	desc = DIX.35.d
 	picture = GFX_report_event_chinese_soldiers_01
-
-	is_triggered_only = yes
 	
-	option = { #Puppetry
-		name = DIX.35.a
-		retire_country_leader = yes
-		create_country_leader = {
-			name = "Erich Gliebe"
-			desc = "POLITICS_ERICH_GLIEBE_DESC"
-			picture = "GFX_portrait_Erich_Gliebe"
-			expire = "1965.1.1"
-			ideology = national_socialism_subtype
-				traits = {
-			}
-		}
+	trigger = {
+		tag = DIX
+		date > 2010.11.1
+		date < 2010.11.30
+	}
+	
+	immediate = { 
 		hidden_effect = {
+			retire_country_leader = yes
+			create_country_leader = {
+				name = "Erich Gliebe"
+				desc = "POLITICS_ERICH_GLIEBE_DESC"
+				picture = "GFX_portrait_Erich_Gliebe"
+				expire = "1965.1.1"
+				ideology = national_socialism_subtype
+					traits = {
+				}
+			}
 			load_focus_tree = {
 				tree = DIX_branch_legacy_of_our_fuhrer
 			}
+			set_country_flag = DIX_crisis_unresolved
 		}
+	}
+	
+	option = { #Puppetry
+		name = DIX.35.a
 	}
 }
 
@@ -90,79 +99,137 @@ country_event = { #Intro
 	title = DIX.40.t
 	desc = DIX.40.d
 	picture = GFX_report_event_chinese_soldiers_01
-
-	is_triggered_only = yes
+	
+	trigger = {
+		tag = DIX
+		has_country_flag = DIX_crisis_unresolved
+		date > 2010.12.1
+		date < 2011.1.31
+	}
+	
+	immediate = { 
+		hidden_effect = { 
+			GER = {
+				end_puppet = DIX
+			AMR = {
+				transfer_state = 816
+				declare_war_on = {
+					target = DIX
+					type = annex_everything
+				}
+				load_oob = AMR_REVOLT
+				add_state_core = 361
+				add_state_core = 362
+				add_state_core = 363
+				add_state_core = 364
+				add_state_core = 365
+				add_state_core = 366
+				add_state_core = 367
+				add_state_core = 368
+				add_state_core = 369
+				add_state_core = 370
+				add_state_core = 816
+				add_state_core = 1050
+			}
+			RNR = {
+				transfer_state = 368
+				transfer_state = 369
+				declare_war_on = {
+					target = DIX
+					type = annex_everything
+				}
+				declare_war_on = {
+					target = AMR
+					type = annex_everything
+				}
+				load_oob = RNR_REVOLT
+				add_state_core = 361
+				add_state_core = 362
+				add_state_core = 363
+				add_state_core = 364
+				add_state_core = 365
+				add_state_core = 366
+				add_state_core = 367
+				add_state_core = 368
+				add_state_core = 369
+				add_state_core = 370
+				add_state_core = 816
+				add_state_core = 1050
+			}
+			CSA = {
+				transfer_state = 364
+				transfer_state = 365
+				transfer_state = 366
+				transfer_state = 367
+				transfer_state = 370
+				declare_war_on = {
+					target = DIX
+					type = annex_everything
+				}
+				declare_war_on = {
+					target = AMR
+					type = annex_everything
+				}
+				declare_war_on = {
+					target = RNR
+					type = annex_everything
+				}
+				load_oob = CSA_REVOLT
+				add_state_core = 361
+				add_state_core = 362
+				add_state_core = 363
+				add_state_core = 364
+				add_state_core = 365
+				add_state_core = 366
+				add_state_core = 367
+				add_state_core = 368
+				add_state_core = 369
+				add_state_core = 370
+				add_state_core = 816
+				add_state_core = 1050
+			}
+			PRA = {
+				transfer_state = 1050
+				declare_war_on = {
+					target = DIX
+					type = annex_everything
+				}
+				declare_war_on = {
+					target = AMR
+					type = annex_everything
+				}
+				declare_war_on = {
+					target = RNR
+					type = annex_everything
+				}
+				declare_war_on = {
+					target = CSA
+					type = annex_everything
+				}
+				load_oob = PRA_REVOLT
+				add_state_core = 361
+				add_state_core = 362
+				add_state_core = 363
+				add_state_core = 364
+				add_state_core = 365
+				add_state_core = 366
+				add_state_core = 367
+				add_state_core = 368
+				add_state_core = 369
+				add_state_core = 370
+				add_state_core = 816
+				add_state_core = 1050
+			}
+			DIX = {
+				leave_faction
+				}
+				load_oob = DIX_REVOLT
+			}
+		}
+	}
 	
 	option = { #Puppetry
 		name = DIX.40.a
 		hidden_effect = {
-		GER = {
-			end_puppet = DIX
-		AMR = {
-			transfer_state = 816
-			declare_war_on = {
-    			target = DIX
-    			type = annex_everything
-			}
-			load_oob = AMR_REVOLT
-		}
-		RNR = {
-			transfer_state = 368
-			transfer_state = 369
-			declare_war_on = {
-    			target = DIX
-    			type = annex_everything
-			}
-			declare_war_on = {
-    			target = AMR
-    			type = annex_everything
-			}
-			load_oob = RNR_REVOLT
-		}
-		CSA = {
-			transfer_state = 364
-			transfer_state = 365
-			transfer_state = 366
-			transfer_state = 367
-			transfer_state = 370
-			declare_war_on = {
-    			target = DIX
-    			type = annex_everything
-			}
-			declare_war_on = {
-    			target = AMR
-    			type = annex_everything
-			}
-			declare_war_on = {
-    			target = RNR
-    			type = annex_everything
-			}
-			load_oob = CSA_REVOLT
-		}
-		PRA = {
-			transfer_state = 1050
-			declare_war_on = {
-    			target = DIX
-    			type = annex_everything
-			}
-			declare_war_on = {
-    			target = AMR
-    			type = annex_everything
-			}
-			declare_war_on = {
-    			target = RNR
-    			type = annex_everything
-			}
-			declare_war_on = {
-    			target = CSA
-    			type = annex_everything
-			}
-			load_oob = PRA_REVOLT
-		}
-		DIX = {
-			leave_faction
-			}
-			load_oob = DIX_REVOLT
-		}
 	}
 }

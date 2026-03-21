@@ -166,27 +166,6 @@ units = {
 		start_experience_factor = 0.3
 	}
 	
-	division = {	
-		name = "7. Amerikaner-Division"
-		location = 1843  # Berlin
-		division_template = "Infanterie-Division"
-		start_experience_factor = 0.3
-	}
-	
-	division = {	
-		name = "7. Amerikaner-Division"
-		location = 6696  # Berlin
-		division_template = "Infanterie-Division"
-		start_experience_factor = 0.3
-	}
-
-	division = {	
-		name = "7. Amerikaner-Division"
-		location = 7202  # Berlin
-		division_template = "Fallschirmjäger-Division"
-		start_experience_factor = 0.3
-	}
-
 }
 
 
