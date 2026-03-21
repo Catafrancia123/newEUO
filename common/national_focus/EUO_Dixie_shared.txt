@@ -214,10 +214,7 @@ shared_focus = {
 	prerequisite = { focus = DIX_value_southern_work_ethic }
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: focus DIX_strength_in_numbers"
-		country_event = {
-			id = GER.2
-			days = 0
-		}
+		add_manpower = 10000
 	}
 }
 
@@ -333,7 +330,7 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = DIX_Aryan_Century
+	id = DIX_our_fuhrers_health
 	icon = GFX_DIX_our_fuhrers_health
 	cost = 2.00
 	
@@ -353,133 +350,9 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = DIX_our_fuhrers_health
-	icon = GFX_DIX_our_fuhrers_health
-	cost = 2.00
-	
-	x = 5
-	y = 0
-	
-	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: focus DIX_our_fuhrers_health"
-		country_event = {
-			id = DIX.30
-		}
-	}
-}
-
-shared_focus = {
-	id = DIX_pierces_legacy
-	icon = GFX_DIX_pierces_legacy
-	cost = 2.00
-	
-	x = 3
-	y = 1
-	prerequisite = { focus = DIX_our_fuhrers_health }
-	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: focus DIX_pierces_legacy"
-		country_event = {
-			id = GER.2
-			days = 0
-		}
-	}
-}
-
-shared_focus = {
-	id = DIX_call_the_best_doctors
-	icon = GFX_DIX_call_the_best_doctors
-	cost = 2.00
-	
-	x = 7
-	y = 1
-	
-	prerequisite = { focus = DIX_our_fuhrers_health }
-	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: focus DIX_call_the_best_doctors"
-		country_event = {
-			id = GER.2
-			days = 0
-		}
-	}
-}
-
-shared_focus = {
-	id = DIX_do_everything_we_can
-	icon = GFX_DIX_do_everything_we_can
-	cost = 2.00
-	
-	x = 5
-	y = 2
-	
-	prerequisite = { focus = DIX_call_the_best_doctors }
-	prerequisite = { focus = DIX_pierces_legacy }
-	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: focus DIX_do_everything_we_can"
-		country_event = {
-			id = GER.2
-			days = 0
-		}
-	}
-}
-
-shared_focus = {
-	id = DIX_hold_onto_hope
-	icon = GFX_DIX_hold_onto_hope
-	cost = 2.00
-	
-	mutually_exclusive = { focus = DIX_difficult_decisions }
-	
-	x = 4
-	y = 3
-	
-	prerequisite = { focus = DIX_do_everything_we_can }
-	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: focus DIX_hold_onto_hope"
-		country_event = {
-			id = GER.2
-			days = 0
-		}
-	}
-}
-
-shared_focus = {
-	id = DIX_difficult_decisions
-	icon = GFX_DIX_difficult_decisions
-	cost = 2.00
-	
-	mutually_exclusive = { focus = DIX_hold_onto_hope }
-	
-	x = 6
-	y = 3
-	
-	prerequisite = { focus = DIX_do_everything_we_can }
-	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: focus DIX_difficult_decisions"
-		country_event = {
-			id = GER.2
-			days = 0
-		}
-	}
-}
-
-shared_focus = {
-	id = DIX_whats_his_status
-	icon = GFX_DIX_whats_his_status
-	cost = 2.00
-	
-	x = 5
-	y = 4
-	
-	prerequisite = { focus = DIX_hold_onto_hope focus = DIX_difficult_decisions }
-	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: focus DIX_whats_his_status"
-	}
-}
-
-shared_focus = {
 	id = DIX_legacy_of_our_fuhrer
 	icon = DIX_legacy_of_our_fuhrer
-	cost = 0.50
+	cost = 2.00
 	
 	x = 10
 	y = 0
@@ -496,7 +369,7 @@ shared_focus = {
 shared_focus = {
 	id = DIX_control_the_situation
 	icon = GFX_DIX_control_the_situation
-	cost = 0.50
+	cost = 2.00
 	
 	x = 10
 	y = 1
@@ -514,7 +387,7 @@ shared_focus = {
 shared_focus = {
 	id = DIX_deputize_kkk
 	icon = GFX_DIX_control_the_situation
-	cost = 0.50
+	cost = 2.00
 	
 	x = 7
 	y = 2
@@ -532,7 +405,7 @@ shared_focus = {
 shared_focus = {
 	id = DIX_what_would_hitler_think
 	icon = GFX_DIX_control_the_situation
-	cost = 0.50
+	cost = 2.00
 	
 	x = 10
 	y = 2
@@ -550,7 +423,7 @@ shared_focus = {
 shared_focus = {
 	id = DIX_mobilize_the_army
 	icon = GFX_DIX_mobilize_the_army
-	cost = 0.50
+	cost = 2.00
 	
 	x = 13
 	y = 2
@@ -568,7 +441,7 @@ shared_focus = {
 shared_focus = {
 	id = DIX_rifles_to_police_stations
 	icon = GFX_DIX_rifles_to_police_stations
-	cost = 0.50
+	cost = 2.00
 	
 	x = 7
 	y = 3
@@ -586,7 +459,7 @@ shared_focus = {
 shared_focus = {
 	id = DIX_fuhrer_speech
 	icon = GFX_DIX_fuhrer_speech
-	cost = 0.50
+	cost = 2.00
 	
 	x = 10
 	y = 3
@@ -604,7 +477,7 @@ shared_focus = {
 shared_focus = {
 	id = DIX_fire_at_will
 	icon = GFX_DIX_fire_at_will
-	cost = 0.50
+	cost = 2.00
 	
 	x = 13
 	y = 3
@@ -622,7 +495,7 @@ shared_focus = {
 shared_focus = {
 	id = DIX_control_key_cities
 	icon = GFX_DIX_control_key_cities
-	cost = 0.50
+	cost = 2.00
 	
 	x = 9
 	y = 4
@@ -641,7 +514,7 @@ shared_focus = {
 shared_focus = {
 	id = DIX_control_rural_areas
 	icon = GFX_DIX_control_rural_areas
-	cost = 0.50
+	cost = 2.00
 	
 	x = 11
 	y = 4
@@ -660,7 +533,7 @@ shared_focus = {
 shared_focus = {
 	id = DIX_no_place_for_traitors
 	icon = GFX_DIX_no_place_for_traitors
-	cost = 0.50
+	cost = 2.00
 	
 	x = 10
 	y = 5
@@ -678,7 +551,7 @@ shared_focus = {
 shared_focus = {
 	id = DIX_a_purified_dixieland
 	icon = GFX_DIX_a_purified_dixieland
-	cost = 0.50
+	cost = 2.00
 	
 	x = 10
 	y = 6

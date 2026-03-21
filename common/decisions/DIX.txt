@@ -1,16 +1,4 @@
 DIX_debug = {
-    DIX_load_hospital_tree = {
-        available = {
-            DIX = {
-            }
-        }
-        icon = MDF_HERE
-        complete_effect = {
-			load_focus_tree = {
-				tree = DIX_Main
-			}
-        }
-    }
     DIX_load_gliebe_tree = {
         available = {
             DIX = {

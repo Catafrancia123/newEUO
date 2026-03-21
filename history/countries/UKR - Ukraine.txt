@@ -13,4 +13,4 @@ set_popularities = {
 	national_socialism = 100
 }
 
-recruit_character = UKR_andreas_bilezkyj
+recruit_character = UKR_erwin_kemna

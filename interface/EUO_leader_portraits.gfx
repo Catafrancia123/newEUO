@@ -22,7 +22,7 @@ spriteTypes = {
 	
 	spriteType = {
 		name = "GFX_portrait_Erwin_Kemna"
-		texturefile = "gfx/leaders/OST/Portrait_OST_Erwin_Kemna.png"
+		texturefile = "gfx/leaders/UKR/Portrait_UKR_Erwin_Kemna.png"
 	}
 	
 	spriteType = {

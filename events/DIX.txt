@@ -49,12 +49,6 @@ country_event = { #Intro
 	
 	option = { #Puppetry
 		name = DIX.30.a
-		hidden_effect = {
-			load_focus_tree = {
-				tree = DIX_Main
-			}
-			complete_national_focus = DIX_our_fuhrers_health
-		}
 	}
 }
 
@@ -103,7 +97,7 @@ country_event = { #Intro
 	trigger = {
 		tag = DIX
 		has_country_flag = DIX_crisis_unresolved
-		date > 2010.12.1
+		date > 2011.1.1
 		date < 2011.1.31
 	}
 	
@@ -224,6 +218,9 @@ country_event = { #Intro
 				leave_faction
 				}
 				load_oob = DIX_REVOLT
+				load_focus_tree = {
+					tree = DIX_gliebe_war
+				}
 			}
 		}
 	}
