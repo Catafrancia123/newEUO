@@ -18,6 +18,9 @@ state={
 		victory_points = {
 			6874 10 #Akron
 		}
+		victory_points = {
+			6890 20 #Akron
+		}
 		add_core_of = NGE
 
 	}

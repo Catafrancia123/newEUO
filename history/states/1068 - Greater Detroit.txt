@@ -19,6 +19,9 @@ state={
 		victory_points = {
 			6710 20 # Detriot
 		}
+		victory_points = {
+			11656 5 # Monroe
+		}
 		add_core_of = NGE
 
 	}
