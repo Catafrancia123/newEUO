@@ -22,7 +22,7 @@ spriteTypes = {
 	
 	spriteType = {
 		name = "GFX_portrait_Erwin_Kemna"
-		texturefile = "gfx/leaders/OST/Portrait_OST_Erwin_Kemna.png"
+		texturefile = "gfx/leaders/UKR/Portrait_UKR_Erwin_Kemna.png"
 	}
 	
 	spriteType = {
@@ -193,7 +193,7 @@ spriteTypes = {
 	
 	spriteType = {
 		name = "GFX_portrait_Ernst_Zundel"
-		texturefile = "gfx/leaders/QUE/Portrait_QUE_Ernst_Zundel.png"
+		texturefile = "gfx/leaders/KAN/Portrait_KAN_Ernst_Zundel.png"
 	}
 	
 	spriteType = {
@@ -449,6 +449,41 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_portrait_Alassane_Ouattara"
 		texturefile = "gfx/leaders/IVO/Portrait_IVO_Alassane_Ouattara.png"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_Michel_Lepage"
+		texturefile = "gfx/leaders/QUE/Portrait_QUE_Michel_Lepage.png"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_Udo_Voigt"
+		texturefile = "gfx/leaders/GER/Portrait_GER_Udo_Voigt.png"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_Jurgen_Rieger"
+		texturefile = "gfx/leaders/GER/Portrait_GER_Jurgen_Rieger.png"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_Axel_Stoll"
+		texturefile = "gfx/leaders/GER/Portrait_GER_Axel_Stoll.png"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_Gunther_Deckert"
+		texturefile = "gfx/leaders/GER/Portrait_GER_Gunter_Deckert.png"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_Gottfried_Kussel"
+		texturefile = "gfx/leaders/GER/Portrait_GER_Gottfried_Kussel.png"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_Christian_Worch"
+		texturefile = "gfx/leaders/GER/Portrait_GER_Christian_Worch.png"
 	}
 
 }

@@ -1,227 +1,199 @@
-﻿##### Division Templates #####
-division_template = {
-	name = "Infantry Division"  	# Standard formation for frontline divisions
-
-	division_names_group = USA_INF_01
-
+﻿division_template = {
+	name = "Infantry Brigade"
+	
 	regiments = {
-		infantry = { x = 0 y = 0 }
-		infantry = { x = 0 y = 1 }
-		infantry = { x = 0 y = 2 }
-		infantry = { x = 1 y = 0 }
-		infantry = { x = 1 y = 1 }
-		infantry = { x = 1 y = 2 }
-		infantry = { x = 2 y = 0 }
-		infantry = { x = 2 y = 1 }
-		infantry = { x = 2 y = 2 }
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		motorized = { x = 0 y = 3 }
 	}
+	
 	support = {
-		artillery = { x = 0 y = 0 }  # US Hvy Field Arty consisted of 2 Bns, 155mm howitzers
-		engineer = { x = 0 y = 1 }   # US Eng Rgt consisted of 2 Bns
+		artillery = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
 	}
 }
+
 division_template = {
-	name = "National Guard Division"  	# Standard formation for NG divisions through late 1940
-
-	division_names_group = USA_INF_01
-
+	name = "Armored Division"
+	
 	regiments = {
-		infantry = { x = 0 y = 0 }
-		infantry = { x = 0 y = 1 }
-		infantry = { x = 0 y = 2 }
-		infantry = { x = 1 y = 0 }
-		infantry = { x = 1 y = 1 }
-		infantry = { x = 1 y = 2 }
-		infantry = { x = 2 y = 0 }
-		infantry = { x = 2 y = 1 }
-		infantry = { x = 2 y = 2 }
-		infantry = { x = 3 y = 0 }
-		infantry = { x = 3 y = 1 }
-		infantry = { x = 3 y = 2 }
-	}
-	support = {
-		artillery = { x = 0 y = 0 }  # US Hvy Field Arty consisted of 2 Bns, 155mm howitzers
-		engineer = { x = 0 y = 1 }   # US Eng Rgt consisted of 2 Bns
-	}
-}
-division_template = {
-	name = "Cavalry Division"  		# 1st Cavalry Division only
-
-	division_names_group = USA_CAV_01
-
-	regiments = {
-		cavalry = { x = 0 y = 0 }
-		cavalry = { x = 0 y = 1 }
-		cavalry = { x = 0 y = 2 }
-		cavalry = { x = 0 y = 3 }
-		cavalry = { x = 1 y = 0 }
-		cavalry = { x = 1 y = 1 }
-		cavalry = { x = 1 y = 2 }
-		cavalry = { x = 1 y = 3 }
-	}
-	support = {
-		light_tank_recon = { x = 0 y = 0 }      # US Cav Recon consisted of 52 ACs, 13 L Arm
-		engineer = { x = 0 y = 1 }   # US Eng Bn
-	}
-}
-division_template = {
-	name = "Garrison Brigade"  		# used for island defense (older equipment, lower experience)
-
-	division_names_group = USA_GAR_01		# Brigade level irregular unit, so no default names
-
-	regiments = {
-		infantry = { x = 0 y = 0 }
-		infantry = { x = 0 y = 1 }
-		infantry = { x = 0 y = 2 }
+		heavy_armor = { x = 0 y = 0 }
+		heavy_armor = { x = 0 y = 1 }
+		heavy_armor = { x = 0 y = 2 }
+		heavy_armor = { x = 1 y = 0 }
+		heavy_armor = { x = 1 y = 1 }
+		heavy_armor = { x = 1 y = 2 }
+		mot_artillery_brigade = { x = 2 y = 0 }
+		mot_artillery_brigade = { x = 2 y = 1 }
+		mot_artillery_brigade = { x = 2 y = 2 }
+		motorized = { x = 3 y = 0 }
+		motorized = { x = 3 y = 1 }
 	}
 	support = {
 		engineer = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+		military_police = { x = 0 y = 2 }
+		mot_recon = { x = 0 y = 3 }
+		anti_air = { x = 0 y = 4 }
 	}
-	priority = 0
 }
 
 division_template = {
-	name = "Marine Brigade" 		# 1st, 2nd Marine Brigades, precursors to 1st, 2nd USMC Divisions
+	name = "Cavalry Brigade"
+	
+	regiments = {
+		mot_artillery_brigade = { x = 0 y = 0 }
+		mot_artillery_brigade = { x = 0 y = 1 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		heavy_armor = { x = 2 y = 0 }
+	}
+	support = {
+		mot_recon = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+	}
+}
 
-	division_names_group = USA_MAR_01
-
+division_template = {
+	name = "Texas Marines"
+	
 	regiments = {
 		marine = { x = 0 y = 0 }
 		marine = { x = 0 y = 1 }
-		marine = { x = 1 y = 0 }
-		marine = { x = 1 y = 1 }
+		marine = { x = 0 y = 2 }
+		marine = { x = 0 y = 3 }
+	}
+	support = {
+		mot_recon = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Texas Rangers"
+	
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+	}
+	support = {
+		military_police = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Texan Guard"
+	
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
 	}
 	support = {
 		engineer = { x = 0 y = 0 }
 	}
-	priority = 2
 }
 
 units = {
 
-	division = {	
-		name = "7. Texas National Guard"
-		location = 10337  # Berlin
-		division_template = "National Guard Division"
-		start_experience_factor = 0.3
+	division = {
+		name = "1st Infantry Brigade “Longhorner”"
+		location = 6798
+		division_template = "Infantry Brigade"
+		start_experience_factor = 0.2
 	}
-	
-	division = {	
-		name = "7. Texas National Guard"
-		location = 10337  # Berlin
-		division_template = "National Guard Division"
-		start_experience_factor = 0.3
+	division = {
+		name = "2nd Infantry Brigade “Sunburnt Devils”"
+		location = 12684
+		division_template = "Infantry Brigade"
+		start_experience_factor = 0.2
 	}
-	
-	division = {	
-		name = "7. Texas National Guard"
-		location = 10337  # Berlin
-		division_template = "National Guard Division"
-		start_experience_factor = 0.3
+	division = {
+		name = "2nd Armored Division “Lone Star”"
+		location = 6798
+		division_template = "Armored Division"
+		start_experience_factor = 0.2
 	}
-
-	division = {	
-		name = "7. Infantry"
-		location = 10337  # Berlin
-		division_template = "Infantry Division"
-		start_experience_factor = 0.3
+	division = {
+		name = "1st Texas Marines “Cowboys”"
+		location = 10337
+		division_template = "Texas Marines"
+		start_experience_factor = 0.2
 	}
-
-	division = {	
-		name = "7. Infantry"
-		location = 10337  # Berlin
-		division_template = "Infantry Division"
-		start_experience_factor = 0.3
+	division = {
+		name = "1st Cavalry Brigade “Grey Wolf”"
+		location = 10861
+		division_template = "Cavalry Brigade"
+		start_experience_factor = 0.2
 	}
-	
-	division = {	
-		name = "7. Infantry"
-		location = 10337  # Berlin
-		division_template = "Infantry Division"
-		start_experience_factor = 0.3
+	division = {
+		name = "1st Texan Guard “Taskmasters”"
+		location = 6798
+		division_template = "Texan Guard"
+		start_experience_factor = 0.2
 	}
-	
-	division = {	
-		name = "7. Infantry"
-		location = 10337  # Berlin
-		division_template = "Infantry Division"
-		start_experience_factor = 0.3
+	division = {
+		name = "Houston Texas Rangers"
+		location = 10337
+		division_template = "Texas Rangers"
+		start_experience_factor = 0.2
 	}
-	
-	division = {	
-		name = "7. Infantry"
-		location = 10337  # Berlin
-		division_template = "Infantry Division"
-		start_experience_factor = 0.3
+	division = {
+		name = "Austin Texas Rangers"
+		location = 6798
+		division_template = "Texas Rangers"
+		start_experience_factor = 0.2
 	}
-
+	division = {
+		name = "Lubbock Texas Rangers"
+		location = 9773
+		division_template = "Texas Rangers"
+		start_experience_factor = 0.2
+	}
 }
-
-
-### air oob in separate file
-
-
-#########################
-## STARTING PRODUCTION ##
-#########################
-
 instant_effect = {
-
-	add_equipment_production = {
+add_equipment_production = {
 		equipment = {
-			type = infantry_equipment_2
-			creator = GER
+			type = infantry_equipment_0
+			creator = "TEX"
 		}
-		requested_factories = 15
+		requested_factories = 2
 		progress = 0.1
-		efficiency = 100
-		industrial_manufacturer = mio:GER_mauser_organization
+		efficiency = 50
 	}
-
+	
 	add_equipment_production = {
 		equipment = {
 			type = support_equipment_1
-			creator = GER 
+			creator = "TEX" 
 		}
-		requested_factories = 3
+		requested_factories = 1
 		progress = 0.3
-		efficiency = 100
-		industrial_manufacturer = mio:GER_carl_walther_organization
+		efficiency = 50
 	}
 
 	add_equipment_production = {
 		equipment = {
 			type = artillery_equipment_1
-			creator = GER 
+			creator = "TEX" 
 		}
-		requested_factories = 2
+		requested_factories = 1
 		progress = 0.3
-		efficiency = 100
-		industrial_manufacturer = mio:GER_rheinmetall_organization
-	}
-
-	add_equipment_production = {
-		equipment = {
-			type = light_tank_equipment_2
-			creator = GER 
-		}
-		requested_factories = 5
-		progress = 0.4
-		efficiency = 100
-		industrial_manufacturer = mio:GER_henschel_organization
-	}
-
-	add_equipment_production = {
-		equipment = {
-			type = motorized_equipment_1
-			creator = GER 
-		}
-		requested_factories = 5
-		progress = 0.4
-		efficiency = 100
-		industrial_manufacturer = mio:GER_opel_organization
+		efficiency = 50
 	}
 	
 }
+### Air Wings###
 
-#####################
+#air_wings = {
+#	369 = {
+#		fighter_equipment_0 = {
+#			owner = "USA"
+#			amount = 20
+#		}
+#		tac_bomber_equipment_0 = {
+#			owner = "USA"
+#			amount = 10
+#		}
+#	}
+#}

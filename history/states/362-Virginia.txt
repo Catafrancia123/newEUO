@@ -23,10 +23,19 @@ state={
 		}
 		add_core_of = DIX
 		victory_points = {
+			1506 5
+		}
+		victory_points = {
+			10343 5 
+		}
+		victory_points = {
 			788 10 
 		}
 		victory_points = {
-			10412 15 
+			873 10 
+		}
+		victory_points = {
+			11841 15 
 		}
 	}
 	

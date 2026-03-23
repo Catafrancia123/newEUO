@@ -12,19 +12,6 @@
 }
 
 focus_tree = {
-	id = DIX_Main
-	country = {
-		factor = 0
-		modifier = {
-			add = 10
-			tag = DIX
-		}
-	}
-	default = no
-	shared_focus = DIX_our_fuhrers_health
-}
-
-focus_tree = {
 	id = DIX_branch_legacy_of_our_fuhrer
 	country = {
 		factor = 0

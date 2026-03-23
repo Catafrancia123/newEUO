@@ -49,12 +49,6 @@ set_variable = { var = ger_var_ss_power value = 68 }
 set_variable = { var = ger_var_militarists_power value = 45 }
 
 set_autonomy = {
-	target = OST
-	autonomous_state = autonomy_reichskommissariat
-	freedom_level = 0.2
-}
-
-set_autonomy = {
 	target = UKR
 	autonomous_state = autonomy_reichskommissariat
 	freedom_level = 0.2

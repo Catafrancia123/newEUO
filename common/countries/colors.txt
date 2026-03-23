@@ -230,6 +230,10 @@ PHI = {
 	color_ui = rgb { 198 169 248 }
 }
 PRU = {
+	color = rgb { 196 146 70 }
+	color_ui = rgb { 196 146 70 }
+}
+ETN = {
 	color = rgb { 198 82 53 }
 	color_ui = rgb { 198 82 53 }
 }
