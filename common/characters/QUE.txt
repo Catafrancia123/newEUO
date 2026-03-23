@@ -1,13 +1,13 @@
 characters = {
-	QUE_ernst_zundel = {
-		name = "Ernst Zündel" 
+	QUE_Michel_Lepage = {
+		name = "Michel Lepage" 
 		portraits = {
 			civilian = {
-				large = GFX_portrait_Ernst_Zundel
+				large = GFX_portrait_Michel_Lepage
 			}
 		}
 		country_leader = {
-			ideology = national_socialism_subtype
+			ideology = fascism_subtype
 			expire = "1950.1.1.1"
 			id = -1
 		}

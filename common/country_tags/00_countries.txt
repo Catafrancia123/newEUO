@@ -389,4 +389,5 @@ OHC = "countries/Ohio Communists.txt"
 KIV = "countries/Kivu.txt"
 KIR = "countries/Kirensk.txt"
 BRG = "countries/Burgundy.txt"
+ETN = "countries/Ethnocacerists.txt"
 

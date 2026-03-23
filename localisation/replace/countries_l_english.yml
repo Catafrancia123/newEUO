@@ -4619,8 +4619,8 @@
  RIG_DEF: "the Republic of the Rio Grande"
  RIG_ADJ: "Riograndese"
 
- QUE_national_socialism:0 "State of Quebec"
- QUE_national_socialism_DEF:0 "the State of Quebec"
+ QUE_fascism:0 "State of Quebec"
+ QUE_fascism_DEF:0 "the State of Quebec"
  QUE_fascism_ADJ:0 "Québécois"
  QUE_democratic: "Québec"
  QUE_democratic_DEF: "Québec"
