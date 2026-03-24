@@ -86,6 +86,7 @@ shared_focus = {
 	x = 2
 	y = 1
 	completion_reward = {
+	load_oob = MDF_SmallDeployment
     add_to_variable = {
         var = MDF_PA_planning_factor
         value = 0.075

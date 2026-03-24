@@ -34,5 +34,10 @@ units = {
 		division_template = "Minneasotan Civil Guard"
 		start_experience_factor = 0.1
 	}
-
+	division = {	
+		name = "Minneasotan Civil Guard"
+		location = 1719
+		division_template = "Minneasotan Civil Guard"
+		start_experience_factor = 0.1
+	}
 }

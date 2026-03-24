@@ -34,5 +34,11 @@ units = {
 		division_template = "Anti-Fascist Militia"
 		start_experience_factor = 0.1
 	}
+	division = {	
+		name = "Anti-Fascist Militia"
+		location = 11656
+		division_template = "Anti-Fascist Militia"
+		start_experience_factor = 0.1
+	}
 
 }

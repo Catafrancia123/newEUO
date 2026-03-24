@@ -7,8 +7,8 @@ state = {
 
 	history = {
 
-		owner = PAC
-		add_core_of = PAC
+		owner = ALA
+		add_core_of = ALA
 
 		buildings = {
 			infrastructure = 3 #was: 6

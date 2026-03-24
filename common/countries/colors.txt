@@ -142,7 +142,7 @@ BRA = {
 	color_ui = rgb { 18 145 11 }
 }
 CAN = {
-	color = rgb { 233  59  59 }
+	color = rgb { 155 62 51 }
 	color_ui = rgb { 155 62 51 }
 }
 CHI = {
@@ -432,6 +432,11 @@ WIS = {
 MDF = {
 	color = rgb { 179 147 72 }
 	color_ui = rgb { 179 147 72 }
+}
+
+ALA = {
+	color = rgb { 150 105 118 }
+	color_ui = rgb { 150 105 118 }
 }
 
 ANT = {

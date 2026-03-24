@@ -485,5 +485,55 @@ spriteTypes = {
 		name = "GFX_portrait_Christian_Worch"
 		texturefile = "gfx/leaders/GER/Portrait_GER_Christian_Worch.png"
 	}
+	
+	spriteType = {
+		name = "GFX_portrait_Charles_Taylor"
+		texturefile = "gfx/leaders/LIB/Portrait_LIB_Charles_Taylor.png"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_Alpha_Conde"
+		texturefile = "gfx/leaders/GNA/Portrait_GNA_Alpha_Conde.png"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_Macky_Sall"
+		texturefile = "gfx/leaders/SEN/Portrait_SEN_Macky_Sall.png"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_Abdourahamane_Tchiani"
+		texturefile = "gfx/leaders/NGR/Portrait_NGR_Abdourahamane_Tchiani.png"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_Amadou_Toumani_Toure"
+		texturefile = "gfx/leaders/MLI/Portrait_MLI_Amadou_Toumani_Toure.png"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_Mohamed_Ould_Abdel_Aziz"
+		texturefile = "gfx/leaders/MRT/Portrait_MRT_Mohamed_Ould_Abdel_Aziz.png"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_Yahya_Jammeh"
+		texturefile = "gfx/leaders/GAM/Portrait_GAM_Yahya_Jammeh.png"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_Monica_Macias"
+		texturefile = "gfx/leaders/EQG/Portrait_EQG_Monica_Macias.png"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_Samia_Nkrumah"
+		texturefile = "gfx/leaders/GHA/Portrait_GHA_Samia_Nkrumah.png"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_Carlos_Gomes_Junior"
+		texturefile = "gfx/leaders/GNB/Portrait_GNB_Carlos_Gomes_Junior.png"
+	}
 
 }

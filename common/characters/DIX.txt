@@ -8,6 +8,7 @@ characters = {
 		}
 		country_leader = {
 			ideology = national_socialism_subtype
+			desc = "POLITICS_WILLIAM_LUTHER_PIERCE_DESC"
 			expire = "2030.1.1.1"
 			id = -1
 		}
