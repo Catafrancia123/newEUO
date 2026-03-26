@@ -5,25 +5,11 @@ state={
 		coal=8
 	}
 	provinces={
-		492 860 1587 4622 4756 7422 7480 7640 10520 11509 11942 12735 
+		492 1587 4622 4756 7422 7480 7640 10352 10380 10407 10520 11942 
 	}
 	
 	history={
 		owner = DIX
-		buildings = {
-			infrastructure = 3 #was: 5
-			industrial_complex = 3
-			7480 = {
-				naval_base = 3
-			}
-		}
-		add_core_of = DIX
-		victory_points = {
-			7480 1 
-		}
-		victory_points = {
-			12735 1 
-		}
 	}
 	
 	manpower=2646247

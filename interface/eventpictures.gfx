@@ -21,8 +21,8 @@ spriteTypes = {
 	}
 	
 	spriteType = {
-		name = "GFX_report_event_dix_pierce_dies"
-		texturefile = "gfx/event_pictures/report_event_pierce_dies.dds"
+		name = "GFX_report_event_dix_wlp_death"
+		texturefile = "gfx/event_pictures/report_event_dix_wlp_death.dds"
 	}
 	
 	spriteType = {

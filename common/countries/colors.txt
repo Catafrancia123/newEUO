@@ -464,6 +464,61 @@ NRE = {
 	color_ui = rgb { 158 120 80 }
 }
 
+CBV = {
+	color = rgb { 90 150 96 }
+	color_ui = rgb { 90 150 96 }
+}
+
+BLZ = {
+	color = rgb { 106 105 150 }
+	color_ui = rgb { 106 105 150 }
+}
+
+GRD = {
+	color = rgb { 55 137 74 }
+	color_ui = rgb { 55 137 74 }
+}
+
+STV = {
+	color = rgb { 85 135 137 }
+	color_ui = rgb { 85 135 137 }
+}
+
+BRB = {
+	color = rgb { 137 80 42 }
+	color_ui = rgb { 137 80 42 }
+}
+
+SLU = {
+	color = rgb { 137 31 127 }
+	color_ui = rgb { 137 31 127 }
+}
+
+DCA = {
+	color = rgb { 114 114 114 }
+	color_ui = rgb { 114 114 114 }
+}
+
+STK = {
+	color = rgb { 137 119 92 }
+	color_ui = rgb { 137 119 92 }
+}
+
+ATI = {
+	color = rgb { 137 31 8 }
+	color_ui = rgb { 137 31 8 }
+}
+
+SDI = {
+	color = rgb { 97 123 137 }
+	color_ui = rgb { 97 123 137 }
+}
+
+NAF = {
+	color = rgb { 79 49 49 }
+	color_ui = rgb { 79 49 49 }
+}
+
 BAI = {
 	color = rgb { 130 22 41 }
 	color_ui = rgb { 130 22 41 }
@@ -570,8 +625,8 @@ PRA = {
 }
 
 RNR = {
-	color = rgb { 202 73 73 }
-	color_ui = rgb { 202 73 73 }
+	color = rgb { 117 26 33 }
+	color_ui = rgb { 117 26 33 }
 }
 
 XSM = {
@@ -1157,8 +1212,8 @@ ISR = {
 	color_ui = rgb { 152  130  191 }
 }
 CSA = {
-	color = rgb { 77 77 77 }
-	color_ui = rgb { 77 77 77 }
+	color = rgb { 56 79 76 }
+	color_ui = rgb { 56 79 76 }
 }
 AVS = {
 	color = rgb { 175 98 26 }
@@ -1681,8 +1736,8 @@ BIA = {
 	color_ui = rgb { 0 77 26 }
 }
 CBV = {
-	color = rgb { 0 102 204 }
-	color_ui = rgb { 00 51 102 }
+	color = rgb { 90 150 96 }
+	color_ui = rgb { 90 150 96 }
 }
 SOK = {
 	color = rgb { 0 128 43 }

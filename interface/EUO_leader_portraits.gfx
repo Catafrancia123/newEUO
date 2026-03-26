@@ -536,4 +536,9 @@ spriteTypes = {
 		texturefile = "gfx/leaders/GNB/Portrait_GNB_Carlos_Gomes_Junior.png"
 	}
 
+	spriteType = {
+		name = "GFX_portrait_Jean_Marie_Le_Pen"
+		texturefile = "gfx/leaders/ALG/Portrait_ALG_Jean_Marie_Le_Pen.png"
+	}
+
 }

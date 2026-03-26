@@ -2,25 +2,11 @@ state={
 	id=364
 	name="STATE_364"
 	provinces={
-		1485 1547 3994 4653 7202 7527 10029 
+		1019 1132 1547 4491 7012 7083 7134 7138 7202 10029 10047 10051 10081 10096 11927 
 	}
 	
 	history={
 		owner = DIX
-		buildings = {
-			infrastructure = 3 #was: 5
-			industrial_complex = 3
-			7480 = {
-				naval_base = 3
-			}
-		}
-		add_core_of = DIX
-		victory_points = {
-			7480 1 
-		}
-		victory_points = {
-			12735 1 
-		}
 	}
 	
 	manpower=1738764
