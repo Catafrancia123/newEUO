@@ -540,5 +540,45 @@ spriteTypes = {
 		name = "GFX_portrait_Jean_Marie_Le_Pen"
 		texturefile = "gfx/leaders/ALG/Portrait_ALG_Jean_Marie_Le_Pen.png"
 	}
+	
+	spriteType = {
+		name = "GFX_portrait_Eugene_TerreBlanche"
+		texturefile = "gfx/leaders/SAF/Portrait_SAF_Eugene_TerreBlanche.png"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_Vitor_Crespo"
+		texturefile = "gfx/leaders/SMO/Portrait_SMO_Vitor_Crespo.png"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_Christopher_Mtikila"
+		texturefile = "gfx/leaders/TZN/Portrait_TZN_Christopher_Mtikila.png"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_Nicholas_van_Hoogstraten"
+		texturefile = "gfx/leaders/ZIM/Portrait_ZIM_Nicholas_van_Hoogstraten.png"
+	}	
+	
+	spriteType = {
+		name = "GFX_portrait_Gurbanguly_Berdimuhamedow"
+		texturefile = "gfx/leaders/TMS/Portrait_TMS_Gurbanguly_Berdimuhamedow.png"
+	}	
+	
+	spriteType = {
+		name = "GFX_portrait_Muhammad_Salih"
+		texturefile = "gfx/leaders/UZB/Portrait_UZB_Muhammad_Salih.png"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_Abakar_Sabone"
+		texturefile = "gfx/leaders/LOG/Portrait_LOG_Abakar_Sabone.png"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_Kasereka_Kasai"
+		texturefile = "gfx/leaders/KIV/Portrait_KIV_Kasereka_Kasai.png"
+	}
 
 }

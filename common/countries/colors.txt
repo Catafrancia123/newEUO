@@ -1572,12 +1572,12 @@ SMO = {
 	color_ui = rgb { 130 76 32 }
 }
 UZB = {
-	color = rgb { 58 139 169 }
-	color_ui = rgb { 58 139 169 }
+	color = rgb { 118 73 61 }
+	color_ui = rgb { 118 73 61 }
 }
 TMS = {
-	color = rgb { 204 130 151 }
-	color_ui = rgb { 204 130 151 }
+	color = rgb { 76 124 75 }
+	color_ui = rgb { 76 124 75 }
 }
 KRK = {
 	color = rgb { 186 80 74 }
