@@ -580,5 +580,15 @@ spriteTypes = {
 		name = "GFX_portrait_Kasereka_Kasai"
 		texturefile = "gfx/leaders/KIV/Portrait_KIV_Kasereka_Kasai.png"
 	}
+	
+	spriteType = {
+		name = "GFX_portrait_Kosie_Pretorius"
+		texturefile = "gfx/leaders/NMB/Portrait_NMB_Kosie_Pretorius.png"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_Christian_de_Graaff"
+		texturefile = "gfx/leaders/BOT/Portrait_BOT_Christian_de_Graaff.png"
+	}
 
 }

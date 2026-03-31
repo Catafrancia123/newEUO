@@ -31,3 +31,5 @@ add_ideas = {
 }
 
 recruit_character = DIX_william_luther_pierce
+
+add_manpower = 3000000

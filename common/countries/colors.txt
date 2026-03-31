@@ -1579,6 +1579,10 @@ TMS = {
 	color = rgb { 76 124 75 }
 	color_ui = rgb { 76 124 75 }
 }
+NVJ = {
+	color = rgb { 198 171 111 }
+	color_ui = rgb { 198 171 111 }
+}
 KRK = {
 	color = rgb { 186 80 74 }
 	color_ui = rgb { 186 80 74 }

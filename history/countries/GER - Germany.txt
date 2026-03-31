@@ -120,3 +120,4 @@ set_autonomy = {
 	freedom_level = 0.2
 }
 
+add_manpower = 1000000
