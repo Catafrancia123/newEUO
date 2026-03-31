@@ -600,6 +600,11 @@ spriteTypes = {
 	}	
 	
 	spriteType = {
+		name = "GFX_ideology_liberal_radicalism"
+		texturefile = "gfx/interface/ideologies/liberal_radicalism.png"
+	}	
+	
+	spriteType = {
 		name = "GFX_ideology_conservatism_group"
 		texturefile = "gfx/interface/ideologies/conservatism_group.png"
 	}	
@@ -663,6 +668,26 @@ spriteTypes = {
 		name = "GFX_ideology_reactionary_group"
 		texturefile = "gfx/interface/ideologies/reactionary_group.png"
 	}	
+	
+	spriteType = {
+		name = "GFX_ideology_neo_fascism"
+		texturefile = "gfx/interface/ideologies/neo_fascism.png"
+	}	
+	
+	spriteType = {
+		name = "GFX_ideology_fundamentalism"
+		texturefile = "gfx/interface/ideologies/fundamentalism.png"
+	}	
+	
+	spriteType = {
+		name = "GFX_ideology_ultraconservatism"
+		texturefile = "gfx/interface/ideologies/ultraconservatism.png"
+	}	
+	
+	spriteType = {
+		name = "GFX_ideology_reactionary_populism"
+		texturefile = "gfx/interface/ideologies/reactionary_populism.png"
+	}
 	
 	spriteType = {
 		name = "GFX_ideology_fascism_group"

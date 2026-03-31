@@ -6,7 +6,7 @@ state={
 
 	history={
 		add_core_of = BAS
-		owner = CAF
+		owner = GRD
 		buildings = {
 			infrastructure = 2
 			11350 = {
@@ -19,7 +19,7 @@ state={
 	}
 	
 	provinces={
-		379 11106 11350 13009 
+		11106  
 	}
 
 	local_supplies=4.0 

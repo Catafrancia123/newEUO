@@ -56,7 +56,7 @@ country_event = { #Intro
 	id = DIX.35
 	title = DIX.35.t
 	desc = DIX.35.d
-	picture = GFX_report_event_chinese_soldiers_01
+	picture = GFX_report_event_dix_wlp_death
 	
 	trigger = {
 		tag = DIX
@@ -103,14 +103,8 @@ country_event = { #Intro
 	
 	immediate = { 
 		hidden_effect = { 
-			GER = {
-				end_puppet = DIX
 			AMR = {
 				transfer_state = 816
-				declare_war_on = {
-					target = DIX
-					type = annex_everything
-				}
 				load_oob = AMR_REVOLT
 				add_state_core = 361
 				add_state_core = 362
@@ -124,18 +118,11 @@ country_event = { #Intro
 				add_state_core = 370
 				add_state_core = 816
 				add_state_core = 1050
+				add_state_core = 1082
 			}
 			RNR = {
 				transfer_state = 368
 				transfer_state = 369
-				declare_war_on = {
-					target = DIX
-					type = annex_everything
-				}
-				declare_war_on = {
-					target = AMR
-					type = annex_everything
-				}
 				load_oob = RNR_REVOLT
 				add_state_core = 361
 				add_state_core = 362
@@ -149,25 +136,12 @@ country_event = { #Intro
 				add_state_core = 370
 				add_state_core = 816
 				add_state_core = 1050
+				add_state_core = 1082
 			}
 			CSA = {
-				transfer_state = 364
-				transfer_state = 365
-				transfer_state = 366
 				transfer_state = 367
 				transfer_state = 370
-				declare_war_on = {
-					target = DIX
-					type = annex_everything
-				}
-				declare_war_on = {
-					target = AMR
-					type = annex_everything
-				}
-				declare_war_on = {
-					target = RNR
-					type = annex_everything
-				}
+				transfer_state = 1050
 				load_oob = CSA_REVOLT
 				add_state_core = 361
 				add_state_core = 362
@@ -181,26 +155,12 @@ country_event = { #Intro
 				add_state_core = 370
 				add_state_core = 816
 				add_state_core = 1050
+				add_state_core = 1082
 			}
-			PRA = {
-				transfer_state = 1050
-				declare_war_on = {
-					target = DIX
-					type = annex_everything
-				}
-				declare_war_on = {
-					target = AMR
-					type = annex_everything
-				}
-				declare_war_on = {
-					target = RNR
-					type = annex_everything
-				}
-				declare_war_on = {
-					target = CSA
-					type = annex_everything
-				}
-				load_oob = PRA_REVOLT
+			NAF = {
+				transfer_state = 365
+				transfer_state = 366
+				load_oob = NAF_REVOLT
 				add_state_core = 361
 				add_state_core = 362
 				add_state_core = 363
@@ -213,6 +173,24 @@ country_event = { #Intro
 				add_state_core = 370
 				add_state_core = 816
 				add_state_core = 1050
+				add_state_core = 1082
+			}
+			SDI = {
+				transfer_state = 364
+				load_oob = SDI_REVOLT
+				add_state_core = 361
+				add_state_core = 362
+				add_state_core = 363
+				add_state_core = 364
+				add_state_core = 365
+				add_state_core = 366
+				add_state_core = 367
+				add_state_core = 368
+				add_state_core = 369
+				add_state_core = 370
+				add_state_core = 816
+				add_state_core = 1050
+				add_state_core = 1082
 			}
 			DIX = {
 				leave_faction
@@ -221,6 +199,11 @@ country_event = { #Intro
 				load_focus_tree = {
 					tree = DIX_gliebe_war
 				}
+				country_event = {
+					id = DIX.41
+					days = 4
+					random_days = 3
+				}
 			}
 		}
 	}
@@ -228,5 +211,30 @@ country_event = { #Intro
 	option = { #Puppetry
 		name = DIX.40.a
 		hidden_effect = {
+		}
+	}
+}
+
+country_event = { #Intro 
+	id = DIX.41
+	title = DIX.41.t
+	desc = DIX.41.d
+	picture = GFX_report_event_dix_intro
+
+	immediate = { 
+		hidden_effect = { 
+			AMR = {
+				declare_war_on = {
+					target = DIX
+					type = annex_everything
+				}
+			}
+		}
+	}
+
+	is_triggered_only = yes
+	
+	option = { #Puppetry
+		name = DIX.41.a
 	}
 }

@@ -2,26 +2,11 @@ state={
 	id=366
 	name="STATE_366"
 	provinces={
-		1556 1572 1584 10352 10380 10407 12353 12381 12439 
+		1556 12353 12381 
 	}
 	
 	history={
 		owner = DIX
-		victory_points = {
-			12381 10 
-		}
-		victory_points = {
-			10407 10 
-		}
-		victory_points = {
-			10380 5 
-		}
-		victory_points = {
-			10352 5 
-		}
-		victory_points = {
-			1584 5 
-		}
 	}
 	
 	manpower=1468210

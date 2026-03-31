@@ -13,4 +13,4 @@ set_popularities = {
 	fascism = 100
 }
 
-recruit_character = EQG_
+recruit_character = EQG_Monica_Macias

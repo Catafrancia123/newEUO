@@ -43,3 +43,4 @@ add_to_faction = AST
 add_to_faction = SHX
 add_to_faction = GXC
 add_to_faction = SRL
+add_to_faction = ALA

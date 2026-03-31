@@ -7,12 +7,9 @@ state={
 
 	history={
 		add_core_of = BAS
-		owner = CAF
+		owner = DCA
 		buildings = {
 			infrastructure = 2
-			4450 = {
-				naval_base = 1
-			}
 			7123 = {
 				naval_base = 1
 			}
@@ -20,7 +17,7 @@ state={
 	}
 
 	provinces={
-		4450 7123 
+		7123 
 	}
 
 	local_supplies=0.0 

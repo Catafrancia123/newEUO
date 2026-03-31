@@ -11,4 +11,4 @@ set_popularities = {
 	revolutionary_socialism = 100
 }
 
-recruit_character = GHA
+recruit_character = GHA_Samia_Nkrumah

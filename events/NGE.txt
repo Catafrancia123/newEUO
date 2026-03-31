@@ -8,8 +8,22 @@ country_event = {
     title = NGE_Skeleton.1.t
     desc = NGE_Skeleton.1.desc
     
-    is_triggered_only = yes
+	trigger = {
+		tag = NGE
+		date > 2011.2.1
+		date < 2011.2.31
+	}
     
+	immediate = { 
+		1068 = { set_demilitarized_zone = yes }
+		country_event = {
+			id = NGE_Skeleton.2
+			days = 4
+			random_days = 3
+		}
+		leave_faction = yes
+	}
+	
     option = { #Boyz in the hood saxaphones
         name = NGE_Skeleton.1.a
 		NGE = {
@@ -43,7 +57,6 @@ country_event = {
 			}
 		}
         MDF = {
-			add_state_core = 261
 			add_state_core = 395
 			add_state_core = 396
 			add_state_core = 1061
