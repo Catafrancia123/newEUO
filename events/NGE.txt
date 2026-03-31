@@ -57,7 +57,6 @@ country_event = {
 			}
 		}
         MDF = {
-			add_state_core = 261
 			add_state_core = 395
 			add_state_core = 396
 			add_state_core = 1061
