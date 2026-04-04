@@ -1,4 +1,4 @@
-﻿capital = 219 # Moscow
+﻿capital = 252 # Moscow
 
 oob = "MCW_2010"
 

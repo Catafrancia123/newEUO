@@ -11,9 +11,6 @@ state={
 	
 	history={
 		owner = MCW
-		victory_points = {
-			6380 50 
-		}
 	}
 	
 	manpower=8335992
