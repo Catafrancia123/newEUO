@@ -5,3 +5,19 @@ DIX_debug = {
 		original_tag = DIX
 	}
 }
+
+DIX_rebuilding_dixie = {
+
+	allowed = {
+		original_tag = DIX
+	}
+	priority = 100
+}
+
+DIX_pressburg_summit = {
+
+	allowed = {
+		original_tag = DIX
+	}
+	priority = 100
+}

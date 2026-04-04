@@ -4,7 +4,7 @@ state={
 
 	history={
 		victory_points = {
-			6557 1
+			6557 4
 		}
 		#victory_points = {
 		#	572 5

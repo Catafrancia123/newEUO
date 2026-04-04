@@ -48,3 +48,57 @@ DIX_debug = {
         }
     }
 }
+
+DIX_rebuilding_dixie = {
+    DIX_build_schools = {
+        available = {
+            DIX = {
+            }
+        }
+        icon = MDF_HERE
+        complete_effect = {
+			load_focus_tree = {
+				tree = DIX_branch_legacy_of_our_fuhrer
+			}
+        }
+    }
+    DIX_rebuild_new_orleans = {
+        available = {
+            DIX = {
+            }
+        }
+        icon = MDF_HERE
+        complete_effect = {
+			load_focus_tree = {
+				tree = DIX_branch_legacy_of_our_fuhrer
+			}
+        }
+    }
+    DIX_construct_new_forts = {
+        available = {
+            DIX = {
+            }
+        }
+        icon = MDF_HERE
+        complete_effect = {
+			load_focus_tree = {
+				tree = DIX_branch_legacy_of_our_fuhrer
+			}
+        }
+    }
+}
+
+DIX_pressburg_summit = {
+    DIX_send_our_delegates = {
+        available = {
+            DIX = {
+            }
+        }
+        icon = MDF_HERE
+        complete_effect = {
+			load_focus_tree = {
+				tree = DIX_branch_legacy_of_our_fuhrer
+			}
+        }
+    }
+}
