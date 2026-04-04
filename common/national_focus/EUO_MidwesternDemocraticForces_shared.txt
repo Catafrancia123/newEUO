@@ -5,6 +5,7 @@ shared_focus = {
 	x = 11
 	y = 0
 	completion_reward = {
+		add_ideas = MDF_Onto_The_Streets
 		log = "[GetDateText]: [Root.GetName]: Focus MDF_out_into_the_frontlines"
 	}
 }
@@ -89,12 +90,12 @@ shared_focus = {
 	load_oob = MDF_SmallDeployment
     add_to_variable = {
         var = MDF_PA_planning_factor
-        value = 0.075
+        value = 0.175
         tooltip = MDF_planning_factor_tooltip
     }
     add_to_variable = {
         var = MDF_PA_exp_loss
-        value = -0.05
+        value = 0.125
         tooltip = MDF_planning_factor_tooltip
     }
 		log = "[GetDateText]: [Root.GetName]: Focus MDF_coordinating_military_strategies"
@@ -266,7 +267,7 @@ shared_focus = {
 	completion_reward = {
     add_to_variable = {
         var = MDF_WR_EFFICIENCY_GAIN
-        value = 0.05
+        value = 0.15
         tooltip = poop3
     }
 		log = "[GetDateText]: [Root.GetName]: Focus MDF_provide_the_necessary_tools"
@@ -284,7 +285,7 @@ shared_focus = {
 	completion_reward = {
     add_to_variable = {
         var = MDF_WR_MAX_EFFICIENCY
-        value = 0.075
+        value = 0.15
         tooltip = eff
     }
 		log = "[GetDateText]: [Root.GetName]: Focus MDF_expertise_from_detroit"
@@ -463,7 +464,7 @@ shared_focus = {
 	completion_reward = {
     add_to_variable = {
         var = MDF_PA_org_regain
-        value = 0.05
+        value = 0.125
         tooltip = MDF_planning_factor_tooltip
     }
     add_to_variable = {
@@ -473,7 +474,7 @@ shared_focus = {
     }
     add_to_variable = {
         var = MDF_PA_supply_consumption
-        value = 0.1
+        value = -0.15
         tooltip = MDF_planning_factor_tooltip
     }
 		log = "[GetDateText]: [Root.GetName]: Focus MDF_professionalize_the_mta"
@@ -491,7 +492,7 @@ shared_focus = {
 	completion_reward = {
     add_to_variable = {
         var = MDF_PA_artillery_xp_factor
-        value = 0.025
+        value = 0.225
         tooltip = MDF_planning_factor_tooltip
     }
 		log = "[GetDateText]: [Root.GetName]: Focus MDF_boyds_artillery_plan"
@@ -510,7 +511,7 @@ shared_focus = {
 	completion_reward = {
 		add_equipment_to_stockpile = {
         type = artillery_equipment
-        amount = 105
+        amount = 145
         producer = MDF
     }
 		log = "[GetDateText]: [Root.GetName]: Focus MDF_accelerated_artillery_prioritization"
@@ -528,12 +529,12 @@ shared_focus = {
 	completion_reward = {
     add_to_variable = {
         var = MDF_PA_org_regain
-        value = 0.05
+        value = 0.075
         tooltip = MDF_planning_factor_tooltip
     }
     add_to_variable = {
         var = MDF_PA_coordination_bonus
-        value = 0.05
+        value = 0.1
         tooltip = MDF_planning_factor_tooltip
     }
 		log = "[GetDateText]: [Root.GetName]: Focus MDF_from_militia_to_military"
@@ -552,6 +553,11 @@ shared_focus = {
     add_to_variable = {
         var = MDF_PA_core_defense_factor
         value = 0.025
+        tooltip = MDF_planning_factor_tooltip
+    }
+    add_to_variable = {
+        var = MDF_PA_core_attack_factor
+        value = 0.05
         tooltip = MDF_planning_factor_tooltip
     }
 		log = "[GetDateText]: [Root.GetName]: Focus MDF_outskill_the_neugermanians"

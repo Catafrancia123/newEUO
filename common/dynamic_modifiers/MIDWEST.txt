@@ -19,7 +19,10 @@ MDF_Professionalizing_Army = {
     org_loss_when_moving = MDF_PA_org_loss_moving
     army_morale_factor = MDF_PA_morale_factor
     supply_consumption_factor = MDF_PA_supply_consumption
-    experience_gain_artillery_combat_factor = MDF_PA_artillery_xp_factor
+    army_artillery_attack_factor = MDF_PA_artillery_offense
+    experience_gain_army_artillery_combat_factor = MDF_PA_artillery_xp_factor
+    attrition = MDF_PA_attrition_factor
+    army_strength_factor = MDF_army_strength_factor
     experience_loss_factor = MDF_PA_exp_loss
     coordination_bonus = MDF_PA_coordination_bonus
 }
