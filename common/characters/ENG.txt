@@ -82,7 +82,7 @@ characters = {
 		name = "George Galloway" 
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/ENG/george_galloway.tga"
+				large = "gfx/leaders/ENG/george_galloway.dds"
 			}
 		}
 		country_leader = {
