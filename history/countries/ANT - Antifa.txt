@@ -19,8 +19,8 @@ set_popularities = {
 create_country_leader = {
 	name = "Detroit Council"
 	desc = "DetroitCouncilDesc"
-	picture = "gfx/leaders/ANT/EUO-Regional-Antifascist-Council.png"
+	picture = "gfx/leaders/ANT/Antifa.png"
 	expire = "2040.1.1"
-	ideology = anarcho-syndicalism
+	ideology = anarcho_syndicalism
 	traits = {}
 }
