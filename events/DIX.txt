@@ -53,6 +53,19 @@ country_event = { #Intro
 }
 
 country_event = { #Intro 
+	id = DIX.31
+	title = DIX.31.t
+	desc = DIX.31.d
+	picture = GFX_report_event_dix_pressburg_summit
+
+	is_triggered_only = yes
+	
+	option = { #Puppetry
+		name = DIX.31.a
+	}
+}
+
+country_event = { #Intro 
 	id = DIX.35
 	title = DIX.35.t
 	desc = DIX.35.d
@@ -80,6 +93,13 @@ country_event = { #Intro
 				tree = DIX_branch_legacy_of_our_fuhrer
 			}
 			set_country_flag = DIX_crisis_unresolved
+			DIX = {
+				country_event = {
+					id = DIX.36
+					days = 4
+					random_days = 3
+				}
+			}
 		}
 	}
 	
@@ -89,9 +109,22 @@ country_event = { #Intro
 }
 
 country_event = { #Intro 
-	id = DIX.40
-	title = DIX.40.t
-	desc = DIX.40.d
+	id = DIX.36
+	title = DIX.36.t
+	desc = DIX.36.d
+	picture = GFX_report_event_dix_inaugural_address
+	
+	is_triggered_only = yes
+	
+	option = { #Puppetry
+		name = DIX.36.a
+	}
+}
+
+country_event = { #Intro 
+	id = DIX.100
+	title = DIX.100.t
+	desc = DIX.100.d
 	picture = GFX_report_event_chinese_soldiers_01
 	
 	trigger = {
@@ -200,7 +233,7 @@ country_event = { #Intro
 					tree = DIX_gliebe_war
 				}
 				country_event = {
-					id = DIX.41
+					id = DIX.101
 					days = 4
 					random_days = 3
 				}
@@ -209,16 +242,16 @@ country_event = { #Intro
 	}
 	
 	option = { #Puppetry
-		name = DIX.40.a
+		name = DIX.100.a
 		hidden_effect = {
 		}
 	}
 }
 
 country_event = { #Intro 
-	id = DIX.41
-	title = DIX.41.t
-	desc = DIX.41.d
+	id = DIX.101
+	title = DIX.101.t
+	desc = DIX.101.d
 	picture = GFX_report_event_dix_intro
 
 	immediate = { 
@@ -235,6 +268,6 @@ country_event = { #Intro
 	is_triggered_only = yes
 	
 	option = { #Puppetry
-		name = DIX.41.a
+		name = DIX.101.a
 	}
 }

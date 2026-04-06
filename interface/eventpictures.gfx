@@ -34,6 +34,16 @@ spriteTypes = {
 		name = "GFX_report_event_ger_2010s"
 		texturefile = "gfx/event_pictures/report_event_ger_2010s.dds"
 	}
+	
+	spriteType = {
+		name = "GFX_report_event_dix_inaugural_address"
+		texturefile = "gfx/event_pictures/report_event_DIX_gliebe_address.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_dix_pressburg_summit"
+		texturefile = "gfx/event_pictures/report_event_DIX_pressburg_summit.dds"
+	}
 
 	spriteType = {
 		name = "GFX_news_event_polish_army"
