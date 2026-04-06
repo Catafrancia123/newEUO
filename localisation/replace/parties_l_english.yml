@@ -32,3 +32,26 @@
  syncretism:0 "Syncretism"
  syncretism_noun:0 "Syncretic"
  syncretism_desc:0 "Big Tent Party"
+
+
+
+ #ENG PARTIES
+ ENG_anarchism_party:0 "BDL"
+ ENG_anarchism_party_long:0 "British Defence League"
+ ENG_revolutionary_socialism_party:0 "RLP"
+ ENG_revolutionary_socialism_party_long:0 "Revolutionary Labour Party"
+ ENG_moderate_socialism_party:0 "Anti-Fascist Action"
+ ENG_liberalism_party:0 "SDP"
+ ENG_liberalism_party_long:0 "Social Democratic Party"
+ ENG_conservatism_party:0 "Conservative Party"
+ ENG_autocratic_party:0 "NF/R"
+ ENG_autocratic_party_long:0 "National Front - Reformist Faction"
+ ENG_reactionary_party:0 "NF/M"
+ ENG_reactionary_party_long:0 "National Front - Mosleyite Faction"
+ ENG_fascism_party:0 "NF/C"
+ ENG_fascism_party_long:0 "National Front - Covenanter Faction" #AKA Christian faction? Unsure
+ ENG_national_socialism_party:0 "NF/O"
+ ENG_national_socialism_party_long:0 "National Front - Orthodox Faction"
+ ENG_syncretism_party:0 "NF/SS"
+ ENG_syncretism_party_long:0 "National Front - Free Corps/SS Faction"
+

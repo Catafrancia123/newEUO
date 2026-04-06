@@ -10,7 +10,27 @@ set_politics = {
 }
 
 set_popularities = {
-	national_socialism = 100
+	national_socialism = 38
+	autocratic = 15
+	reactionary = 25
+	fascism = 7
+	syncretism = 5
+	anarchism = 1
+	revolutionary_socialism = 3
+	moderate_socialism = 2
+	liberalism = 1
+	conservatism = 3
 }
 
 recruit_character = ENG_martin_webster
+recruit_character = ENG_jim_dowson 
+recruit_character = ENG_mark_collett 
+recruit_character = ENG_gary_raikes 
+recruit_character = ENG_rupert_lowe 
+recruit_character = ENG_neil_hamilton 
+recruit_character = ENG_kenneth_clarke 
+recruit_character = ENG_william_clouston 
+recruit_character = ENG_jeremy_corbyn 
+recruit_character = ENG_george_galloway 
+recruit_character = ENG_tommy_robinson
+
