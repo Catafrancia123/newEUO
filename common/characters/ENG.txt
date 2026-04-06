@@ -25,7 +25,7 @@ characters = {
 		name = "Mark Collett" 
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/ENG/mark_collett.dds" #made an oopsy when I made the file LOL
+				large = "gfx/leaders/ENG/mark_collett.dds"
 			}
 		}
 		country_leader = {
@@ -58,7 +58,7 @@ characters = {
 		name = "Neil Hamilton" 
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/ENG/neil_hamilton.tga"
+				large = "gfx/leaders/ENG/neil_hamilton.dds"
 			}
 		}
 		#country_leader = {
