@@ -45,4 +45,15 @@ characters = {
 			logistics_skill = 3
 		}
 	}
+	NIR_jim_allister = {
+		name = "Jim Allister" 
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/NIR/jim_allister.tga"
+			}
+		}
+		country_leader = {
+			ideology = ultraconservatism
+		}
+	}
 }

@@ -2,6 +2,7 @@
 
 recruit_character = NIR_gusty_spence
 recruit_character = NIR_mad_dog_adair
+recruit_character = NIR_jim_allister
 
 add_ideas = {
 	NIR_unrecognised_state
