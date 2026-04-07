@@ -129,21 +129,22 @@ country_event = {
     
     option = { #Boyz in the hood saxaphones
         name = NGE_Skeleton.5.a
+
+		1061 = { set_demilitarized_zone = no }
+		1062 = { set_demilitarized_zone = no }
+		1063 = { set_demilitarized_zone = no }
+		1064 = { set_demilitarized_zone = no }
+		1065 = { set_demilitarized_zone = no }
+		1066 = { set_demilitarized_zone = no }
+		1067 = { set_demilitarized_zone = no }
+		1068 = { set_demilitarized_zone = no }
+		1069 = { set_demilitarized_zone = no }
+		1070 = { set_demilitarized_zone = no }
 		NGE = {
 			country_event = {
 				id = NGE_Skeleton.6
-				days = 4
-				random_days = 3
+				days = 7
 			}
-			1062 = { is_demilitarized_zone = no }
-			1063 = { is_demilitarized_zone = no }
-			1064 = { is_demilitarized_zone = no }
-			1065 = { is_demilitarized_zone = no }
-			1066 = { is_demilitarized_zone = no }
-			1067 = { is_demilitarized_zone = no }
-			1068 = { is_demilitarized_zone = no }
-			1069 = { is_demilitarized_zone = no }
-			1070 = { is_demilitarized_zone = no }
 		}
         MDF = {
 			transfer_state = 1061
@@ -160,28 +161,34 @@ country_event = {
 				color = { 186 155 121 }
 			}
 			load_focus_tree = MDF_Spring
+			inherit_technology = NGE
 		}
         WIS = {
 			transfer_state = 1066
 			load_oob = WIS_Gotime
+			inherit_technology = NGE
 		}
         FLP = {
 			transfer_state = 1067
 			load_oob = FLP_Gotime
+			inherit_technology = NGE
 		}
         ANT = {
 			transfer_state = 1068
 			load_oob = ANT_Gotime
+			inherit_technology = NGE
 		}
         ODF = {
 			transfer_state = 1069
 			load_oob = ODF_Gotime
 			add_ideas = Ohio_No_Factions
+			inherit_technology = NGE
 		}
         OHC = {
 			transfer_state = 1070
 			load_oob = OHC_Gotime
 			add_ideas = Ohio_No_Factions
+			inherit_technology = NGE
 		}
     }
 }
