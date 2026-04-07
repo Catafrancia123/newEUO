@@ -1,8 +1,8 @@
-version="EUO"
+version="v0.1.2-dev1"
 tags={
 	"Alternative History"
 }
-name="EUO"
+name="Einheit und Ordnung"
 replace_path="common/abilities"
 replace_path="common/ai_focuses"
 replace_path="common/ai_equipment"
