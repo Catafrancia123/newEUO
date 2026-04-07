@@ -33,15 +33,16 @@ MDF_After_War = {
                 target = ANT
                 type = annex_everything
             }
-            every_state ={
+            ANT = {
+                any_core_state ={
                     limit = {
                         is_core_of = ANT
                     }
                 add_core_of = MDF
+                }
             }
         }
     }
-}
     Annex_Civil_Guard = {
         available = {
             NGE = {
@@ -50,21 +51,19 @@ MDF_After_War = {
             tag = MDF
         }
         icon = MDF_HERE
-        complete_effect = {
             annex_country = {
                 target = FLP
                 type = annex_everything
             }
             MDF = {
-            every_state ={
+                any_core_state ={
                     limit = {
-                        is_core_of = ANT
+                        is_core_of = FLP
                     }
                 add_core_of = MDF
             }
         }
     }
-}
     Annex_Wisconsin = {
         available = {
             NGE = {
@@ -78,10 +77,10 @@ MDF_After_War = {
                 target = WIS
                 type = annex_everything
             }
-            every_state ={
-                    limit = {
-                        is_core_of = ANT
-                    }
+            any_core_state ={
+                limit = {
+                    is_core_of = FLP
+                }
                 add_core_of = MDF
             }
         }
