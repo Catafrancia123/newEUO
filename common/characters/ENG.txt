@@ -8,6 +8,10 @@ characters = {
 		}
 		country_leader = {
 			ideology = national_socialism_subtype
+			traits = {
+				ENG_disgraced_director
+				ENG_homosexual
+			}
 		}
 	}
 	ENG_jim_dowson = { #PROTESTANT SUPREMACISTS
