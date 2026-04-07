@@ -65,6 +65,17 @@ characters = {
 		#	ideology = national_socialism_subtype
 		#}
 	}
+	ENG_jonathan_bowden = { #REVOLUTION NAZI LEADER
+		name = "Jonathan Bowden" 
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ENG/jon_bowden.tga"
+			}
+		}
+		#country_leader = {
+		#	ideology = esoteric_nazism
+		#}
+	}
 
 	#THE REVOLUTION
 	ENG_tommy_robinson = { #THE HOOLIGAN
