@@ -3,6 +3,16 @@
 recruit_character = NIR_gusty_spence
 recruit_character = NIR_mad_dog_adair
 
+add_ideas = {
+	NIR_unrecognised_state
+	NIR_IRA_insurgency
+
+	#laws
+	isolation
+	free_trade
+	extensive_conscription
+}
+
 set_politics = {
 	ruling_party = autocratic
 	last_election = "1936.1.1"
