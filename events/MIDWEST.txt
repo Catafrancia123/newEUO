@@ -129,21 +129,15 @@ country_event = {
     
     option = { #Boyz in the hood saxaphones
         name = NGE_Skeleton.5.a
+		GER = {
+			end_puppet = NGE
+		}
 		NGE = {
 			country_event = {
 				id = NGE_Skeleton.6
 				days = 4
 				random_days = 3
 			}
-			1062 = { is_demilitarized_zone = no }
-			1063 = { is_demilitarized_zone = no }
-			1064 = { is_demilitarized_zone = no }
-			1065 = { is_demilitarized_zone = no }
-			1066 = { is_demilitarized_zone = no }
-			1067 = { is_demilitarized_zone = no }
-			1068 = { is_demilitarized_zone = no }
-			1069 = { is_demilitarized_zone = no }
-			1070 = { is_demilitarized_zone = no }
 		}
         MDF = {
 			transfer_state = 1061
@@ -151,6 +145,10 @@ country_event = {
 			transfer_state = 1063
 			transfer_state = 1064
 			transfer_state = 1065
+			declare_war_on = {
+    			target = NGE
+    			type = annex_everything
+			}
 			load_oob = MDF_Gotime
 			create_faction_from_template = {
 				template =
@@ -163,23 +161,43 @@ country_event = {
 		}
         WIS = {
 			transfer_state = 1066
+			declare_war_on = {
+    			target = NGE
+    			type = annex_everything
+			}
 			load_oob = WIS_Gotime
 		}
         FLP = {
 			transfer_state = 1067
+			declare_war_on = {
+    			target = NGE
+    			type = annex_everything
+			}
 			load_oob = FLP_Gotime
 		}
         ANT = {
 			transfer_state = 1068
+			declare_war_on = {
+    			target = NGE
+    			type = annex_everything
+			}
 			load_oob = ANT_Gotime
 		}
         ODF = {
 			transfer_state = 1069
+			declare_war_on = {
+    			target = NGE
+    			type = annex_everything
+			}
 			load_oob = ODF_Gotime
 			add_ideas = Ohio_No_Factions
 		}
         OHC = {
 			transfer_state = 1070
+			declare_war_on = {
+    			target = NGE
+    			type = annex_everything
+			}
 			load_oob = OHC_Gotime
 			add_ideas = Ohio_No_Factions
 		}
@@ -195,49 +213,6 @@ country_event = {
     
     option = {
         name = NGE_Skeleton.6.a
-		NGE = {
-			country_event = {
-				id = NGE_Skeleton.7
-				days = 4
-				random_days = 3
-			}
-			declare_war_on = {
-    			target = MDF
-    			type = annex_everything
-			}
-			declare_war_on = {
-    			target = ANT
-    			type = annex_everything
-			}
-			declare_war_on = {
-    			target = WIS
-    			type = annex_everything
-			}
-			declare_war_on = {
-    			target = FLP
-    			type = annex_everything
-			}
-			declare_war_on = {
-    			target = OHC
-    			type = annex_everything
-			}
-			declare_war_on = {
-    			target = ODF
-    			type = annex_everything
-			}
-		}
-    }
-}
-
-country_event = {
-    id = NGE_Skeleton.7
-    title = NGE_Skeleton.7.t
-    desc = NGE_Skeleton.7.desc
-    
-    is_triggered_only = yes
-    
-    option = {
-        name = NGE_Skeleton.7.a
         ODF = {
 				declare_war_on = {
     			target = OHC
@@ -248,14 +223,14 @@ country_event = {
 }
 
 country_event = {
-    id = NGE_Skeleton.8
-    title = NGE_Skeleton.8.t
-    desc = NGE_Skeleton.8.desc
+    id = NGE_Skeleton.7
+    title = NGE_Skeleton.7.t
+    desc = NGE_Skeleton.7.7.desc
     
     is_triggered_only = yes
     
     option = {
-        name = NGE_Skeleton.8.a
+        name = NGE_Skeleton.7.a
 		load_focus_tree = {
 			tree = MDF_Spring
 			keep_completed = yes
