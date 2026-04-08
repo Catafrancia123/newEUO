@@ -7,7 +7,7 @@
 			tag = DIX
 		}
 	}
-	default = no
+	default = yes
 	shared_focus = DIX_party_in_dixieland
 }
 
@@ -35,4 +35,41 @@ focus_tree = {
 	}
 	default = no
 	shared_focus = DIX_disaster_strikes
+}
+
+focus_tree = {
+	id = DIX_expand
+	country = {
+		factor = 0
+		modifier = {
+			add = 20
+			tag = DIX
+		}
+	}
+	continuous_focus_position = {
+		x = 2000
+		y = 1000
+	}
+
+	focus = {
+		id = DIX_focus_expand_start
+		icon = GFX_focus_DIX_expand_start
+		x = 10
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_NEUTRAL
+			FOCUS_FILTER_POLITICAL
+		}
+		ai_will_do = {
+			base = 5
+			modifier = {
+				is_historical_focus_on = yes
+				factor = 2
+			}
+		}
+		completion_reward = {
+			add_political_power = 75
+		}
+	}
 }
