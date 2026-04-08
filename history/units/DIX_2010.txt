@@ -281,28 +281,28 @@ units = {
 	division = {
 		name = "Tennessee National Guard"
 		location = 12501
-		division_template = "National Guard (Armor)"
+		division_template = "National Guard (Infantry)"
 		start_experience_factor = 0.2
 	}
 
 	division = {
 		name = "North Carolina National Guard"
 		location = 10081
-		division_template = "National Guard (Armor)"
+		division_template = "National Guard (Infantry)"
 		start_experience_factor = 0.2
 	}
 
 	division = {
 		name = "Mississippi National Guard"
 		location = 4565
-		division_template = "National Guard (Armor)"
+		division_template = "National Guard (Infantry)"
 		start_experience_factor = 0.2
 	}
 
 	division = {
 		name = "Georgia National Guard"
 		location = 10492
-		division_template = "National Guard (Armor)"
+		division_template = "National Guard (Infantry)"
 		start_experience_factor = 0.2
 	}
 

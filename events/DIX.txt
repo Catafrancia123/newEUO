@@ -237,6 +237,7 @@ country_event = { #Intro
 					days = 4
 					random_days = 3
 				}
+				set_cosmetic_tag = DIX_gliebe
 			}
 		}
 	}

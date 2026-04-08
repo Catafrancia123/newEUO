@@ -8,9 +8,8 @@ focus_tree = {
 		}
 	}
 	default = no
-	# nice try bucko, this crashes the game!!!!
-	#shared_focus = NGE_the_great_aryan_triumph
-	#initial_show_position = {
-	#	focus = NGE_the_great_aryan_triumph
-	#}
+	shared_focus = NGE_years_of_triumph
+	initial_show_position = {
+		focus = NGE_years_of_triumph
+	}
 }

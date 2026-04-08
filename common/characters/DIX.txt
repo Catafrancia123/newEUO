@@ -13,18 +13,37 @@ characters = {
 			id = -1
 		}
 	}
-	#DIX_Erich_Gliebe = {
-	#	name = "Erich_Gliebe" 
-	#	portraits = {
-	#		civilian = {
-	#			large = GFX_portrait_Erich_Gliebe
-	#		}
-	#	}
-	#	country_leader = {
-	#		ideology = national_socialism_subtype
-	#		expire = "2030.1.1.1"
-	#		id = -1
-	#	}
-	#}
+	DIX_Shaun_Winkler = {
+		name = "Shaun Winkler"
+		portraits = {
+			army = {
+				large = "gfx/leaders/DIX/Portrait_DIX_Shaun_Winkler.png"
+			}
+		}
+		field_marshal = {
+			traits = { }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	DIX_Stephen_Mason = {
+		name = "Stephen Mason"
+		portraits = {
+			army = {
+				large = "gfx/leaders/DIX/Portrait_DIX_Stephen_Mason.png"
+			}
+		}
+		field_marshal = {
+			traits = { }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
 }
 	
