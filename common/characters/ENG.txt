@@ -8,6 +8,10 @@ characters = {
 		}
 		country_leader = {
 			ideology = national_socialism_subtype
+			traits = {
+				ENG_disgraced_director
+				ENG_homosexual
+			}
 		}
 	}
 	ENG_jim_dowson = { #PROTESTANT SUPREMACISTS
@@ -63,6 +67,17 @@ characters = {
 		}
 		#country_leader = {
 		#	ideology = national_socialism_subtype
+		#}
+	}
+	ENG_jonathan_bowden = { #REVOLUTION NAZI LEADER
+		name = "Jonathan Bowden" 
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ENG/jon_bowden.tga"
+			}
+		}
+		#country_leader = {
+		#	ideology = esoteric_nazism
 		#}
 	}
 

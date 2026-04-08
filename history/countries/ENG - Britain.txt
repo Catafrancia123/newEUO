@@ -33,4 +33,5 @@ recruit_character = ENG_william_clouston
 recruit_character = ENG_jeremy_corbyn 
 recruit_character = ENG_george_galloway 
 recruit_character = ENG_tommy_robinson
+recruit_character = ENG_jonathan_bowden
 

@@ -11,6 +11,9 @@ state={
 	
 	history={
 		owner = NIR
+		victory_points = {
+			3379 10 #belfast 
+		}
 	}
 	
 	manpower=1198537
