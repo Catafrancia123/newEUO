@@ -80,6 +80,17 @@ characters = {
 		#	ideology = esoteric_nazism
 		#}
 	}
+	ENG_the_yerbmeister = { #fascist political appointed general
+		name = "Alek Yerbury" 
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ENG/alek_yerbury.tga"
+			}
+			army = {
+				large = "gfx/leaders/ENG/alek_yerbury.tga"
+			}
+		}
+	}
 
 	#THE REVOLUTION
 	ENG_tommy_robinson = { #THE HOOLIGAN
