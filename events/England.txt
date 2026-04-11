@@ -492,6 +492,9 @@ news_event = {
 		trigger = {
 			original_tag = ENG
 		}
+		hidden_effect = {
+			set_cosmetic_tag = ENG_raikes_empire_flag_ct
+		}
 	}
 	option = {
 		name = ingurland.9.b
