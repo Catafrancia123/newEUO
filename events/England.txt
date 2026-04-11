@@ -245,7 +245,7 @@ country_event = {
 		trigger = {
 			has_country_flag = {
 				flag = ENG_LOWE
-				value > 2
+				value > 1
 			}
 		}
 
@@ -283,7 +283,7 @@ country_event = {
 		trigger = {
 			has_country_flag = {
 				flag = ENG_HAMILTON
-				value > 2
+				value > 1
 			}
 		}
 		retire_character = ENG_martin_webster
@@ -314,7 +314,7 @@ country_event = {
 		trigger = {
 			has_country_flag = {
 				flag = ENG_RAIKES
-				value > 2
+				value > 1
 			}
 		}
 		retire_character = ENG_martin_webster
@@ -351,7 +351,7 @@ country_event = {
 		trigger = {
 			has_country_flag = {
 				flag = ENG_DOWSON
-				value > 2
+				value > 1
 			}
 		}
 		retire_character = ENG_martin_webster
@@ -389,7 +389,7 @@ country_event = {
 		trigger = {
 			has_country_flag = {
 				flag = ENG_COLLETT
-				value > 2
+				value > 1
 			}
 		}
 		retire_character = ENG_martin_webster
