@@ -123,3 +123,34 @@
  ENG_the_economy_desc:0 "With the NF council having now committed to a long-term economic strategy, it's time to implement it."
  ENG_british_self_defence_force:0 "The British Self-Defence Force"
  ENG_british_self_defence_force_desc:0 "After Sealion, the Germans stripped us of most of our military capacities. However, we are allowed to maintain a small but elite 'Self-Defence Force'."
+
+
+
+
+
+ #### EVENTS ####
+
+ ingurland.7.t:0 "Rupert Lowe made Director of Britain"
+ ingurland.7.d:0 "todo"
+ ingurland.7.a:0 "Aim High, Go Lowe!"
+ ingurland.7.b:0 "A Reformist in Great Britain?"
+ ingurland.8.t:0 "Neil Hamilton made Director of Britain"
+ ingurland.8.d:0 "todo"
+ ingurland.8.a:0 "Hamilton will keep us straight and true."
+ ingurland.8.b:0 "The expected result."
+ ingurland.9.t:0 "Gary Raikes made Director of Britain"
+ ingurland.9.d:0 "todo"
+ ingurland.9.a:0 "Hail Raikes!"
+ ingurland.9.b:0 "Will they realign towards Rome?"
+ ingurland.10.t:0 "Jim Dowson made Director of Britain"
+ ingurland.10.d:0 "todo"
+ ingurland.10.a:0 "Big Jim will get it done!"
+ ingurland.10.b:0 "Let's see how a Scotsman does as leader."
+ ingurland.11.t:0 "Mark Collett made Director of Britain"
+ ingurland.11.d:0 "todo"
+ ingurland.11.a:0 "The Future is Now!"
+ ingurland.11.b:0 "They've gone mad!"
+ 
+ ingurland.13.t:0 "British Director Falls into Coma!"
+ ingurland.13.d:0 "todo" #Martin Webster is shot by an assassin, it doesn't kill him but he falls into a coma, never to awake...
+ ingurland.13.a:0 "What will happen next?"

@@ -75,10 +75,24 @@ characters = {
 			civilian = {
 				large = "gfx/leaders/ENG/jon_bowden.tga"
 			}
+			army = {
+				large = "gfx/leaders/ENG/alek_yerbury.tga"
+			}
 		}
 		#country_leader = {
 		#	ideology = esoteric_nazism
 		#}
+		field_marshal = {
+			traits = { politically_connected }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			visible = {
+				always = no
+			}
+		}
 	}
 	ENG_the_yerbmeister = { #fascist political appointed general
 		name = "Alek Yerbury" 

@@ -55,6 +55,30 @@ set_popularities = {
 	conservatism = 3
 }
 
+#THE NATIONAL FRONT DISCO!
+country_event = {
+	id = ingurland.1
+	days = 2
+}
+country_event = {
+	id = ingurland.2
+	days = 10
+}
+country_event = {
+	id = ingurland.3
+	days = 15
+}
+country_event = {
+	id = ingurland.4
+	days = 34
+}
+ENG_jonathan_bowden = {
+	unit_leader_event = {
+		id = ingurland.5
+		days = 46
+	}
+}
+
 recruit_character = ENG_martin_webster
 recruit_character = ENG_jim_dowson 
 recruit_character = ENG_mark_collett 
