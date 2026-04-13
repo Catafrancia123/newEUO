@@ -1,7 +1,7 @@
 ﻿capital = 301
 
 set_popularities = {
-    anarchism
+    anarchism = 100
 }
 
 create_country_leader = {
