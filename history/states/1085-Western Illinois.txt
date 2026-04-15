@@ -1,12 +1,12 @@
 
 state={
-	id=396
-	name="STATE_396"
-	manpower = 906537
-	
+	id=1085
+	name="STATE_1085"
+	manpower = 653509
+
 	resources = {
-		coal = 14
-		steel = 8
+		coal = 4
+		steel = 22
 	}
 
 	state_category = town
@@ -15,18 +15,18 @@ state={
 		owner = NGE
 		buildings = {
 			infrastructure = 2
-			industrial_complex = 2
+			industrial_complex = 1
 		}
 		add_core_of = NGE
 
 		victory_points = {
-			11635 15
+			10339 5
 		}
 
 	}
 
 	provinces={
-		1881 4527 10448 11621 11635 12437 
+		1527 4590 6737 10339 10393 11589 12365
 	}
 
 	local_supplies=0.0 

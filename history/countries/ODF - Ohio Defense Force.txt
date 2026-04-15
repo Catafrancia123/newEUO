@@ -1,17 +1,7 @@
-capital = 9450
-
-oob = "MDF"
-
-recruit_character = MDF_Rahm_Emanuel
-recruit_character = MDF_Robert_Boyd
-recruit_character = MDF_Johnny_R_Miler
-recruit_character = MDF_William_Enyart
-recruit_character = MDF_Daniel_Krumrei
-recruit_character = MDF_Paul_Schimpf
-recruit_character = MDF_Alicia_Nadeau
+capital = 6890
 
 set_politics = {
-	ruling_party = liberalism
+	ruling_party = autocratic
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -35,7 +25,16 @@ set_technology = {
 }
 
 set_popularities = {
-	liberalism = 60
-	conservatism = 30
-	moderate_socialism = 10
+	autocratic = 20
+	reactionary = 40
+	conservatism = 40
+}
+
+create_country_leader = {
+	name = "Tom Kelly"
+	desc = "Kelly_Desc"
+	picture = "gfx/leaders/ODF/Tom-Kelly-EUO.png"
+	expire = "2040.1.1"
+	ideology = military_rule
+	traits = {}
 }

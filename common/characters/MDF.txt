@@ -3,13 +3,13 @@ characters = {
 		name = "Rahm Emanuel" 
 		portraits = {
 			civilian = {
-				large = Rahm-Emanuel-EUO.png
+				large = "gfx/leaders/MDF/Rahm-Emanuel-EUO.png"
 			}
 		}
 		country_leader = {
-			ideology = liberalism
+			ideology = social_liberalism
 			expire = "2030.1.1.1"
-			id = 676767194
+			id = 6794
 		}
 	}
 	MDF_Robert_Boyd = {
