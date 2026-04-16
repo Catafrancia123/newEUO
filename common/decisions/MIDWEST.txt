@@ -85,4 +85,17 @@ MDF_After_War = {
             }
         }
     }
+    Annex_Wisconsin = {
+        available = {
+            NOT = {
+                country_exists = WIS
+                country_exists = ANT
+                country_exists = FLP
+            }
+        }
+        icon = MDF_HERE
+        complete_effect = {
+            set_cosmetic_tag = MDFFEDERATION
+        }
+    }
 }
