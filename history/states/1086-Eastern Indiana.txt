@@ -1,12 +1,11 @@
 
 state={
-	id=396
-	name="STATE_396"
-	manpower = 906537
+	id=1086
+	name="STATE_1086"
+	manpower = 3238501
 	
 	resources = {
-		coal = 14
-		steel = 8
+		coal = 14 #initial distribution = with infra 44.8 / 1280 total
 	}
 
 	state_category = town
@@ -20,13 +19,12 @@ state={
 		add_core_of = NGE
 
 		victory_points = {
-			11635 15
+			870 10
 		}
-
 	}
 
 	provinces={
-		1881 4527 10448 11621 11635 12437 
+		870 9796 9810 11637
 	}
 
 	local_supplies=0.0 

@@ -62,16 +62,14 @@
  NIR_reactionary_party:0 "TPV"
  NIR_reactionary_party_long:0 "Traditional Protestant Voice"
  NIR_fascism_party:0 "Aontú"
- NIR_syncretism_party:0 "PPP"
- NIR_syncretism_party_long:0 "Progressive Protestant Party"
+ NIR_syncretism_party:0 "Progressive Party"
  NIR_anarchism_party:0 "The Anarchy"
  NIR_revolutionary_socialism_party:0 "SF-IRA"
  NIR_revolutionary_socialism_party_long:0 "Sinn Fein - Irish Republican Army"
  NIR_moderate_socialism_party:0 "Belfast Independents"
  NIR_liberalism_party:0 "IUP"
  NIR_liberalism_party_long:0 "Irish Unionist Party"
- NIR_conservatism_party:0 "DP"
- NIR_conservatism_party_long:0 "Democratic Party"
+ NIR_conservatism_party:0 "Democratic Party"
 
  #KEN PARTIES
  KEN_autocratic_party:0 "Leakey Family"

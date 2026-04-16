@@ -13,6 +13,14 @@ set_popularities = {
 	fascism = 100
 }
 
+add_ideas = {
+	FRA_tuareg_war #stop calling the entire German Empire to starve in the Sahara
+
+
+	#laws
+
+}
+
 set_autonomy = {
 	target = ALG
 	autonomous_state = autonomy_reichskommissariat

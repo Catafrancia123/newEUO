@@ -94,8 +94,8 @@ shared_focus = {
         tooltip = MDF_planning_factor_tooltip
     }
     add_to_variable = {
-        var = MDF_PA_exp_loss
-        value = 0.125
+        var = MDF_PA_coordination_bonus
+        value = 0.1
         tooltip = MDF_planning_factor_tooltip
     }
 		log = "[GetDateText]: [Root.GetName]: Focus MDF_coordinating_military_strategies"
@@ -469,7 +469,7 @@ shared_focus = {
     }
     add_to_variable = {
         var = MDF_PA_org_loss_moving
-        value = 0.025
+        value = -0.075
         tooltip = MDF_planning_factor_tooltip
     }
     add_to_variable = {
@@ -528,13 +528,18 @@ shared_focus = {
 	y = 1
 	completion_reward = {
     add_to_variable = {
-        var = MDF_PA_org_regain
+        var = MDF_PA_org_factor
         value = 0.075
         tooltip = MDF_planning_factor_tooltip
     }
     add_to_variable = {
-        var = MDF_PA_coordination_bonus
-        value = 0.1
+        var = MDF_PA_exp_loss
+        value = -0.125
+        tooltip = MDF_planning_factor_tooltip
+    }
+    add_to_variable = {
+        var = MDF_PA_attrition_factor
+        value = -0.075
         tooltip = MDF_planning_factor_tooltip
     }
 		log = "[GetDateText]: [Root.GetName]: Focus MDF_from_militia_to_military"
@@ -552,7 +557,7 @@ shared_focus = {
 	completion_reward = {
     add_to_variable = {
         var = MDF_PA_core_defense_factor
-        value = 0.025
+        value = 0.05
         tooltip = MDF_planning_factor_tooltip
     }
     add_to_variable = {

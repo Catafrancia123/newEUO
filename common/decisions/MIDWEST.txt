@@ -41,7 +41,6 @@ MDF_After_War = {
             }
         }
     }
-}
     Annex_Civil_Guard = {
         available = {
             NGE = {
@@ -57,9 +56,9 @@ MDF_After_War = {
             }
             MDF = {
             every_state ={
-                    limit = {
-                        is_core_of = ANT
-                    }
+                limit = {
+                    is_core_of = FLP
+                }
                 add_core_of = MDF
             }
         }
@@ -80,10 +79,23 @@ MDF_After_War = {
             }
             every_state ={
                     limit = {
-                        is_core_of = ANT
+                        is_core_of = WIS
                     }
                 add_core_of = MDF
             }
+        }
+    }
+    Annex_Wisconsin = {
+        available = {
+            NOT = {
+                country_exists = WIS
+                country_exists = ANT
+                country_exists = FLP
+            }
+        }
+        icon = MDF_HERE
+        complete_effect = {
+            set_cosmetic_tag = MDFFEDERATION
         }
     }
 }
