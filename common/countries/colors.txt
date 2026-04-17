@@ -1587,6 +1587,10 @@ KRK = {
 	color = rgb { 186 80 74 }
 	color_ui = rgb { 186 80 74 }
 }
+SAR = {
+	color = rgb { 158 74 79 }
+	color_ui = rgb { 158 74 79 }
+}
 TAJ = {
 	color = rgb { 78 43 51 }
 	color_ui = rgb { 78 43 51 }
