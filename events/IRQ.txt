@@ -24,14 +24,14 @@ country_event = { #Elections
 	option = { #Rosenberg
 		name = IRQ.40.a
 		hidden_effect = {
-		JOR = {
-			transfer_state = 455
+			JOR = {
+				transfer_state = 455
 			}
-		ITA = {
-			add_to_faction = JOR
+			ITA = {
+				add_to_faction = JOR
 			}
-		IRQ = {
-			set_cosmetic_tag = IRQ_republic
+			IRQ = {
+				set_cosmetic_tag = IRQ_republic
 			}
 		}
 	}
@@ -48,8 +48,8 @@ country_event = { #Elections
 	option = { #Rosenberg
 		name = IRQ.45.a
 		hidden_effect = {
-		IRQ = {
-			transfer_state = 656
+			IRQ = {
+				transfer_state = 656
 			}
 		}
 	}

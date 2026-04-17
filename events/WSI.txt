@@ -28,16 +28,16 @@ country_event = { #Elections
 	option = { #Rosenberg
 		name = WSI.40.a
 		hidden_effect = {
-		BAI = {
-			transfer_state = 564
-			declare_war_on = {
-    			target = IRK
-    			type = annex_everything
+			BAI = {
+				transfer_state = 564
+				declare_war_on = {
+		    			target = IRK
+		    			type = annex_everything
+				}
+				load_oob = BAI_REVOLT
 			}
-			load_oob = BAI_REVOLT
-		}
-		WSI = {
-			country_event = WSI.41
+			WSI = {
+				country_event = WSI.41
 			}
 		}
 	}
@@ -54,16 +54,16 @@ country_event = { #Elections
 	option = { #Rosenberg
 		name = WSI.41.a
 		hidden_effect = {
-		CHT = {
-			transfer_state = 563
-			declare_war_on = {
-    			target = IRK
-    			type = annex_everything
+			CHT = {
+				transfer_state = 563
+				declare_war_on = {
+		    			target = IRK
+		    			type = annex_everything
+				}
+				load_oob = CHT_REVOLT
 			}
-			load_oob = CHT_REVOLT
-		}
-		WSI = {
-			country_event = WSI.42
+			WSI = {
+				country_event = WSI.42
 			}
 		}
 		BAI = {
@@ -84,20 +84,20 @@ country_event = { #Elections
 	option = { #Rosenberg
 		name = WSI.42.a
 		hidden_effect = {
-		IRK = {
-			transfer_state = 566
-			declare_war_on = {
-    			target = BAI
-    			type = annex_everything
+			IRK = {
+				transfer_state = 566
+				declare_war_on = {
+	 	   			target = BAI
+	 	   			type = annex_everything
+				}
+				declare_war_on = {
+		    			target = CHT
+		    			type = annex_everything
+				}
+				load_oob = IRK_REVOLT
 			}
-			declare_war_on = {
-    			target = CHT
-    			type = annex_everything
-			}
-			load_oob = IRK_REVOLT
-		}
-		WSI = {
-			country_event = WSI.43
+			WSI = {
+				country_event = WSI.43
 			}
 		}
 	}
@@ -114,12 +114,12 @@ country_event = { #Elections
 	option = { #Rosenberg
 		name = WSI.43.a
 		hidden_effect = {
-		EVE = {
-			transfer_state = 567
-			load_oob = EVE_REVOLT
-		}
-		WSI = {
-			country_event = WSI.44
+			EVE = {
+				transfer_state = 567
+				load_oob = EVE_REVOLT
+			}
+			WSI = {
+				country_event = WSI.44
 			}
 		}
 	}
@@ -136,20 +136,20 @@ country_event = { #Elections
 	option = { #Rosenberg
 		name = WSI.44.a
 		hidden_effect = {
-		KRS = {
-			transfer_state = 568
-			load_oob = KRS_REVOLT
-			declare_war_on = {
-    			target = BAI
-    			type = annex_everything
-			}
-			declare_war_on = {
-    			target = CHT
-    			type = annex_everything
-			}
-		}
-		WSI = {
-			country_event = WSI.45
+			KRS = {
+				transfer_state = 568
+				load_oob = KRS_REVOLT
+				declare_war_on = {
+	 	   			target = BAI
+	 	   			type = annex_everything
+				}
+				declare_war_on = {
+		    			target = CHT
+		    			type = annex_everything
+				}
+			}	
+			WSI = {
+				country_event = WSI.45
 			}
 		}
 		IRK = {
@@ -170,12 +170,12 @@ country_event = { #Elections
 	option = { #Rosenberg
 		name = WSI.45.a
 		hidden_effect = {
-		KHA = {
-			transfer_state = 569
-			load_oob = KHA_REVOLT
-		}
-		WSI = {
-			country_event = WSI.46
+			KHA = {
+				transfer_state = 569
+				load_oob = KHA_REVOLT
+			}
+			WSI = {
+				country_event = WSI.46
 			}
 		}
 	}
@@ -192,12 +192,12 @@ country_event = { #Elections
 	option = { #Rosenberg
 		name = WSI.46.a
 		hidden_effect = {
-		ALT = {
-			transfer_state = 654
-			load_oob = ALT_REVOLT
-		}
-		WSI = {
-			country_event = WSI.47
+			ALT = {
+				transfer_state = 654
+				load_oob = ALT_REVOLT
+			}
+			WSI = {
+				country_event = WSI.47
 			}
 		}
 	}
@@ -214,15 +214,15 @@ country_event = { #Elections
 	option = { #Rosenberg
 		name = WSI.47.a
 		hidden_effect = {
-		YAK = {
-			transfer_state = 574
-			transfer_state = 644
-			transfer_state = 876
-			transfer_state = 877
-			load_oob = YAK_REVOLT
-		}
-		WSI = {
-			country_event = WSI.48
+			YAK = {
+				transfer_state = 574
+				transfer_state = 644
+				transfer_state = 876
+				transfer_state = 877
+				load_oob = YAK_REVOLT
+			}
+			WSI = {
+				country_event = WSI.48
 			}
 		}
 	}
@@ -239,17 +239,17 @@ country_event = { #Elections
 	option = { #Rosenberg
 		name = WSI.48.a
 		hidden_effect = {
-		SZO = {
-			transfer_state = 516
-			transfer_state = 576
-			transfer_state = 577
-			transfer_state = 579
-			transfer_state = 580
-			transfer_state = 824
-			transfer_state = 878
-		}
-		WSI = {
-			country_event = WSI.49
+			SZO = {
+				transfer_state = 516
+				transfer_state = 576
+				transfer_state = 577
+				transfer_state = 579
+				transfer_state = 580
+				transfer_state = 824
+				transfer_state = 878
+			}
+			WSI = {
+				country_event = WSI.49
 			}
 		}
 	}
@@ -266,18 +266,18 @@ country_event = { #Elections
 	option = { #Rosenberg
 		name = WSI.49.a
 		hidden_effect = {
-		WSI = {
-			release_autonomy = {
-				target = KIR
-				autonomy_state = autonomy_integrated_puppet
-				freedom_level = 0.5
+			WSI = {
+				release_autonomy = {
+					target = KIR
+					autonomy_state = autonomy_integrated_puppet
+					freedom_level = 0.5
+				}
 			}
-		}
-		KIR = {
-			transfer_state = 565
-			transfer_state = 575
-			load_oob = KIR_REVOLT
-			set_politics = {
+			KIR = {
+				transfer_state = 565
+				transfer_state = 575
+				load_oob = KIR_REVOLT
+				set_politics = {
 					ruling_party = autocratic
 				}
 			}

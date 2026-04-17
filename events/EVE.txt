@@ -24,18 +24,20 @@ country_event = { #Elections
 	option = { #Rosenberg
 		name = EVE.40.a
 		hidden_effect = {
-		EVE = {
-			set_politics = { 
-				ruling_party = anarchism
+			EVE = {
+				set_politics = { 
+					ruling_party = anarchism
+					elections_allowed = no
 				}
-			}
-			create_country_leader = {
-				name = "Anastasia Baburova"
-				desc = "POLITICS_ANASTASIA_BABUROVA_DESC"
-				picture = "GFX_portrait_Anastasia_Baburova"
-				expire = "1965.1.1"
-				ideology = anarcho_communism
+				create_country_leader = {
+					name = "Anastasia Baburova"
+					desc = "POLITICS_ANASTASIA_BABUROVA_DESC"
+					picture = "GFX_portrait_Anastasia_Baburova"
+					expire = "1965.1.1"
+					ideology = anarcho_communism
 					traits = {
+						###
+					}
 				}
 			}
 		}

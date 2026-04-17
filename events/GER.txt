@@ -21,8 +21,9 @@ country_event = { #Intro
 
 	trigger = {
 		tag = GER
-		date = 2013.3.11
+		date > 2013.3.11
 	}
+	fire_only_once = yes
 	
 	immediate = { 
 		hidden_effect = { 
@@ -123,7 +124,7 @@ country_event = { #Intro
 			dismantle_faction = yes
 			set_politics = { 
 				ruling_party = conservatism
-				}
+				elections_allowed = no
 			}
 		}
 	}
@@ -140,25 +141,25 @@ country_event = { #Intro
 	option = { #Puppetry
 		name = GER.301.a
 		hidden_effect = {
-		GER = {
-			end_puppet = DIX
-			end_puppet = NEE
-			end_puppet = NGE
-			end_puppet = KAN
-			end_puppet = QUE
-			end_puppet = BRI
-			end_puppet = NOR
-			end_puppet = MCW
-			end_puppet = GGN
-			end_puppet = SLO
-			end_puppet = UKR
-			end_puppet = BNT
-			end_puppet = MCW
-			end_puppet = OST
-			end_puppet = MAD
-			end_puppet = KAU
-			end_puppet = ZAR
-			end_puppet = CAF
+			GER = {
+				end_puppet = DIX
+				end_puppet = NEE
+				end_puppet = NGE
+				end_puppet = KAN
+				end_puppet = QUE
+				end_puppet = BRI
+				end_puppet = NOR
+				end_puppet = MCW
+				end_puppet = GGN
+				end_puppet = SLO
+				end_puppet = UKR
+				end_puppet = BNT
+				end_puppet = MCW
+				end_puppet = OST
+				end_puppet = MAD
+				end_puppet = KAU
+				end_puppet = ZAR
+				end_puppet = CAF
 			}
 		}
 	}
@@ -175,12 +176,12 @@ country_event = { #Intro
 	option = { #Puppetry
 		name = GER.305.a
 		hidden_effect = {
-		DEN = {
-			transfer_state = 37
-			transfer_state = 99
-			transfer_state = 910
-			transfer_state = 911
-			transfer_state = 912
+			DEN = {
+				transfer_state = 37
+				transfer_state = 99
+				transfer_state = 910
+				transfer_state = 911
+				transfer_state = 912
 			}
 		}
 	}
@@ -197,7 +198,8 @@ country_event = { #Intro
 	option = { #Puppetry
 		name = GER.310.a
 		hidden_effect = {
-		set_cosmetic_tag = GER_free
+			set_cosmetic_tag = GER_free
+		}
 	}
 }
 
