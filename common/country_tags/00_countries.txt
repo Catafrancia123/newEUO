@@ -401,4 +401,4 @@ ATI = "countries/Antigua.txt"
 SDI = "countries/Strom's Dixie.txt"
 NAF = "countries/New Afrika.txt"
 NVJ = "countries/Navajo.txt"
-
+SAR = "countries/Sarawak.txt"
