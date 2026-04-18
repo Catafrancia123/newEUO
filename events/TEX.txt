@@ -25,12 +25,12 @@ country_event = { #Intro
 		name = TEX.30.a
 		TEX = {
 			declare_war_on = {
-    			target = LOU
-    			type = annex_everything
+	    			target = LOU
+	    			type = annex_everything
 			}
 			declare_war_on = {
-    			target = ARK
-    			type = annex_everything
+	    			target = ARK
+	    			type = annex_everything
 			}
 		}
 	}
@@ -48,8 +48,8 @@ country_event = { #Intro
 		name = TEX.40.a
 		TEX = {
 			declare_war_on = {
-    			target = DNV
-    			type = annex_everything
+	    			target = DNV
+	    			type = annex_everything
 			}
 		}
 	}

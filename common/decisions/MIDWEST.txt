@@ -85,7 +85,7 @@ MDF_After_War = {
             }
         }
     }
-    Annex_Wisconsin = {
+    Newtag = {
         available = {
             NOT = {
                 country_exists = WIS

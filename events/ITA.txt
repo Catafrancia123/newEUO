@@ -24,19 +24,18 @@ country_event = { #Elections
 	option = { #Rosenberg
 		name = ITA.40.a
 		hidden_effect = {
-		JAP = {
-			end_puppet = ITA
-		}
-		KHM = {
-			transfer_state = 994
-			declare_war_on = {
-    			target = ITA
-    			type = annex_everything
+			JAP = {
+				end_puppet = ITA
+			}
+			KHM = {
+				transfer_state = 994
+				declare_war_on = {
+		    			target = ITA
+		    			type = annex_everything
 				}
 			}
-		}
-		ITA = {
-			leave_faction
+			ITA = {
+				leave_faction = yes
 			}
 		}
 	}
@@ -53,8 +52,8 @@ country_event = { #Elections
 	option = { #Rosenberg
 		name = ITA.80.a
 		hidden_effect = {
-		ITA = {
-			dismantle_faction = yes
+			ITA = {
+				dismantle_faction = yes
 			}
 		}
 	}
@@ -71,9 +70,9 @@ country_event = { #Elections
 	option = { #Rosenberg
 		name = ITA.101.a
 		hidden_effect = {
-		LBA = {
-			transfer_state = 273
-			transfer_state = 775
+			LBA = {
+				transfer_state = 273
+				transfer_state = 775
 			}
 		}
 	}

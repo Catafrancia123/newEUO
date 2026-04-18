@@ -1,21 +1,21 @@
-﻿add_namespace = NGE_Skeleton
-add_namespace = NGE_Fluff
-add_namespace = MDF_Skeleton
-add_namespace = NGE_MDF_Fluff
+﻿add_namespace = NGE_SKELETON_MIDWEST
+add_namespace = NGE_FLUFF_MIDWEST
+add_namespace = MDF_SKELETON_MIDWEST
+add_namespace = NGE_MDF_FLUFF_MIDWEST
 
 country_event = {
-    id = NGE_Skeleton.1
-    title = NGE_Skeleton.1.t
-    desc = NGE_Skeleton.1.desc
+    id = NGE_SKELETON_MIDWEST.1
+    title = NGE_SKELETON_MIDWEST.1.t
+    desc = NGE_SKELETON_MIDWEST.1.desc
     
     is_triggered_only = yes
     
     option = { #Boyz in the hood saxaphones
-        name = NGE_Skeleton.1.a
+        name = NGE_SKELETON_MIDWEST.1.a
 		NGE = {
 			1068 = { set_demilitarized_zone = yes }
 			country_event = {
-				id = NGE_Skeleton.2
+				id = NGE_SKELETON_MIDWEST.2
 				days = 4
 				random_days = 3
 			}
@@ -25,19 +25,19 @@ country_event = {
 }
 
 country_event = {
-    id = NGE_Skeleton.2
-    title = NGE_Skeleton.2.t
-    desc = NGE_Skeleton.2.desc
+    id = NGE_SKELETON_MIDWEST.2
+    title = NGE_SKELETON_MIDWEST.2.t
+    desc = NGE_SKELETON_MIDWEST.2.desc
     
     is_triggered_only = yes
     
     option = { #Boyz in the hood saxaphones
-        name = NGE_Skeleton.2.a
+        name = NGE_SKELETON_MIDWEST.2.a
 		NGE = {
 			1061 = { set_demilitarized_zone = yes }
 			1063 = { set_demilitarized_zone = yes }
 			country_event = {
-				id = NGE_Skeleton.3
+				id = NGE_SKELETON_MIDWEST.3
 				days = 4
 				random_days = 3
 			}
@@ -78,14 +78,14 @@ country_event = {
 }
 
 country_event = {
-    id = NGE_Skeleton.3
-    title = NGE_Skeleton.3.t
-    desc = NGE_Skeleton.3.desc
+    id = NGE_SKELETON_MIDWEST.3
+    title = NGE_SKELETON_MIDWEST.3.t
+    desc = NGE_SKELETON_MIDWEST.3.desc
     
     is_triggered_only = yes
     
     option = { #Boyz in the hood saxaphones
-        name = NGE_Skeleton.3.a
+        name = NGE_SKELETON_MIDWEST.3.a
 		NGE = {
 			1062 = { set_demilitarized_zone = yes }
 			1064 = { set_demilitarized_zone = yes }
@@ -93,7 +93,7 @@ country_event = {
 			1066 = { set_demilitarized_zone = yes }
 			1067 = { set_demilitarized_zone = yes }
 			country_event = {
-				id = NGE_Skeleton.4
+				id = NGE_SKELETON_MIDWEST.4
 				days = 4
 				random_days = 3
 			}
@@ -102,19 +102,19 @@ country_event = {
 }
 
 country_event = {
-    id = NGE_Skeleton.4
-    title = NGE_Skeleton.4.t
-    desc = NGE_Skeleton.4.desc
+    id = NGE_SKELETON_MIDWEST.4
+    title = NGE_SKELETON_MIDWEST.4.t
+    desc = NGE_SKELETON_MIDWEST.4.desc
     
     is_triggered_only = yes
     
     option = { #Boyz in the hood saxaphones
-        name = NGE_Skeleton.4.a
+        name = NGE_SKELETON_MIDWEST.4.a
 		NGE = {
 			1069 = { set_demilitarized_zone = yes }
 			1070 = { set_demilitarized_zone = yes }
 			country_event = {
-				id = NGE_Skeleton.5
+				id = NGE_SKELETON_MIDWEST.5
 				days = 4
 				random_days = 3
 			}
@@ -123,14 +123,14 @@ country_event = {
 }
 
 country_event = {
-    id = NGE_Skeleton.5
-    title = NGE_Skeleton.5.t
-    desc = NGE_Skeleton.5.desc
+    id = NGE_SKELETON_MIDWEST.5
+    title = NGE_SKELETON_MIDWEST.5.t
+    desc = NGE_SKELETON_MIDWEST.5.desc
     
     is_triggered_only = yes
     
     option = { #Boyz in the hood saxaphones
-        name = NGE_Skeleton.5.a
+        name = NGE_SKELETON_MIDWEST.5.a
 
 		1061 = { set_demilitarized_zone = no }
 		1062 = { set_demilitarized_zone = no }
@@ -144,7 +144,7 @@ country_event = {
 		1070 = { set_demilitarized_zone = no }
 		NGE = {
 			country_event = {
-				id = NGE_Skeleton.6
+				id = NGE_SKELETON_MIDWEST.6
 				days = 7
 			}
 		}
@@ -196,17 +196,17 @@ country_event = {
 }
 
 country_event = {
-    id = NGE_Skeleton.6
-    title = NGE_Skeleton.6.t
-    desc = NGE_Skeleton.6.desc
+    id = NGE_SKELETON_MIDWEST.6
+    title = NGE_SKELETON_MIDWEST.6.t
+    desc = NGE_SKELETON_MIDWEST.6.desc
     
     is_triggered_only = yes
     
     option = {
-        name = NGE_Skeleton.6.a
+        name = NGE_SKELETON_MIDWEST.6.a
 		NGE = {
 			country_event = {
-				id = NGE_Skeleton.7
+				id = NGE_SKELETON_MIDWEST.7
 				days = 4
 				random_days = 3
 			}
@@ -239,14 +239,14 @@ country_event = {
 }
 
 country_event = {
-    id = NGE_Skeleton.7
-    title = NGE_Skeleton.7.t
-    desc = NGE_Skeleton.7.desc
+    id = NGE_SKELETON_MIDWEST.7
+    title = NGE_SKELETON_MIDWEST.7.t
+    desc = NGE_SKELETON_MIDWEST.7.desc
     
     is_triggered_only = yes
     
     option = {
-        name = NGE_Skeleton.7.a
+        name = NGE_SKELETON_MIDWEST.7.a
         ODF = {
 				declare_war_on = {
     			target = OHC
@@ -257,14 +257,14 @@ country_event = {
 }
 
 country_event = {
-    id = NGE_Skeleton.8
-    title = NGE_Skeleton.8.t
-    desc = NGE_Skeleton.8.desc
+    id = NGE_SKELETON_MIDWEST.8
+    title = NGE_SKELETON_MIDWEST.8.t
+    desc = NGE_SKELETON_MIDWEST.8.desc
     
     is_triggered_only = yes
     
     option = {
-        name = NGE_Skeleton.8.a
+        name = NGE_SKELETON_MIDWEST.8.a
 		load_focus_tree = {
 			tree = MDF_Spring
 			keep_completed = yes
