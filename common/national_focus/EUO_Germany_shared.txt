@@ -122,6 +122,7 @@ shared_focus = {
 			id = GER.4
 			days = 0
 		}
+		set_global_flag = pressburg_summit
 	}
 }
 

@@ -93,12 +93,10 @@ DIX_pressburg_summit = {
         available = {
             DIX = {
             }
+			has_global_flag = pressburg_summit
         }
         icon = MDF_HERE
         complete_effect = {
-			load_focus_tree = {
-				tree = DIX_branch_legacy_of_our_fuhrer
-			}
         }
     }
 }
