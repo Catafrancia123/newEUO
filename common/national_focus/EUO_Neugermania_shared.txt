@@ -301,4 +301,3 @@ shared_focus = {
 	prerequisite = { focus = NGE_regiment_schedules }
 	prerequisite = { focus = NGE_punish_english_speaking }
 }
-

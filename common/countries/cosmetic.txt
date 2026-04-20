@@ -15,6 +15,6 @@ ITA_rome = {
     color_ui = rgb { 109 55 51 }
 }
 MDFFEDERATION = {
-    color = rgb { 186 155 121 }
-    color_ui = rgb { 186 155 121 }
+    color = rgb { 169 150 127 }
+    color_ui = rgb { 169 150 127 }
 }
