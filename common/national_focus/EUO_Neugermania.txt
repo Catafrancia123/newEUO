@@ -13,18 +13,3 @@ focus_tree = {
 		focus = NGE_years_of_triumph
 	}
 }
-focus_tree = {
-	id = NGE_war
-	country = {
-		factor = 4
-		modifier = {
-			add = 19
-			tag = NGE
-		}
-	}
-	default = no
-	shared_focus = NGE_seekrieg
-	initial_show_position = {
-		focus = NGE_seekrieg
-	}
-}
