@@ -20,7 +20,6 @@ shared_focus = {
 		log = "[GetDateText]: [Root.GetName]: Focus NGE_against_sutters_mismanagement"
 	}
 	relative_position_id = NGE_all_power_to_sutter
-	prerequisite = { focus = NGE_all_power_to_sutter }
 	prerequisite = { focus = NGE_seekrieg }
 	mutually_exclusive = { focus = NGE_all_power_to_sutter }
 }
@@ -124,6 +123,16 @@ shared_focus = {
 	x = -1
 	y = 1
 	completion_reward = {
+        retire_character = NGE_joshua_caleb_sutter
+        add_country_leader_role = {
+            character = NGE_rocky_suhayda
+            promote_leader = yes
+        country_leader = {
+            ideology = fascism_ideology
+            expire = "1965.1.1.1"
+            traits = { war_industrialist }
+        }
+    }
 		log = "[GetDateText]: [Root.GetName]: Focus NGE_a_knock_on_the_door"
 	}
 	relative_position_id = NGE_a_page_from_dixie
